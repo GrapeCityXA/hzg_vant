@@ -1,0 +1,24 @@
+[
+  {
+    "ID": "aefa64d5-6c57-4017-89bd-a96130bafd3e",
+    "Name": "跳转",
+    "Params": [
+      {
+        "ID": "654cabe2-b535-4b3a-9b56-0255b630ee70",
+        "Name": "页面名"
+      }
+    ],
+    "Commands": [
+      {
+        "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+        "PopupDisplayMode": 4,
+        "DrawerDirection": 3,
+        "ValueFormula": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=页面名"
+        },
+        "PassValues": []
+      }
+    ]
+  }
+]

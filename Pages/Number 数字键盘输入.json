@@ -1,0 +1,1859 @@
+{
+  "Rows": {
+    "Count": 65
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      }
+    },
+    "Count": 19
+  },
+  "Values": {
+    "1,1": "基础用法",
+    "3,1": "普通",
+    "5,1": "禁用",
+    "7,1": "只读",
+    "9,1": "可清空",
+    "11,1": "左侧图标",
+    "13,1": "右侧图标",
+    "15,1": "最大长度",
+    "19,1": "定制数字键盘",
+    "21,1": "带右侧栏",
+    "23,1": "身份证号",
+    "25,1": "定制标题",
+    "27,1": "定制多个按键",
+    "29,1": "随机键位",
+    "33,1": "命令修改",
+    "35,13": "修改值",
+    "37,13": "修改值",
+    "39,13": "修改值",
+    "41,13": "弹出键盘",
+    "45,1": "值变更命令",
+    "47,1": "编辑值",
+    "52,1": "弹出的数字键盘不是系统键盘，如果弹出时遮挡了输入框也也无法自动滚动处理。注意设计页面时尽量避免数字输入框过于靠下，导致输入框被数字键盘挡住。\r\n如果页面需要滚动的话，请确保页面下方有足够的空间让页面可以滚动\r\n以上条件都无法满足的话，请使用输入框替代数字选择器使用"
+  },
+  "AttachInfos": {
+    "3,6": {
+      "CellType": {
+        "$type": "Vant.CellTypes.NumberPicker, Vant",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "placeholder": "请输入",
+        "NumberPickerConfig": {
+          "closeButtonText": "确定"
+        }
+      }
+    },
+    "5,6": {
+      "CellType": {
+        "$type": "Vant.CellTypes.NumberPicker, Vant",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "placeholder": "请输入",
+        "IsDisabled": true,
+        "NumberPickerConfig": {
+          "closeButtonText": "确定"
+        }
+      }
+    },
+    "7,6": {
+      "CellType": {
+        "$type": "Vant.CellTypes.NumberPicker, Vant",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "placeholder": "请输入",
+        "ReadOnly": true,
+        "NumberPickerConfig": {
+          "closeButtonText": "确定"
+        }
+      }
+    },
+    "9,6": {
+      "CellType": {
+        "$type": "Vant.CellTypes.NumberPicker, Vant",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "placeholder": "请输入",
+        "clearable": true,
+        "NumberPickerConfig": {
+          "closeButtonText": "确定"
+        }
+      }
+    },
+    "11,6": {
+      "CellType": {
+        "$type": "Vant.CellTypes.NumberPicker, Vant",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "placeholder": "请输入",
+        "leftIcon": {
+          "Name": "Mobile/469_mobile.svg",
+          "BuiltIn": true,
+          "Color": "#c0c4cc"
+        },
+        "NumberPickerConfig": {
+          "closeButtonText": "确定"
+        }
+      }
+    },
+    "13,6": {
+      "CellType": {
+        "$type": "Vant.CellTypes.NumberPicker, Vant",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "placeholder": "请输入",
+        "rightIcon": {
+          "Name": "Mobile/467_right_2.svg",
+          "BuiltIn": true,
+          "Color": "#c0c4cc"
+        },
+        "NumberPickerConfig": {
+          "closeButtonText": "确定"
+        }
+      }
+    },
+    "15,6": {
+      "CellType": {
+        "$type": "Vant.CellTypes.NumberPicker, Vant",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "maxlength": "6",
+        "placeholder": "最大长度为6",
+        "NumberPickerConfig": {
+          "closeButtonText": "确定"
+        }
+      }
+    },
+    "21,6": {
+      "CellType": {
+        "$type": "Vant.CellTypes.NumberPicker, Vant",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "placeholder": "请输入",
+        "NumberPickerConfig": {
+          "closeButtonText": "完成",
+          "extraKey1": ".",
+          "rightPanel": true
+        }
+      }
+    },
+    "23,6": {
+      "CellType": {
+        "$type": "Vant.CellTypes.NumberPicker, Vant",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "placeholder": "请输入",
+        "convertToNumber": false,
+        "NumberPickerConfig": {
+          "closeButtonText": "完成",
+          "extraKey1": "X"
+        }
+      }
+    },
+    "25,6": {
+      "CellType": {
+        "$type": "Vant.CellTypes.NumberPicker, Vant",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "placeholder": "请输入",
+        "NumberPickerConfig": {
+          "title": "弹出带标题的键盘",
+          "closeButtonText": "完成"
+        }
+      }
+    },
+    "27,6": {
+      "CellType": {
+        "$type": "Vant.CellTypes.NumberPicker, Vant",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "placeholder": "请输入",
+        "NumberPickerConfig": {
+          "closeButtonText": "完成",
+          "extraKey1": "00",
+          "rightPanel": true,
+          "extraKey2": "."
+        }
+      }
+    },
+    "29,6": {
+      "CellType": {
+        "$type": "Vant.CellTypes.NumberPicker, Vant",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "placeholder": "请输入",
+        "NumberPickerConfig": {
+          "closeButtonText": "确定",
+          "randomKeyOrder": true
+        }
+      }
+    },
+    "35,1": {
+      "CellType": {
+        "$type": "Vant.CellTypes.NumberPicker, Vant",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "placeholder": "请输入",
+        "NumberPickerConfig": {
+          "closeButtonText": "确定"
+        }
+      }
+    },
+    "35,13": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='Number 数字键盘输入'!B36"
+                },
+                "Value": "1234"
+              }
+            ]
+          }
+        ],
+        "Text": "修改值",
+        "TemplateKey": "操作"
+      }
+    },
+    "37,1": {
+      "CellType": {
+        "$type": "Vant.CellTypes.NumberPicker, Vant",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "placeholder": "请输入",
+        "NumberPickerConfig": {
+          "closeButtonText": "确定"
+        }
+      }
+    },
+    "37,13": {
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "Caption": "禁用",
+        "Style": 2,
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='Number 数字键盘输入'!B38"
+                },
+                "PropertyType": 0,
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=NOT('Number 数字键盘输入'!N38)"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "39,1": {
+      "CellType": {
+        "$type": "Vant.CellTypes.NumberPicker, Vant",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "placeholder": "请输入",
+        "NumberPickerConfig": {
+          "closeButtonText": "确定"
+        }
+      }
+    },
+    "39,13": {
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "Caption": "只读",
+        "Style": 2,
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='Number 数字键盘输入'!B40"
+                },
+                "PropertyType": 5,
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='Number 数字键盘输入'!N40"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "41,1": {
+      "CellType": {
+        "$type": "Vant.CellTypes.NumberPicker, Vant",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "placeholder": "请输入",
+        "NumberPickerConfig": {
+          "closeButtonText": "确定"
+        }
+      }
+    },
+    "41,13": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+            "TargetPageElement": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "='Number 数字键盘输入'!B42"
+            },
+            "TargetType": "Vant.CellTypes.NumberPicker, Vant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5a36ee28e75bb3ab",
+            "MethodName": "ShowPopup",
+            "ParameterValues": {},
+            "RetrunParamNames": {}
+          }
+        ],
+        "Text": "弹出键盘",
+        "TemplateKey": "操作"
+      }
+    },
+    "47,6": {
+      "CellType": {
+        "$type": "Vant.CellTypes.NumberPicker, Vant",
+        "CommandList": [
+          {
+            "$type": "Vant.Commands.Toast, Vant",
+            "message": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=\"值变更为: \"&'Number 数字键盘输入'!G48"
+            },
+            "type": "success",
+            "loadingType": "circular",
+            "position": "middle",
+            "duration": 2000,
+            "iconSize": 20
+          }
+        ],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "placeholder": "请输入",
+        "NumberPickerConfig": {
+          "closeButtonText": "确定"
+        }
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0
+      },
+      {
+        "FontFamily": 0,
+        "Foreground": 1
+      },
+      {
+        "Background": 2,
+        "FontSize": 13.333333333333332,
+        "Foreground": 3,
+        "BorderBottom": 0
+      },
+      {
+        "BorderBottom": 0
+      },
+      {
+        "Background": 2,
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Formatter": 5
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": 0
+      },
+      {
+        "Background": 2,
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Foreground": 3,
+        "BorderBottom": 0,
+        "BorderTop": 0
+      },
+      {
+        "FontFamily": 0,
+        "BorderBottom": 0,
+        "BorderTop": 0
+      },
+      {
+        "Background": 2,
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Formatter": 5,
+        "BorderTop": 0
+      },
+      {
+        "BorderTop": 0
+      },
+      {
+        "Background": 2,
+        "FontFamily": 0,
+        "BorderBottom": 0,
+        "BorderTop": 0
+      },
+      {
+        "Background": 2,
+        "FontFamily": 0,
+        "BorderTop": 0
+      },
+      {
+        "Background": 2,
+        "FontFamily": 0,
+        "BorderBottom": 0
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Foreground": 3,
+        "Formatter": 5,
+        "BorderBottom": 0
+      },
+      {
+        "FontFamily": 0,
+        "BorderBottom": 0
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Formatter": 5,
+        "WordWrap": true
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Formatter": 5
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Foreground": 3,
+        "BorderBottom": 0
+      },
+      {
+        "FontFamily": 0,
+        "Foreground": 1,
+        "Formatter": 5
+      },
+      {
+        "Background": 2,
+        "FontFamily": 0
+      },
+      {
+        "Background": 2,
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Foreground": 3,
+        "BorderBottom": 0
+      },
+      {
+        "Foreground": 1,
+        "VerticalAlignment": 6,
+        "WordWrap": true
+      },
+      {
+        "Background": 2
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Text 1 50",
+        "Background 1 0",
+        "Text 1 15",
+        "Background 1 -15",
+        "[AUTO]General",
+        "Top"
+      ],
+      "Borders": [
+        {
+          "Color": 4
+        }
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "0,1": 0,
+      "0,2": 0,
+      "0,3": 0,
+      "0,4": 0,
+      "0,5": 0,
+      "0,6": 0,
+      "0,7": 0,
+      "0,8": 0,
+      "0,9": 0,
+      "0,10": 0,
+      "0,11": 0,
+      "0,12": 0,
+      "0,13": 0,
+      "0,14": 0,
+      "0,15": 0,
+      "0,16": 0,
+      "0,17": 0,
+      "0,18": 0,
+      "1,0": 0,
+      "1,1": 1,
+      "1,8": 0,
+      "1,9": 0,
+      "1,10": 0,
+      "1,11": 0,
+      "1,12": 0,
+      "1,13": 0,
+      "1,14": 0,
+      "1,15": 0,
+      "1,16": 0,
+      "1,17": 0,
+      "1,18": 0,
+      "2,0": 0,
+      "2,1": 0,
+      "2,2": 0,
+      "2,3": 0,
+      "2,4": 0,
+      "2,5": 0,
+      "2,6": 0,
+      "2,7": 0,
+      "2,8": 0,
+      "2,9": 0,
+      "2,10": 0,
+      "2,11": 0,
+      "2,12": 0,
+      "2,13": 0,
+      "2,14": 0,
+      "2,15": 0,
+      "2,16": 0,
+      "2,17": 0,
+      "2,18": 0,
+      "3,0": 0,
+      "3,1": 2,
+      "3,2": 3,
+      "3,3": 3,
+      "3,4": 3,
+      "3,5": 3,
+      "3,6": 4,
+      "3,18": 0,
+      "4,0": 0,
+      "4,1": 5,
+      "4,2": 5,
+      "4,3": 5,
+      "4,4": 5,
+      "4,5": 5,
+      "4,6": 3,
+      "4,7": 3,
+      "4,8": 3,
+      "4,9": 3,
+      "4,10": 3,
+      "4,11": 3,
+      "4,12": 3,
+      "4,13": 3,
+      "4,14": 3,
+      "4,15": 3,
+      "4,16": 3,
+      "4,17": 3,
+      "4,18": 0,
+      "5,0": 0,
+      "5,1": 6,
+      "5,2": 7,
+      "5,3": 7,
+      "5,4": 7,
+      "5,5": 7,
+      "5,6": 8,
+      "5,7": 9,
+      "5,8": 9,
+      "5,9": 9,
+      "5,10": 9,
+      "5,11": 9,
+      "5,12": 9,
+      "5,13": 9,
+      "5,14": 9,
+      "5,15": 9,
+      "5,16": 9,
+      "5,17": 9,
+      "5,18": 0,
+      "6,0": 0,
+      "6,1": 7,
+      "6,2": 7,
+      "6,3": 7,
+      "6,4": 7,
+      "6,5": 7,
+      "6,6": 3,
+      "6,7": 3,
+      "6,8": 3,
+      "6,9": 3,
+      "6,10": 3,
+      "6,11": 3,
+      "6,12": 3,
+      "6,13": 3,
+      "6,14": 3,
+      "6,15": 3,
+      "6,16": 3,
+      "6,17": 3,
+      "6,18": 0,
+      "7,0": 0,
+      "7,1": 6,
+      "7,2": 7,
+      "7,3": 7,
+      "7,4": 7,
+      "7,5": 7,
+      "7,6": 8,
+      "7,7": 9,
+      "7,8": 9,
+      "7,9": 9,
+      "7,10": 9,
+      "7,11": 9,
+      "7,12": 9,
+      "7,13": 9,
+      "7,14": 9,
+      "7,15": 9,
+      "7,16": 9,
+      "7,17": 9,
+      "7,18": 0,
+      "8,0": 0,
+      "8,1": 7,
+      "8,2": 7,
+      "8,3": 7,
+      "8,4": 7,
+      "8,5": 7,
+      "8,6": 3,
+      "8,7": 3,
+      "8,8": 3,
+      "8,9": 3,
+      "8,10": 3,
+      "8,11": 3,
+      "8,12": 3,
+      "8,13": 3,
+      "8,14": 3,
+      "8,15": 3,
+      "8,16": 3,
+      "8,17": 3,
+      "8,18": 0,
+      "9,0": 0,
+      "9,1": 6,
+      "9,2": 7,
+      "9,3": 7,
+      "9,4": 7,
+      "9,5": 7,
+      "9,6": 8,
+      "9,7": 9,
+      "9,8": 9,
+      "9,9": 9,
+      "9,10": 9,
+      "9,11": 9,
+      "9,12": 9,
+      "9,13": 9,
+      "9,14": 9,
+      "9,15": 9,
+      "9,16": 9,
+      "9,17": 9,
+      "9,18": 0,
+      "10,0": 0,
+      "10,1": 7,
+      "10,2": 7,
+      "10,3": 7,
+      "10,4": 7,
+      "10,5": 7,
+      "10,6": 3,
+      "10,7": 3,
+      "10,8": 3,
+      "10,9": 3,
+      "10,10": 3,
+      "10,11": 3,
+      "10,12": 3,
+      "10,13": 3,
+      "10,14": 3,
+      "10,15": 3,
+      "10,16": 3,
+      "10,17": 3,
+      "10,18": 0,
+      "11,0": 0,
+      "11,1": 6,
+      "11,2": 7,
+      "11,3": 7,
+      "11,4": 7,
+      "11,5": 7,
+      "11,6": 8,
+      "11,7": 9,
+      "11,8": 9,
+      "11,9": 9,
+      "11,10": 9,
+      "11,11": 9,
+      "11,12": 9,
+      "11,13": 9,
+      "11,14": 9,
+      "11,15": 9,
+      "11,16": 9,
+      "11,17": 9,
+      "11,18": 0,
+      "12,0": 0,
+      "12,1": 7,
+      "12,2": 7,
+      "12,3": 7,
+      "12,4": 7,
+      "12,5": 7,
+      "12,6": 3,
+      "12,7": 3,
+      "12,8": 3,
+      "12,9": 3,
+      "12,10": 3,
+      "12,11": 3,
+      "12,12": 3,
+      "12,13": 3,
+      "12,14": 3,
+      "12,15": 3,
+      "12,16": 3,
+      "12,17": 3,
+      "12,18": 0,
+      "13,0": 0,
+      "13,1": 6,
+      "13,2": 10,
+      "13,3": 10,
+      "13,4": 10,
+      "13,5": 10,
+      "13,6": 8,
+      "13,7": 11,
+      "13,8": 11,
+      "13,9": 11,
+      "13,10": 11,
+      "13,11": 11,
+      "13,12": 11,
+      "13,13": 11,
+      "13,14": 11,
+      "13,15": 11,
+      "13,16": 11,
+      "13,17": 11,
+      "13,18": 0,
+      "14,0": 0,
+      "14,1": 10,
+      "14,2": 10,
+      "14,3": 10,
+      "14,4": 10,
+      "14,5": 10,
+      "14,6": 12,
+      "14,7": 12,
+      "14,8": 12,
+      "14,9": 12,
+      "14,10": 12,
+      "14,11": 12,
+      "14,12": 12,
+      "14,13": 12,
+      "14,14": 12,
+      "14,15": 12,
+      "14,16": 12,
+      "14,17": 12,
+      "14,18": 0,
+      "15,0": 0,
+      "15,1": 6,
+      "15,2": 7,
+      "15,3": 7,
+      "15,4": 7,
+      "15,5": 7,
+      "15,6": 8,
+      "15,7": 9,
+      "15,8": 9,
+      "15,9": 9,
+      "15,10": 9,
+      "15,11": 9,
+      "15,12": 9,
+      "15,13": 9,
+      "15,14": 9,
+      "15,15": 9,
+      "15,16": 9,
+      "15,17": 9,
+      "15,18": 0,
+      "16,0": 0,
+      "16,1": 7,
+      "16,2": 7,
+      "16,3": 7,
+      "16,4": 7,
+      "16,5": 7,
+      "16,6": 3,
+      "16,7": 3,
+      "16,8": 3,
+      "16,9": 3,
+      "16,10": 3,
+      "16,11": 3,
+      "16,12": 3,
+      "16,13": 3,
+      "16,14": 3,
+      "16,15": 3,
+      "16,16": 3,
+      "16,17": 3,
+      "16,18": 0,
+      "17,0": 0,
+      "17,18": 0,
+      "18,0": 0,
+      "18,18": 0,
+      "19,0": 0,
+      "19,1": 1,
+      "19,8": 0,
+      "19,9": 0,
+      "19,10": 0,
+      "19,11": 0,
+      "19,12": 0,
+      "19,13": 0,
+      "19,14": 0,
+      "19,15": 0,
+      "19,16": 0,
+      "19,17": 0,
+      "19,18": 0,
+      "20,0": 0,
+      "20,1": 0,
+      "20,2": 0,
+      "20,3": 0,
+      "20,4": 0,
+      "20,5": 0,
+      "20,6": 0,
+      "20,7": 0,
+      "20,8": 0,
+      "20,9": 0,
+      "20,10": 0,
+      "20,11": 0,
+      "20,12": 0,
+      "20,13": 0,
+      "20,14": 0,
+      "20,15": 0,
+      "20,16": 0,
+      "20,17": 0,
+      "20,18": 0,
+      "21,0": 0,
+      "21,1": 13,
+      "21,2": 14,
+      "21,3": 14,
+      "21,4": 14,
+      "21,5": 14,
+      "21,6": 15,
+      "21,18": 0,
+      "22,0": 0,
+      "22,1": 7,
+      "22,2": 7,
+      "22,3": 7,
+      "22,4": 7,
+      "22,5": 7,
+      "22,6": 3,
+      "22,7": 3,
+      "22,8": 3,
+      "22,9": 3,
+      "22,10": 3,
+      "22,11": 3,
+      "22,12": 3,
+      "22,13": 3,
+      "22,14": 3,
+      "22,15": 3,
+      "22,16": 3,
+      "22,17": 3,
+      "22,18": 0,
+      "23,0": 0,
+      "23,1": 13,
+      "23,2": 14,
+      "23,3": 14,
+      "23,4": 14,
+      "23,5": 14,
+      "23,6": 16,
+      "23,18": 0,
+      "24,0": 0,
+      "24,1": 7,
+      "24,2": 7,
+      "24,3": 7,
+      "24,4": 7,
+      "24,5": 7,
+      "24,6": 3,
+      "24,7": 3,
+      "24,8": 3,
+      "24,9": 3,
+      "24,10": 3,
+      "24,11": 3,
+      "24,12": 3,
+      "24,13": 3,
+      "24,14": 3,
+      "24,15": 3,
+      "24,16": 3,
+      "24,17": 3,
+      "24,18": 0,
+      "25,0": 0,
+      "25,1": 13,
+      "25,2": 14,
+      "25,3": 14,
+      "25,4": 14,
+      "25,5": 14,
+      "25,6": 16,
+      "25,18": 0,
+      "26,0": 0,
+      "26,1": 7,
+      "26,2": 7,
+      "26,3": 7,
+      "26,4": 7,
+      "26,5": 7,
+      "26,6": 3,
+      "26,7": 3,
+      "26,8": 3,
+      "26,9": 3,
+      "26,10": 3,
+      "26,11": 3,
+      "26,12": 3,
+      "26,13": 3,
+      "26,14": 3,
+      "26,15": 3,
+      "26,16": 3,
+      "26,17": 3,
+      "26,18": 0,
+      "27,1": 17,
+      "27,2": 14,
+      "27,3": 14,
+      "27,4": 14,
+      "27,5": 14,
+      "27,6": 16,
+      "28,1": 7,
+      "28,2": 7,
+      "28,3": 7,
+      "28,4": 7,
+      "28,5": 7,
+      "28,6": 3,
+      "28,7": 3,
+      "28,8": 3,
+      "28,9": 3,
+      "28,10": 3,
+      "28,11": 3,
+      "28,12": 3,
+      "28,13": 3,
+      "28,14": 3,
+      "28,15": 3,
+      "28,16": 3,
+      "28,17": 3,
+      "29,1": 17,
+      "29,2": 14,
+      "29,3": 14,
+      "29,4": 14,
+      "29,5": 14,
+      "29,6": 16,
+      "30,1": 7,
+      "30,2": 7,
+      "30,3": 7,
+      "30,4": 7,
+      "30,5": 7,
+      "30,6": 3,
+      "30,7": 3,
+      "30,8": 3,
+      "30,9": 3,
+      "30,10": 3,
+      "30,11": 3,
+      "30,12": 3,
+      "30,13": 3,
+      "30,14": 3,
+      "30,15": 3,
+      "30,16": 3,
+      "30,17": 3,
+      "31,0": 0,
+      "31,1": 0,
+      "31,2": 0,
+      "31,3": 0,
+      "31,4": 0,
+      "31,5": 0,
+      "31,6": 0,
+      "31,7": 0,
+      "31,8": 0,
+      "31,9": 0,
+      "31,10": 0,
+      "31,11": 0,
+      "31,12": 0,
+      "31,13": 0,
+      "31,14": 0,
+      "31,15": 0,
+      "31,16": 0,
+      "31,17": 0,
+      "31,18": 0,
+      "32,0": 0,
+      "32,1": 0,
+      "32,2": 0,
+      "32,3": 0,
+      "32,4": 0,
+      "32,5": 0,
+      "32,6": 0,
+      "32,7": 0,
+      "32,8": 0,
+      "32,9": 0,
+      "32,10": 0,
+      "32,11": 0,
+      "32,12": 0,
+      "32,13": 0,
+      "32,14": 0,
+      "32,15": 0,
+      "32,16": 0,
+      "32,17": 0,
+      "32,18": 0,
+      "33,0": 0,
+      "33,1": 18,
+      "33,2": 0,
+      "33,3": 0,
+      "33,4": 0,
+      "33,5": 0,
+      "33,6": 0,
+      "33,7": 0,
+      "33,8": 0,
+      "33,9": 0,
+      "33,10": 0,
+      "33,11": 0,
+      "33,12": 0,
+      "33,13": 0,
+      "33,14": 0,
+      "33,15": 0,
+      "33,16": 0,
+      "33,17": 0,
+      "33,18": 0,
+      "34,0": 0,
+      "34,1": 0,
+      "34,2": 0,
+      "34,3": 0,
+      "34,4": 0,
+      "34,5": 0,
+      "34,6": 0,
+      "34,7": 0,
+      "34,8": 0,
+      "34,9": 0,
+      "34,10": 0,
+      "34,11": 0,
+      "34,12": 0,
+      "34,13": 0,
+      "34,14": 0,
+      "34,15": 0,
+      "34,16": 0,
+      "34,17": 0,
+      "34,18": 0,
+      "35,0": 19,
+      "35,1": 4,
+      "35,13": 0,
+      "35,18": 19,
+      "36,0": 19,
+      "36,1": 3,
+      "36,2": 3,
+      "36,3": 3,
+      "36,4": 3,
+      "36,5": 3,
+      "36,6": 3,
+      "36,7": 3,
+      "36,8": 3,
+      "36,9": 3,
+      "36,10": 3,
+      "36,11": 3,
+      "36,12": 3,
+      "36,13": 3,
+      "36,14": 3,
+      "36,15": 3,
+      "36,16": 3,
+      "36,17": 3,
+      "36,18": 19,
+      "37,0": 19,
+      "37,1": 4,
+      "37,13": 19,
+      "37,18": 19,
+      "38,0": 19,
+      "38,1": 3,
+      "38,2": 3,
+      "38,3": 3,
+      "38,4": 3,
+      "38,5": 3,
+      "38,6": 3,
+      "38,7": 3,
+      "38,8": 3,
+      "38,9": 3,
+      "38,10": 3,
+      "38,11": 3,
+      "38,12": 3,
+      "38,13": 3,
+      "38,14": 3,
+      "38,15": 3,
+      "38,16": 3,
+      "38,17": 3,
+      "38,18": 19,
+      "39,0": 19,
+      "39,1": 4,
+      "39,13": 19,
+      "39,14": 0,
+      "39,15": 0,
+      "39,16": 0,
+      "39,17": 0,
+      "39,18": 19,
+      "40,0": 19,
+      "40,1": 3,
+      "40,2": 3,
+      "40,3": 3,
+      "40,4": 3,
+      "40,5": 3,
+      "40,6": 3,
+      "40,7": 3,
+      "40,8": 3,
+      "40,9": 3,
+      "40,10": 3,
+      "40,11": 3,
+      "40,12": 3,
+      "40,13": 14,
+      "40,14": 14,
+      "40,15": 14,
+      "40,16": 14,
+      "40,17": 14,
+      "40,18": 19,
+      "41,0": 19,
+      "41,1": 4,
+      "41,13": 0,
+      "41,14": 0,
+      "41,15": 0,
+      "41,16": 0,
+      "41,17": 0,
+      "41,18": 19,
+      "42,0": 19,
+      "42,1": 3,
+      "42,2": 3,
+      "42,3": 3,
+      "42,4": 3,
+      "42,5": 3,
+      "42,6": 3,
+      "42,7": 3,
+      "42,8": 3,
+      "42,9": 3,
+      "42,10": 3,
+      "42,11": 3,
+      "42,12": 3,
+      "42,13": 14,
+      "42,14": 14,
+      "42,15": 14,
+      "42,16": 14,
+      "42,17": 14,
+      "42,18": 19,
+      "43,0": 0,
+      "43,1": 0,
+      "43,2": 0,
+      "43,3": 0,
+      "43,4": 0,
+      "43,5": 0,
+      "43,6": 0,
+      "43,7": 0,
+      "43,8": 0,
+      "43,9": 0,
+      "43,10": 0,
+      "43,11": 0,
+      "43,12": 0,
+      "43,13": 0,
+      "43,14": 0,
+      "43,15": 0,
+      "43,16": 0,
+      "43,17": 0,
+      "43,18": 0,
+      "44,0": 0,
+      "44,1": 0,
+      "44,2": 0,
+      "44,3": 0,
+      "44,4": 0,
+      "44,5": 0,
+      "44,6": 0,
+      "44,7": 0,
+      "44,8": 0,
+      "44,9": 0,
+      "44,10": 0,
+      "44,11": 0,
+      "44,12": 0,
+      "44,13": 0,
+      "44,14": 0,
+      "44,15": 0,
+      "44,16": 0,
+      "44,17": 0,
+      "44,18": 0,
+      "45,0": 0,
+      "45,1": 18,
+      "45,2": 0,
+      "45,3": 0,
+      "45,4": 0,
+      "45,5": 0,
+      "45,6": 0,
+      "45,7": 0,
+      "45,8": 0,
+      "45,9": 0,
+      "45,10": 0,
+      "45,11": 0,
+      "45,12": 0,
+      "45,13": 0,
+      "45,14": 0,
+      "45,15": 0,
+      "45,16": 0,
+      "45,17": 0,
+      "45,18": 0,
+      "46,0": 0,
+      "46,1": 0,
+      "46,2": 0,
+      "46,3": 0,
+      "46,4": 0,
+      "46,5": 0,
+      "46,6": 0,
+      "46,7": 0,
+      "46,8": 0,
+      "46,9": 0,
+      "46,10": 0,
+      "46,11": 0,
+      "46,12": 0,
+      "46,13": 0,
+      "46,14": 0,
+      "46,15": 0,
+      "46,16": 0,
+      "46,17": 0,
+      "46,18": 0,
+      "47,0": 19,
+      "47,1": 20,
+      "47,2": 12,
+      "47,3": 12,
+      "47,4": 12,
+      "47,5": 12,
+      "47,6": 4,
+      "47,18": 19,
+      "48,0": 19,
+      "48,1": 10,
+      "48,2": 10,
+      "48,3": 10,
+      "48,4": 10,
+      "48,5": 10,
+      "48,6": 3,
+      "48,7": 3,
+      "48,8": 3,
+      "48,9": 3,
+      "48,10": 3,
+      "48,11": 3,
+      "48,12": 3,
+      "48,13": 3,
+      "48,14": 3,
+      "48,15": 3,
+      "48,16": 3,
+      "48,17": 3,
+      "48,18": 19,
+      "52,1": 21
+    },
+    "RowStyles": {
+      "3": 22,
+      "4": 22,
+      "5": 22,
+      "6": 22,
+      "7": 22,
+      "8": 22,
+      "9": 22,
+      "10": 22,
+      "11": 22,
+      "12": 22,
+      "13": 22,
+      "14": 22,
+      "15": 22,
+      "16": 22,
+      "21": 22,
+      "22": 22,
+      "23": 22,
+      "24": 22,
+      "25": 22,
+      "26": 22,
+      "27": 22,
+      "28": 22,
+      "29": 22,
+      "30": 22
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "1,1,1,7",
+    "19,1,1,7",
+    "7,1,2,5",
+    "9,1,2,5",
+    "11,1,2,5",
+    "15,1,2,5",
+    "3,1,2,5",
+    "5,1,2,5",
+    "29,1,2,5",
+    "21,1,2,5",
+    "23,1,2,5",
+    "25,1,2,5",
+    "27,1,2,5",
+    "33,1,1,7",
+    "35,13,2,5",
+    "37,13,2,5",
+    "39,13,2,5",
+    "41,13,2,5",
+    "45,1,1,7",
+    "47,1,2,5",
+    "3,6,2,12",
+    "5,6,2,12",
+    "7,6,2,12",
+    "9,6,2,12",
+    "11,6,2,12",
+    "15,6,2,12",
+    "21,6,2,12",
+    "23,6,2,12",
+    "25,6,2,12",
+    "27,6,2,12",
+    "29,6,2,12",
+    "35,1,2,12",
+    "37,1,2,12",
+    "39,1,2,12",
+    "41,1,2,12",
+    "47,6,2,12",
+    "52,1,9,17",
+    "13,1,2,5",
+    "13,6,2,12"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "母版页",
+    "AuthorizeInfo": {
+      "VisitMode": 3
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//G5JIfR+Q9ZbuqTHn4LDR4ON+AYdoo4WW/PfHGBqR4UIVBh2MNQ002rpWmgVUouqmvYC6BX7nd5osZ2NPjqNDJ9UGepY83xNYG8+aBY57aV9BUFpdIzR77KyXvqSFO8wI32ppnlh2ABneHD+qdFp+jUZFPeNTEiBC8MQovZ96Sv076K9oSthcQJUwEcFosJMX6lS24WXK3rRLluklw5kg4swBUmafNcUN8Iejoy+086WTNvubi50f5Ekv1ZJeNSnS+BfBV6bducr2rYsPaY6q9EgZ9blT1LdLd3aF/A32JpzqVeynKeHWlI7qhoBII6OYtSQo5kn1j37Y+Y46/Vc20jwveJ+rJOi0FJVP3iPulReCzyh3E8ST+Q0l/6pspumLMp7AEYETxzB8IGc/6ZJRNF+sq9dTXNgCnhEKj7YeqSAxuU7c/Sdx7EpkHowuRMK26Vc74R6hXNyGNzaDCnVspfzsSib2gCGwQCO9tAlJexxFZ+ok6GZsO9Cv5MIfJHGtdEkHNCApGHb6EbMvDhgqicNmvvBBBuq2A5GFnIY7TQh/X7q6/EoHAEuU4mIiLPZKrrF5cmbFMDq/QKNXeB4trXbJVwi5x0rJaFes7S+sINwfN7Fy6L6ihaoVqeRdMnhtSwW2WfkObboUoyZARWuPAJ1JgPZKzOhsN2Pf3wjhEl97xw2RpX8mMl06715ssvp9Qn8a/xhau7wkvKcRX94DtqHwqoEMJRVi8n33sKBU0m/kRxZ8z2M616TEpmXw9T8qqD5subWkQno9HYW+MYgwn1ffslY1fyhxZFZr1PkZ8BrjacuqZDwvedX/M1RUTPRcXbEVRJwcxYl9RK9AuJqKm4JCXBHgyRjK36pUrN6pVWLikPXLBPbeIg8f3hdY2fthd1LoXR30PVJeTwB+35rTvA==|920

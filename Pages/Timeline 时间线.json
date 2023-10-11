@@ -1,0 +1,791 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "32": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 1
+        }
+      }
+    },
+    "Count": 71
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 17
+  },
+  "Values": {
+    "1,1": "基础用法",
+    "3,1": "1",
+    "14,1": "自定义样式（时间戳位置，颜色，图标）",
+    "16,1": "1",
+    "27,1": "绑定数据库",
+    "29,1": 2,
+    "40,1": "可用操作",
+    "42,1": "1",
+    "53,1": "更改当前节点图标",
+    "56,1": "1",
+    "67,1": "更改当前节点及已完成节点颜色"
+  },
+  "AttachInfos": {
+    "3,1": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Timeline, Vant",
+        "CommandList": [],
+        "options": [
+          {
+            "value": "0",
+            "title": "节点1",
+            "timestamp": "2022/3/22 15:13:15"
+          },
+          {
+            "value": "1",
+            "title": "节点2",
+            "timestamp": "2022/3/22 15:13:15"
+          },
+          {
+            "value": "2",
+            "title": "节点3",
+            "timestamp": "2022/3/22 15:13:15"
+          }
+        ],
+        "DefaultValue": "1",
+        "activeColor": "#07c160",
+        "inactiveColor": "#969799",
+        "placement": "bottom",
+        "format": "yyyy-MM-dd"
+      }
+    },
+    "16,1": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Timeline, Vant",
+        "CommandList": [],
+        "options": [
+          {
+            "value": "0",
+            "title": "节点1",
+            "timestamp": "2022/3/22 15:13:15"
+          },
+          {
+            "value": "1",
+            "title": "节点2",
+            "timestamp": "2022/3/22 15:13:15"
+          },
+          {
+            "value": "2",
+            "title": "节点3",
+            "timestamp": "2022/3/22 15:13:15"
+          }
+        ],
+        "DefaultValue": "1",
+        "activeIcon": {
+          "Name": "Navigation/249_favorite_3.svg",
+          "BuiltIn": true,
+          "Color": "#FF00B0F0"
+        },
+        "activeColor": "Accent 1 40",
+        "inactiveColor": "#969799",
+        "placement": "top",
+        "format": "yyyy/MM"
+      }
+    },
+    "29,1": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Timeline, Vant",
+        "CommandList": [],
+        "useBinding": true,
+        "options": [
+          {
+            "value": "0",
+            "title": "节点1",
+            "timestamp": "2022/3/22 15:13:15"
+          },
+          {
+            "value": "1",
+            "title": "节点2",
+            "timestamp": "2022/3/22 15:13:15"
+          },
+          {
+            "value": "2",
+            "title": "节点3",
+            "timestamp": "2022/3/22 15:13:15"
+          }
+        ],
+        "bindingOptions": {
+          "$type": "ServerDesignerCommon.Model.BindingDataSourceModel, ServerDesignerCommon",
+          "TableName": "步骤表",
+          "BindingInfos": [
+            {
+              "BindingInfo": {
+                "TableName": "步骤表",
+                "ColumnName": "ID"
+              },
+              "ColumnName": "value"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "步骤表",
+                "ColumnName": "步骤"
+              },
+              "ColumnName": "title"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "步骤表",
+                "ColumnName": "日期"
+              },
+              "ColumnName": "timestamp"
+            }
+          ],
+          "SqlCondition": {
+            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+            "CompareType": 1,
+            "ColumnBindingInfo": {
+              "TableName": "步骤表",
+              "ColumnName": "日期"
+            },
+            "Value": "%Null%"
+          }
+        },
+        "DefaultValue": 2,
+        "activeColor": "#07c160",
+        "inactiveColor": "#969799",
+        "placement": "bottom",
+        "format": "yyyy/MM/dd HH:mm:ss"
+      }
+    },
+    "42,1": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Timeline, Vant",
+        "CommandList": [],
+        "options": [
+          {
+            "value": "0",
+            "title": "节点1",
+            "timestamp": "2022/3/22 15:16:22"
+          },
+          {
+            "value": "1",
+            "title": "节点2",
+            "timestamp": "2022/3/22 15:16:22"
+          },
+          {
+            "value": "2",
+            "title": "节点3",
+            "timestamp": "2022/3/22 15:16:22"
+          }
+        ],
+        "DefaultValue": "1",
+        "activeColor": "#07c160",
+        "inactiveColor": "#969799",
+        "placement": "bottom",
+        "format": "yyyy-MM-dd"
+      }
+    },
+    "53,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+            "TargetPageElement": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "='Timeline 时间线'!B43"
+            },
+            "TargetType": "Vant.CellTypes.Timeline, Vant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5a36ee28e75bb3ab",
+            "MethodName": "UpdateActiveIcon",
+            "ParameterValues": {
+              "activeIcon": {
+                "$type": "GrapeCity.Forguncy.Plugin.ImageValue, GrapeCity.Forguncy.Plugin",
+                "Name": "Navigation/249_favorite_3.svg",
+                "BuiltIn": true,
+                "Color": "#FF00B050"
+              }
+            },
+            "RetrunParamNames": {}
+          }
+        ],
+        "Text": "更改当前节点图标",
+        "TemplateKey": "操作"
+      }
+    },
+    "56,1": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Timeline, Vant",
+        "CommandList": [],
+        "options": [
+          {
+            "value": "0",
+            "title": "节点1",
+            "timestamp": "2022/3/22 15:16:33"
+          },
+          {
+            "value": "1",
+            "title": "节点2",
+            "timestamp": "2022/3/22 15:16:33"
+          },
+          {
+            "value": "2",
+            "title": "节点3",
+            "timestamp": "2022/3/22 15:16:33"
+          }
+        ],
+        "DefaultValue": "1",
+        "activeColor": "#07c160",
+        "inactiveColor": "#969799",
+        "placement": "bottom",
+        "format": "yyyy-MM-dd"
+      }
+    },
+    "67,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+            "TargetPageElement": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "='Timeline 时间线'!B57"
+            },
+            "TargetType": "Vant.CellTypes.Timeline, Vant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5a36ee28e75bb3ab",
+            "MethodName": "UpdateActiveColor",
+            "ParameterValues": {
+              "activeColor": "#FF00B0F0"
+            },
+            "RetrunParamNames": {}
+          }
+        ],
+        "Text": "更改当前节点及已完成节点颜色",
+        "TemplateKey": "操作"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "Foreground": 1
+      },
+      {
+        "FontFamily": 0
+      },
+      {
+        "FontFamily": 0,
+        "Foreground": 1,
+        "Formatter": 2
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Text 1 50",
+        "[AUTO]General"
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "1,2": 1,
+      "1,3": 1,
+      "1,4": 1,
+      "1,5": 1,
+      "1,6": 1,
+      "1,7": 1,
+      "14,1": 0,
+      "16,1": 1,
+      "16,2": 1,
+      "16,3": 1,
+      "16,4": 1,
+      "16,5": 1,
+      "16,6": 1,
+      "16,7": 1,
+      "16,8": 1,
+      "16,9": 1,
+      "16,10": 1,
+      "16,11": 1,
+      "16,12": 1,
+      "16,13": 1,
+      "16,14": 1,
+      "16,15": 1,
+      "17,1": 1,
+      "17,2": 1,
+      "17,3": 1,
+      "17,4": 1,
+      "17,5": 1,
+      "17,6": 1,
+      "17,7": 1,
+      "17,8": 1,
+      "17,9": 1,
+      "17,10": 1,
+      "17,11": 1,
+      "17,12": 1,
+      "17,13": 1,
+      "17,14": 1,
+      "17,15": 1,
+      "18,1": 1,
+      "18,2": 1,
+      "18,3": 1,
+      "18,4": 1,
+      "18,5": 1,
+      "18,6": 1,
+      "18,7": 1,
+      "18,8": 1,
+      "18,9": 1,
+      "18,10": 1,
+      "18,11": 1,
+      "18,12": 1,
+      "18,13": 1,
+      "18,14": 1,
+      "18,15": 1,
+      "19,1": 1,
+      "19,2": 1,
+      "19,3": 1,
+      "19,4": 1,
+      "19,5": 1,
+      "19,6": 1,
+      "19,7": 1,
+      "19,8": 1,
+      "19,9": 1,
+      "19,10": 1,
+      "19,11": 1,
+      "19,12": 1,
+      "19,13": 1,
+      "19,14": 1,
+      "19,15": 1,
+      "20,1": 1,
+      "20,2": 1,
+      "20,3": 1,
+      "20,4": 1,
+      "20,5": 1,
+      "20,6": 1,
+      "20,7": 1,
+      "20,8": 1,
+      "20,9": 1,
+      "20,10": 1,
+      "20,11": 1,
+      "20,12": 1,
+      "20,13": 1,
+      "20,14": 1,
+      "20,15": 1,
+      "21,1": 1,
+      "21,2": 1,
+      "21,3": 1,
+      "21,4": 1,
+      "21,5": 1,
+      "21,6": 1,
+      "21,7": 1,
+      "21,8": 1,
+      "21,9": 1,
+      "21,10": 1,
+      "21,11": 1,
+      "21,12": 1,
+      "21,13": 1,
+      "21,14": 1,
+      "21,15": 1,
+      "22,1": 1,
+      "22,2": 1,
+      "22,3": 1,
+      "22,4": 1,
+      "22,5": 1,
+      "22,6": 1,
+      "22,7": 1,
+      "22,8": 1,
+      "22,9": 1,
+      "22,10": 1,
+      "22,11": 1,
+      "22,12": 1,
+      "22,13": 1,
+      "22,14": 1,
+      "22,15": 1,
+      "23,1": 1,
+      "23,2": 1,
+      "23,3": 1,
+      "23,4": 1,
+      "23,5": 1,
+      "23,6": 1,
+      "23,7": 1,
+      "23,8": 1,
+      "23,9": 1,
+      "23,10": 1,
+      "23,11": 1,
+      "23,12": 1,
+      "23,13": 1,
+      "23,14": 1,
+      "23,15": 1,
+      "24,1": 1,
+      "24,2": 1,
+      "24,3": 1,
+      "24,4": 1,
+      "24,5": 1,
+      "24,6": 1,
+      "24,7": 1,
+      "24,8": 1,
+      "24,9": 1,
+      "24,10": 1,
+      "24,11": 1,
+      "24,12": 1,
+      "24,13": 1,
+      "24,14": 1,
+      "24,15": 1,
+      "25,1": 1,
+      "25,2": 1,
+      "25,3": 1,
+      "25,4": 1,
+      "25,5": 1,
+      "25,6": 1,
+      "25,7": 1,
+      "25,8": 1,
+      "25,9": 1,
+      "25,10": 1,
+      "25,11": 1,
+      "25,12": 1,
+      "25,13": 1,
+      "25,14": 1,
+      "25,15": 1,
+      "26,0": 1,
+      "26,1": 1,
+      "26,2": 1,
+      "26,3": 1,
+      "26,4": 1,
+      "26,5": 1,
+      "26,6": 1,
+      "26,7": 1,
+      "26,8": 1,
+      "26,9": 1,
+      "26,10": 1,
+      "26,11": 1,
+      "26,12": 1,
+      "26,13": 1,
+      "26,14": 1,
+      "26,15": 1,
+      "26,16": 1,
+      "27,0": 1,
+      "27,1": 0,
+      "27,2": 1,
+      "27,3": 1,
+      "27,4": 1,
+      "27,5": 1,
+      "27,6": 1,
+      "27,7": 1,
+      "27,8": 1,
+      "27,9": 1,
+      "27,10": 1,
+      "27,11": 1,
+      "27,12": 1,
+      "27,13": 1,
+      "27,14": 1,
+      "27,15": 1,
+      "27,16": 1,
+      "28,0": 1,
+      "28,1": 1,
+      "28,2": 1,
+      "28,3": 1,
+      "28,4": 1,
+      "28,5": 1,
+      "28,6": 1,
+      "28,7": 1,
+      "28,8": 1,
+      "28,9": 1,
+      "28,10": 1,
+      "28,11": 1,
+      "28,12": 1,
+      "28,13": 1,
+      "28,14": 1,
+      "28,15": 1,
+      "28,16": 1,
+      "29,0": 1,
+      "29,1": 1,
+      "29,2": 1,
+      "29,3": 1,
+      "29,4": 1,
+      "29,5": 1,
+      "29,6": 1,
+      "29,7": 1,
+      "29,8": 1,
+      "29,9": 1,
+      "29,10": 1,
+      "29,11": 1,
+      "29,12": 1,
+      "29,13": 1,
+      "29,14": 1,
+      "29,15": 1,
+      "29,16": 1,
+      "30,0": 1,
+      "30,1": 1,
+      "30,2": 1,
+      "30,3": 1,
+      "30,4": 1,
+      "30,5": 1,
+      "30,6": 1,
+      "30,7": 1,
+      "30,8": 1,
+      "30,9": 1,
+      "30,10": 1,
+      "30,11": 1,
+      "30,12": 1,
+      "30,13": 1,
+      "30,14": 1,
+      "30,15": 1,
+      "30,16": 1,
+      "31,0": 1,
+      "31,1": 1,
+      "31,2": 1,
+      "31,3": 1,
+      "31,4": 1,
+      "31,5": 1,
+      "31,6": 1,
+      "31,7": 1,
+      "31,8": 1,
+      "31,9": 1,
+      "31,10": 1,
+      "31,11": 1,
+      "31,12": 1,
+      "31,13": 1,
+      "31,14": 1,
+      "31,15": 1,
+      "31,16": 1,
+      "32,0": 1,
+      "32,1": 1,
+      "32,2": 1,
+      "32,3": 1,
+      "32,4": 1,
+      "32,5": 1,
+      "32,6": 1,
+      "32,7": 1,
+      "32,8": 1,
+      "32,9": 1,
+      "32,10": 1,
+      "32,11": 1,
+      "32,12": 1,
+      "32,13": 1,
+      "32,14": 1,
+      "32,15": 1,
+      "32,16": 1,
+      "33,0": 1,
+      "33,1": 1,
+      "33,2": 1,
+      "33,3": 1,
+      "33,4": 1,
+      "33,5": 1,
+      "33,6": 1,
+      "33,7": 1,
+      "33,8": 1,
+      "33,9": 1,
+      "33,10": 1,
+      "33,11": 1,
+      "33,12": 1,
+      "33,13": 1,
+      "33,14": 1,
+      "33,15": 1,
+      "33,16": 1,
+      "34,0": 1,
+      "34,1": 1,
+      "34,2": 1,
+      "34,3": 1,
+      "34,4": 1,
+      "34,5": 1,
+      "34,6": 1,
+      "34,7": 1,
+      "34,8": 1,
+      "34,9": 1,
+      "34,10": 1,
+      "34,11": 1,
+      "34,12": 1,
+      "34,13": 1,
+      "34,14": 1,
+      "34,15": 1,
+      "34,16": 1,
+      "35,0": 1,
+      "35,1": 1,
+      "35,2": 1,
+      "35,3": 1,
+      "35,4": 1,
+      "35,5": 1,
+      "35,6": 1,
+      "35,7": 1,
+      "35,8": 1,
+      "35,9": 1,
+      "35,10": 1,
+      "35,11": 1,
+      "35,12": 1,
+      "35,13": 1,
+      "35,14": 1,
+      "35,15": 1,
+      "35,16": 1,
+      "36,0": 1,
+      "36,1": 1,
+      "36,2": 1,
+      "36,3": 1,
+      "36,4": 1,
+      "36,5": 1,
+      "36,6": 1,
+      "36,7": 1,
+      "36,8": 1,
+      "36,9": 1,
+      "36,10": 1,
+      "36,11": 1,
+      "36,12": 1,
+      "36,13": 1,
+      "36,14": 1,
+      "36,15": 1,
+      "36,16": 1,
+      "37,0": 1,
+      "37,1": 1,
+      "37,2": 1,
+      "37,3": 1,
+      "37,4": 1,
+      "37,5": 1,
+      "37,6": 1,
+      "37,7": 1,
+      "37,8": 1,
+      "37,9": 1,
+      "37,10": 1,
+      "37,11": 1,
+      "37,12": 1,
+      "37,13": 1,
+      "37,14": 1,
+      "37,15": 1,
+      "37,16": 1,
+      "40,1": 2,
+      "40,2": 1,
+      "40,3": 1,
+      "40,4": 1,
+      "40,5": 1,
+      "40,6": 1,
+      "40,7": 1,
+      "42,1": 1,
+      "53,1": 1,
+      "55,1": 1,
+      "55,2": 1,
+      "55,3": 1,
+      "55,4": 1,
+      "55,5": 1,
+      "55,6": 1,
+      "55,7": 1,
+      "55,8": 1,
+      "55,9": 1,
+      "55,10": 1,
+      "55,11": 1,
+      "55,12": 1,
+      "55,13": 1,
+      "55,14": 1,
+      "55,15": 1,
+      "56,1": 1,
+      "66,1": 1,
+      "66,2": 1,
+      "66,3": 1,
+      "66,4": 1,
+      "66,5": 1,
+      "66,6": 1,
+      "66,7": 1,
+      "66,8": 1,
+      "66,9": 1,
+      "66,10": 1,
+      "66,11": 1,
+      "66,12": 1,
+      "66,13": 1,
+      "66,14": 1,
+      "66,15": 1,
+      "67,0": 1,
+      "67,1": 1,
+      "67,2": 1,
+      "67,3": 1,
+      "67,4": 1,
+      "67,5": 1,
+      "67,6": 1,
+      "67,7": 1,
+      "67,8": 1,
+      "67,9": 1,
+      "67,10": 1,
+      "67,11": 1,
+      "67,12": 1,
+      "67,13": 1,
+      "67,14": 1,
+      "67,15": 1,
+      "67,16": 1,
+      "68,0": 1,
+      "68,1": 1,
+      "68,2": 1,
+      "68,3": 1,
+      "68,4": 1,
+      "68,5": 1,
+      "68,6": 1,
+      "68,7": 1,
+      "68,8": 1,
+      "68,9": 1,
+      "68,10": 1,
+      "68,11": 1,
+      "68,12": 1,
+      "68,13": 1,
+      "68,14": 1,
+      "68,15": 1,
+      "68,16": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "1,1,1,7",
+    "3,1,9,15",
+    "16,1,9,15",
+    "40,1,1,7",
+    "53,1,2,15",
+    "27,1,1,7",
+    "29,1,9,15",
+    "56,1,10,15",
+    "42,1,10,15",
+    "67,1,2,15",
+    "14,1,1,15"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "母版页",
+    "AuthorizeInfo": {
+      "VisitMode": 3
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//KO+j34w7Ytzoz/WyuTVsOs0E1A3zUooPzJ0nW2IOYSDWT5yjKeWSIf9woZLPAgwcUqxF/pAE+q/r52i0KtEWXgdRvVG14qt+5poalfdgcc+RLV6D/gcJ5BPF3d7Yg9Z3XcbQghqtpolsK71hObe8GylqrlH5zt+Tnv6BiS6g43PmPk4IymXITYnuL5YPAC6lEioWrKjtJvmobJg+kPM0IbVtt+orXCGGZbS5RqyxlyawmJiNiS0NJsaFK/XSAGdotZUkNQBCiz+cDwXp2g2IaHvvK+Qpk1YjQtCC5RVgC59WZN5EyhntKEow2tl7QmAjkcv1JYVOEs9kHQnIDxgbpApTquGq36kLc/GdVNGwUBgDgV0nwoCkgKV4wolWK6TUy+z53Pnwq7DlOJFyZoCfXKGaxOgoxsbMDZ07kiTzp22xWNzZGsj+t3psuXMwxRIKPP7RoDlC13YzZtuR9rQ/XupM8Unm4NrkKuLf/QRPjtdz//wjbmixRQRw66aOjl/+dl/Lhi3zXfB9Z26vpEy7O5eNJTYUxNK2CvpqZKE+2BbebexbfXDX4ZSnLh8yF7fFpQZ3T1vyZqdL/pCvwjES+zphfAL+vZGlFeE5N5P/KlNt5oHvfyJq1nvtsW0Fec42s+SD42BRg7B+JO3iw24ZFyNyA1EkDgXR4shAULoj6ciWkPratVjkegdrEpBQjtGEObgvv1bqLBkIkCFArAyuDA0Cwv5pu68CPTheU1FCKHfLYRc750SvxbX7yMiB6QTc7soX2oycwsHNRZjD6/0MagDZNjT4eRXuvAxc0vnd/xpegUsAVZOSr96GMZBOY3WVdBSYhkbyrE+4NNUjC8uSb2dC7heLU0WZvpdkomvYQlf573Vqtu5J2nibxXq58nuMEB01U7f5eKXaWx8nxYsVhg==|920

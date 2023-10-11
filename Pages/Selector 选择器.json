@@ -1,0 +1,2870 @@
+{
+  "Rows": {
+    "Count": 56
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      }
+    },
+    "Count": 19
+  },
+  "Values": {
+    "1,1": "基础用法",
+    "3,1": "普通",
+    "5,1": "禁用",
+    "7,1": "只读",
+    "9,1": "可清空",
+    "11,1": "左侧图标",
+    "13,1": "右侧图标",
+    "17,1": "弹出配置",
+    "19,1": "绑定选项",
+    "21,1": "顶部标题",
+    "23,1": "按钮文本",
+    "25,1": "选项个数",
+    "27,1": "隐藏顶栏",
+    "29,1": "惯性时长",
+    "33,1": "命令修改",
+    "35,13": "修改值",
+    "37,13": "修改值",
+    "39,13": "修改值",
+    "41,13": "弹出",
+    "43,13": "设置数据源",
+    "45,13": "设置数据源",
+    "47,1": 3,
+    "47,13": "获取文本",
+    "51,1": "值变更命令",
+    "53,1": "编辑值"
+  },
+  "AttachInfos": {
+    "3,6": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Selector, Vant",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "options": [
+          {
+            "value": "1",
+            "label": "黄金糕"
+          },
+          {
+            "value": "2",
+            "label": "双皮奶"
+          },
+          {
+            "value": "3",
+            "label": "蚵仔煎"
+          },
+          {
+            "value": "4",
+            "label": "龙须面"
+          },
+          {
+            "value": "5",
+            "label": "北京烤鸭"
+          }
+        ],
+        "placeholder": "请选择",
+        "SelectorConfig": {
+          "title": "请选择",
+          "confirmButtonText": "确认",
+          "cancelButtonText": "取消"
+        }
+      }
+    },
+    "5,6": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Selector, Vant",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "options": [
+          {
+            "value": "1",
+            "label": "黄金糕"
+          },
+          {
+            "value": "2",
+            "label": "双皮奶"
+          },
+          {
+            "value": "3",
+            "label": "蚵仔煎"
+          },
+          {
+            "value": "4",
+            "label": "龙须面"
+          },
+          {
+            "value": "5",
+            "label": "北京烤鸭"
+          }
+        ],
+        "placeholder": "请选择",
+        "IsDisabled": true,
+        "SelectorConfig": {
+          "title": "请选择",
+          "confirmButtonText": "确认",
+          "cancelButtonText": "取消"
+        }
+      }
+    },
+    "7,6": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Selector, Vant",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "options": [
+          {
+            "value": "1",
+            "label": "黄金糕"
+          },
+          {
+            "value": "2",
+            "label": "双皮奶"
+          },
+          {
+            "value": "3",
+            "label": "蚵仔煎"
+          },
+          {
+            "value": "4",
+            "label": "龙须面"
+          },
+          {
+            "value": "5",
+            "label": "北京烤鸭"
+          }
+        ],
+        "placeholder": "请选择",
+        "ReadOnly": true,
+        "SelectorConfig": {
+          "title": "请选择",
+          "confirmButtonText": "确认",
+          "cancelButtonText": "取消"
+        }
+      }
+    },
+    "9,6": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Selector, Vant",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "options": [
+          {
+            "value": "1",
+            "label": "黄金糕"
+          },
+          {
+            "value": "2",
+            "label": "双皮奶"
+          },
+          {
+            "value": "3",
+            "label": "蚵仔煎"
+          },
+          {
+            "value": "4",
+            "label": "龙须面"
+          },
+          {
+            "value": "5",
+            "label": "北京烤鸭"
+          }
+        ],
+        "placeholder": "请选择",
+        "clearable": true,
+        "SelectorConfig": {
+          "title": "请选择",
+          "confirmButtonText": "确认",
+          "cancelButtonText": "取消"
+        }
+      }
+    },
+    "11,6": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Selector, Vant",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "options": [
+          {
+            "value": "1",
+            "label": "黄金糕"
+          },
+          {
+            "value": "2",
+            "label": "双皮奶"
+          },
+          {
+            "value": "3",
+            "label": "蚵仔煎"
+          },
+          {
+            "value": "4",
+            "label": "龙须面"
+          },
+          {
+            "value": "5",
+            "label": "北京烤鸭"
+          }
+        ],
+        "placeholder": "请选择",
+        "leftIcon": {
+          "Name": "Mobile/419_share_1.svg",
+          "BuiltIn": true,
+          "Color": "#c0c4cc"
+        },
+        "SelectorConfig": {
+          "title": "请选择",
+          "confirmButtonText": "确认",
+          "cancelButtonText": "取消"
+        }
+      }
+    },
+    "13,6": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Selector, Vant",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "options": [
+          {
+            "value": "1",
+            "label": "黄金糕"
+          },
+          {
+            "value": "2",
+            "label": "双皮奶"
+          },
+          {
+            "value": "3",
+            "label": "蚵仔煎"
+          },
+          {
+            "value": "4",
+            "label": "龙须面"
+          },
+          {
+            "value": "5",
+            "label": "北京烤鸭"
+          }
+        ],
+        "placeholder": "请选择",
+        "rightIcon": {
+          "Name": "Mobile/467_right_2.svg",
+          "BuiltIn": true,
+          "Color": "#c0c4cc"
+        },
+        "SelectorConfig": {
+          "title": "请选择",
+          "confirmButtonText": "确认",
+          "cancelButtonText": "取消"
+        }
+      }
+    },
+    "19,6": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Selector, Vant",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "useBinding": true,
+        "options": [],
+        "bindingOptions": {
+          "$type": "ServerDesignerCommon.Model.BindingDataSourceModel, ServerDesignerCommon",
+          "TableName": "主角表",
+          "BindingInfos": [
+            {
+              "BindingInfo": {
+                "TableName": "主角表",
+                "ColumnName": "ID"
+              },
+              "ColumnName": "value"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "主角表",
+                "ColumnName": "姓名"
+              },
+              "ColumnName": "label"
+            }
+          ]
+        },
+        "placeholder": "请选择",
+        "SelectorConfig": {
+          "title": "请选择",
+          "confirmButtonText": "确认",
+          "cancelButtonText": "取消"
+        }
+      }
+    },
+    "21,6": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Selector, Vant",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "options": [
+          {
+            "value": "1",
+            "label": "黄金糕"
+          },
+          {
+            "value": "2",
+            "label": "双皮奶"
+          },
+          {
+            "value": "3",
+            "label": "蚵仔煎"
+          },
+          {
+            "value": "4",
+            "label": "龙须面"
+          },
+          {
+            "value": "5",
+            "label": "北京烤鸭"
+          }
+        ],
+        "placeholder": "请选择",
+        "SelectorConfig": {
+          "title": "今天想吃什么",
+          "confirmButtonText": "确认",
+          "cancelButtonText": "取消"
+        }
+      }
+    },
+    "23,6": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Selector, Vant",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "options": [
+          {
+            "value": "1",
+            "label": "黄金糕"
+          },
+          {
+            "value": "2",
+            "label": "双皮奶"
+          },
+          {
+            "value": "3",
+            "label": "蚵仔煎"
+          },
+          {
+            "value": "4",
+            "label": "龙须面"
+          },
+          {
+            "value": "5",
+            "label": "北京烤鸭"
+          }
+        ],
+        "placeholder": "请选择",
+        "SelectorConfig": {
+          "title": "请选择",
+          "confirmButtonText": "就选它",
+          "cancelButtonText": "关闭"
+        }
+      }
+    },
+    "25,6": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Selector, Vant",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "options": [
+          {
+            "value": "1",
+            "label": "选项1"
+          },
+          {
+            "value": "2",
+            "label": "选项2"
+          },
+          {
+            "value": "3",
+            "label": "选项3"
+          },
+          {
+            "value": "4",
+            "label": "选项4"
+          },
+          {
+            "value": "5",
+            "label": "选项5"
+          },
+          {
+            "value": "6",
+            "label": "选项6"
+          },
+          {
+            "value": "7",
+            "label": "选项7"
+          },
+          {
+            "value": "8",
+            "label": "选项8"
+          },
+          {
+            "value": "9",
+            "label": "选项9"
+          },
+          {
+            "value": "10",
+            "label": "选项10"
+          },
+          {
+            "value": "11",
+            "label": "选项11"
+          },
+          {
+            "value": "12",
+            "label": "选项12"
+          },
+          {
+            "value": "13",
+            "label": "选项13"
+          },
+          {
+            "value": "14",
+            "label": "选项14"
+          },
+          {
+            "value": "15",
+            "label": "选项15"
+          },
+          {
+            "value": "16",
+            "label": "选项16"
+          },
+          {
+            "value": "17",
+            "label": "选项17"
+          },
+          {
+            "value": "18",
+            "label": "选项18"
+          },
+          {
+            "value": "19",
+            "label": "选项19"
+          },
+          {
+            "value": "20",
+            "label": "选项20"
+          }
+        ],
+        "placeholder": "请选择",
+        "SelectorConfig": {
+          "title": "请选择",
+          "confirmButtonText": "确认",
+          "cancelButtonText": "取消",
+          "visibleItemCount": 10.0,
+          "itemHeight": 30.0
+        }
+      }
+    },
+    "27,6": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Selector, Vant",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "options": [
+          {
+            "value": "1",
+            "label": "黄金糕"
+          },
+          {
+            "value": "2",
+            "label": "双皮奶"
+          },
+          {
+            "value": "3",
+            "label": "蚵仔煎"
+          },
+          {
+            "value": "4",
+            "label": "龙须面"
+          },
+          {
+            "value": "5",
+            "label": "北京烤鸭"
+          }
+        ],
+        "placeholder": "请选择",
+        "SelectorConfig": {
+          "showToolbar": false,
+          "title": "请选择",
+          "confirmButtonText": "确认",
+          "cancelButtonText": "取消"
+        }
+      }
+    },
+    "29,6": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Selector, Vant",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "options": [
+          {
+            "value": "1",
+            "label": "选项1"
+          },
+          {
+            "value": "2",
+            "label": "选项2"
+          },
+          {
+            "value": "3",
+            "label": "选项3"
+          },
+          {
+            "value": "4",
+            "label": "选项4"
+          },
+          {
+            "value": "5",
+            "label": "选项5"
+          },
+          {
+            "value": "6",
+            "label": "选项6"
+          },
+          {
+            "value": "7",
+            "label": "选项7"
+          },
+          {
+            "value": "8",
+            "label": "选项8"
+          },
+          {
+            "value": "9",
+            "label": "选项9"
+          },
+          {
+            "value": "10",
+            "label": "选项10"
+          },
+          {
+            "value": "11",
+            "label": "选项11"
+          },
+          {
+            "value": "12",
+            "label": "选项12"
+          },
+          {
+            "value": "13",
+            "label": "选项13"
+          },
+          {
+            "value": "14",
+            "label": "选项14"
+          },
+          {
+            "value": "15",
+            "label": "选项15"
+          },
+          {
+            "value": "16",
+            "label": "选项16"
+          },
+          {
+            "value": "17",
+            "label": "选项17"
+          },
+          {
+            "value": "18",
+            "label": "选项18"
+          },
+          {
+            "value": "19",
+            "label": "选项19"
+          },
+          {
+            "value": "20",
+            "label": "选项20"
+          }
+        ],
+        "placeholder": "请选择",
+        "SelectorConfig": {
+          "title": "请选择",
+          "confirmButtonText": "确认",
+          "cancelButtonText": "取消",
+          "visibleItemCount": 10.0,
+          "itemHeight": 30.0,
+          "swipeDuration": 3000
+        }
+      }
+    },
+    "35,1": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Selector, Vant",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "options": [
+          {
+            "value": "黄金糕",
+            "label": "黄金糕"
+          },
+          {
+            "value": "双皮奶",
+            "label": "双皮奶"
+          },
+          {
+            "value": "蚵仔煎",
+            "label": "蚵仔煎"
+          },
+          {
+            "value": "龙须面",
+            "label": "龙须面"
+          },
+          {
+            "value": "北京烤鸭",
+            "label": "北京烤鸭"
+          }
+        ],
+        "placeholder": "请选择",
+        "SelectorConfig": {
+          "title": "请选择",
+          "confirmButtonText": "确认",
+          "cancelButtonText": "取消"
+        }
+      }
+    },
+    "35,13": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='Selector 选择器'!B36"
+                },
+                "Value": "龙须面"
+              }
+            ]
+          }
+        ],
+        "Text": "修改值",
+        "TemplateKey": "操作"
+      }
+    },
+    "37,1": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Selector, Vant",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "options": [
+          {
+            "value": "1",
+            "label": "黄金糕"
+          },
+          {
+            "value": "2",
+            "label": "双皮奶"
+          },
+          {
+            "value": "3",
+            "label": "蚵仔煎"
+          },
+          {
+            "value": "4",
+            "label": "龙须面"
+          },
+          {
+            "value": "5",
+            "label": "北京烤鸭"
+          }
+        ],
+        "placeholder": "请选择",
+        "SelectorConfig": {
+          "title": "请选择",
+          "confirmButtonText": "确认",
+          "cancelButtonText": "取消"
+        }
+      }
+    },
+    "37,13": {
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "Caption": "禁用",
+        "Style": 2,
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='Selector 选择器'!B38"
+                },
+                "PropertyType": 0,
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=NOT('Selector 选择器'!N38)"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "39,1": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Selector, Vant",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "options": [
+          {
+            "value": "1",
+            "label": "黄金糕"
+          },
+          {
+            "value": "2",
+            "label": "双皮奶"
+          },
+          {
+            "value": "3",
+            "label": "蚵仔煎"
+          },
+          {
+            "value": "4",
+            "label": "龙须面"
+          },
+          {
+            "value": "5",
+            "label": "北京烤鸭"
+          }
+        ],
+        "placeholder": "请选择",
+        "SelectorConfig": {
+          "title": "请选择",
+          "confirmButtonText": "确认",
+          "cancelButtonText": "取消"
+        }
+      }
+    },
+    "39,13": {
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "Caption": "只读",
+        "Style": 2,
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='Selector 选择器'!B40"
+                },
+                "PropertyType": 5,
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='Selector 选择器'!N40"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "41,1": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Selector, Vant",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "options": [
+          {
+            "value": "1",
+            "label": "黄金糕"
+          },
+          {
+            "value": "2",
+            "label": "双皮奶"
+          },
+          {
+            "value": "3",
+            "label": "蚵仔煎"
+          },
+          {
+            "value": "4",
+            "label": "龙须面"
+          },
+          {
+            "value": "5",
+            "label": "北京烤鸭"
+          }
+        ],
+        "placeholder": "请选择",
+        "SelectorConfig": {
+          "title": "请选择",
+          "confirmButtonText": "确认",
+          "cancelButtonText": "取消"
+        }
+      }
+    },
+    "41,13": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+            "TargetPageElement": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "='Selector 选择器'!B42"
+            },
+            "TargetType": "Vant.CellTypes.Selector, Vant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5a36ee28e75bb3ab",
+            "MethodName": "ShowPopup",
+            "ParameterValues": {},
+            "RetrunParamNames": {}
+          }
+        ],
+        "Text": "弹出",
+        "TemplateKey": "操作"
+      }
+    },
+    "43,1": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Selector, Vant",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "options": [
+          {
+            "value": "1",
+            "label": "黄金糕"
+          },
+          {
+            "value": "2",
+            "label": "双皮奶"
+          },
+          {
+            "value": "3",
+            "label": "蚵仔煎"
+          },
+          {
+            "value": "4",
+            "label": "龙须面"
+          },
+          {
+            "value": "5",
+            "label": "北京烤鸭"
+          }
+        ],
+        "placeholder": "请选择",
+        "SelectorConfig": {
+          "title": "请选择",
+          "confirmButtonText": "确认",
+          "cancelButtonText": "取消"
+        }
+      }
+    },
+    "43,13": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+            "TargetPageElement": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "='Selector 选择器'!B44"
+            },
+            "TargetType": "Vant.CellTypes.Selector, Vant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5a36ee28e75bb3ab",
+            "MethodName": "SetDataSourceByStringArray",
+            "ParameterValues": {
+              "dataSource": "[\"香蕉\",\"苹果\",\"鸭梨\"]"
+            },
+            "RetrunParamNames": {}
+          }
+        ],
+        "Text": "设置数据源",
+        "TemplateKey": "操作"
+      }
+    },
+    "45,1": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Selector, Vant",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "options": [
+          {
+            "value": "1",
+            "label": "黄金糕"
+          },
+          {
+            "value": "2",
+            "label": "双皮奶"
+          },
+          {
+            "value": "3",
+            "label": "蚵仔煎"
+          },
+          {
+            "value": "4",
+            "label": "龙须面"
+          },
+          {
+            "value": "5",
+            "label": "北京烤鸭"
+          }
+        ],
+        "placeholder": "请选择",
+        "SelectorConfig": {
+          "title": "请选择",
+          "confirmButtonText": "确认",
+          "cancelButtonText": "取消"
+        }
+      }
+    },
+    "45,13": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+            "TargetPageElement": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "='Selector 选择器'!B46"
+            },
+            "TargetType": "Vant.CellTypes.Selector, Vant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5a36ee28e75bb3ab",
+            "MethodName": "SetDataSourceByObjArray",
+            "ParameterValues": {
+              "dataSource": "[{\"value\": 1, \"label\": \"香蕉\"},{\"value\": 1, \"label\": \"苹果\"},{\"value\": 1, \"label\": \"鸭梨\"}]",
+              "valueProperty": "value",
+              "labelProperty": "label"
+            },
+            "RetrunParamNames": {}
+          }
+        ],
+        "Text": "设置数据源",
+        "TemplateKey": "操作"
+      }
+    },
+    "47,1": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Selector, Vant",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "DefaultValue": 3,
+        "options": [
+          {
+            "value": "1",
+            "label": "黄金糕"
+          },
+          {
+            "value": "2",
+            "label": "双皮奶"
+          },
+          {
+            "value": "3",
+            "label": "蚵仔煎"
+          },
+          {
+            "value": "4",
+            "label": "龙须面"
+          },
+          {
+            "value": "5",
+            "label": "北京烤鸭"
+          }
+        ],
+        "placeholder": "请选择",
+        "SelectorConfig": {
+          "title": "请选择",
+          "confirmButtonText": "确认",
+          "cancelButtonText": "取消"
+        }
+      }
+    },
+    "47,13": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+            "TargetPageElement": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "='Selector 选择器'!B48"
+            },
+            "TargetType": "Vant.CellTypes.Selector, Vant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5a36ee28e75bb3ab",
+            "MethodName": "GetSelectedText",
+            "ParameterValues": {},
+            "RetrunParamNames": {
+              "SelectedText": {
+                "SerializeProperty": "显示文本"
+              }
+            }
+          },
+          {
+            "$type": "Vant.Commands.Toast, Vant",
+            "message": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=\"值为: \"&'Selector 选择器'!B48&\" 显示文本: \"&'Selector 选择器'!显示文本"
+            },
+            "type": "success",
+            "loadingType": "circular",
+            "position": "middle",
+            "duration": 2000,
+            "iconSize": 20
+          }
+        ],
+        "Text": "获取文本",
+        "TemplateKey": "操作"
+      }
+    },
+    "53,6": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Selector, Vant",
+        "CommandList": [
+          {
+            "$type": "Vant.Commands.Toast, Vant",
+            "message": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=\"值变更为: \"&'Selector 选择器'!G54"
+            },
+            "type": "text",
+            "loadingType": "circular",
+            "position": "middle",
+            "duration": 2000,
+            "iconSize": 20
+          }
+        ],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "options": [
+          {
+            "value": "黄金糕",
+            "label": "黄金糕"
+          },
+          {
+            "value": "双皮奶",
+            "label": "双皮奶"
+          },
+          {
+            "value": "蚵仔煎",
+            "label": "蚵仔煎"
+          },
+          {
+            "value": "龙须面",
+            "label": "龙须面"
+          },
+          {
+            "value": "北京烤鸭",
+            "label": "北京烤鸭"
+          }
+        ],
+        "placeholder": "请选择",
+        "SelectorConfig": {
+          "title": "请选择",
+          "confirmButtonText": "确认",
+          "cancelButtonText": "取消"
+        }
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0
+      },
+      {
+        "FontFamily": 0,
+        "Foreground": 1
+      },
+      {
+        "Background": 2,
+        "FontSize": 13.333333333333332,
+        "Foreground": 3,
+        "BorderBottom": 0
+      },
+      {
+        "BorderBottom": 0
+      },
+      {
+        "Background": 2,
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Formatter": 5
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": 0
+      },
+      {
+        "Background": 2,
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Foreground": 3,
+        "BorderBottom": 0,
+        "BorderTop": 0
+      },
+      {
+        "FontFamily": 0,
+        "BorderBottom": 0,
+        "BorderTop": 0
+      },
+      {
+        "Background": 2,
+        "FontFamily": 0
+      },
+      {
+        "Background": 2,
+        "FontFamily": 0,
+        "BorderBottom": 0
+      },
+      {
+        "FontFamily": 0,
+        "Foreground": 1,
+        "Formatter": 5
+      },
+      {
+        "Background": 2,
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Foreground": 3,
+        "Formatter": 5,
+        "BorderBottom": 0
+      },
+      {
+        "Background": 2,
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Formatter": 5,
+        "WordWrap": true
+      },
+      {
+        "Background": 2,
+        "FontFamily": 0,
+        "BorderBottom": 0,
+        "BorderTop": 0
+      },
+      {
+        "FontFamily": 0,
+        "BorderBottom": 0
+      },
+      {
+        "FontFamily": 0,
+        "Formatter": 5
+      },
+      {
+        "Background": 2,
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Formatter": 5,
+        "HorizontalAlignment": 6
+      },
+      {
+        "Background": 2,
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Foreground": 3,
+        "BorderBottom": 0
+      },
+      {
+        "Background": 2
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Text 1 50",
+        "Background 1 0",
+        "Text 1 15",
+        "Background 1 -15",
+        "[AUTO]General",
+        "Left"
+      ],
+      "Borders": [
+        {
+          "Color": 4
+        }
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "0,1": 0,
+      "0,2": 0,
+      "0,3": 0,
+      "0,4": 0,
+      "0,5": 0,
+      "0,6": 0,
+      "0,7": 0,
+      "0,8": 0,
+      "0,9": 0,
+      "0,10": 0,
+      "0,11": 0,
+      "0,12": 0,
+      "0,13": 0,
+      "0,14": 0,
+      "0,15": 0,
+      "0,16": 0,
+      "0,17": 0,
+      "0,18": 0,
+      "1,0": 0,
+      "1,1": 1,
+      "1,8": 0,
+      "1,9": 0,
+      "1,10": 0,
+      "1,11": 0,
+      "1,12": 0,
+      "1,13": 0,
+      "1,14": 0,
+      "1,15": 0,
+      "1,16": 0,
+      "1,17": 0,
+      "1,18": 0,
+      "2,0": 0,
+      "2,1": 0,
+      "2,2": 0,
+      "2,3": 0,
+      "2,4": 0,
+      "2,5": 0,
+      "2,6": 0,
+      "2,7": 0,
+      "2,8": 0,
+      "2,9": 0,
+      "2,10": 0,
+      "2,11": 0,
+      "2,12": 0,
+      "2,13": 0,
+      "2,14": 0,
+      "2,15": 0,
+      "2,16": 0,
+      "2,17": 0,
+      "2,18": 0,
+      "3,0": 0,
+      "3,1": 2,
+      "3,2": 3,
+      "3,3": 3,
+      "3,4": 3,
+      "3,5": 3,
+      "3,6": 4,
+      "3,18": 0,
+      "4,0": 0,
+      "4,1": 5,
+      "4,2": 5,
+      "4,3": 5,
+      "4,4": 5,
+      "4,5": 5,
+      "4,6": 3,
+      "4,7": 3,
+      "4,8": 3,
+      "4,9": 3,
+      "4,10": 3,
+      "4,11": 3,
+      "4,12": 3,
+      "4,13": 3,
+      "4,14": 3,
+      "4,15": 3,
+      "4,16": 3,
+      "4,17": 3,
+      "4,18": 0,
+      "5,0": 0,
+      "5,1": 6,
+      "5,2": 7,
+      "5,3": 7,
+      "5,4": 7,
+      "5,5": 7,
+      "5,6": 4,
+      "5,7": 8,
+      "5,8": 8,
+      "5,9": 8,
+      "5,10": 8,
+      "5,11": 8,
+      "5,12": 8,
+      "5,13": 8,
+      "5,14": 8,
+      "5,15": 8,
+      "5,16": 8,
+      "5,17": 8,
+      "5,18": 0,
+      "6,0": 0,
+      "6,1": 7,
+      "6,2": 7,
+      "6,3": 7,
+      "6,4": 7,
+      "6,5": 7,
+      "6,6": 9,
+      "6,7": 9,
+      "6,8": 9,
+      "6,9": 9,
+      "6,10": 9,
+      "6,11": 9,
+      "6,12": 9,
+      "6,13": 9,
+      "6,14": 9,
+      "6,15": 9,
+      "6,16": 9,
+      "6,17": 9,
+      "6,18": 0,
+      "7,0": 0,
+      "7,1": 6,
+      "7,2": 7,
+      "7,3": 7,
+      "7,4": 7,
+      "7,5": 7,
+      "7,6": 4,
+      "7,7": 8,
+      "7,8": 8,
+      "7,9": 8,
+      "7,10": 8,
+      "7,11": 8,
+      "7,12": 8,
+      "7,13": 8,
+      "7,14": 8,
+      "7,15": 8,
+      "7,16": 8,
+      "7,17": 8,
+      "7,18": 0,
+      "8,0": 0,
+      "8,1": 7,
+      "8,2": 7,
+      "8,3": 7,
+      "8,4": 7,
+      "8,5": 7,
+      "8,6": 9,
+      "8,7": 9,
+      "8,8": 9,
+      "8,9": 9,
+      "8,10": 9,
+      "8,11": 9,
+      "8,12": 9,
+      "8,13": 9,
+      "8,14": 9,
+      "8,15": 9,
+      "8,16": 9,
+      "8,17": 9,
+      "8,18": 0,
+      "9,0": 0,
+      "9,1": 6,
+      "9,2": 7,
+      "9,3": 7,
+      "9,4": 7,
+      "9,5": 7,
+      "9,6": 4,
+      "9,7": 8,
+      "9,8": 8,
+      "9,9": 8,
+      "9,10": 8,
+      "9,11": 8,
+      "9,12": 8,
+      "9,13": 8,
+      "9,14": 8,
+      "9,15": 8,
+      "9,16": 8,
+      "9,17": 8,
+      "9,18": 0,
+      "10,0": 0,
+      "10,1": 7,
+      "10,2": 7,
+      "10,3": 7,
+      "10,4": 7,
+      "10,5": 7,
+      "10,6": 9,
+      "10,7": 9,
+      "10,8": 9,
+      "10,9": 9,
+      "10,10": 9,
+      "10,11": 9,
+      "10,12": 9,
+      "10,13": 9,
+      "10,14": 9,
+      "10,15": 9,
+      "10,16": 9,
+      "10,17": 9,
+      "10,18": 0,
+      "11,0": 0,
+      "11,1": 6,
+      "11,2": 7,
+      "11,3": 7,
+      "11,4": 7,
+      "11,5": 7,
+      "11,6": 4,
+      "11,7": 8,
+      "11,8": 8,
+      "11,9": 8,
+      "11,10": 8,
+      "11,11": 8,
+      "11,12": 8,
+      "11,13": 8,
+      "11,14": 8,
+      "11,15": 8,
+      "11,16": 8,
+      "11,17": 8,
+      "11,18": 0,
+      "12,0": 0,
+      "12,1": 7,
+      "12,2": 7,
+      "12,3": 7,
+      "12,4": 7,
+      "12,5": 7,
+      "12,6": 9,
+      "12,7": 9,
+      "12,8": 9,
+      "12,9": 9,
+      "12,10": 9,
+      "12,11": 9,
+      "12,12": 9,
+      "12,13": 9,
+      "12,14": 9,
+      "12,15": 9,
+      "12,16": 9,
+      "12,17": 9,
+      "12,18": 0,
+      "13,0": 0,
+      "13,1": 6,
+      "13,2": 7,
+      "13,3": 7,
+      "13,4": 7,
+      "13,5": 7,
+      "13,6": 4,
+      "13,7": 8,
+      "13,8": 8,
+      "13,9": 8,
+      "13,10": 8,
+      "13,11": 8,
+      "13,12": 8,
+      "13,13": 8,
+      "13,14": 8,
+      "13,15": 8,
+      "13,16": 8,
+      "13,17": 8,
+      "13,18": 0,
+      "14,0": 0,
+      "14,1": 7,
+      "14,2": 7,
+      "14,3": 7,
+      "14,4": 7,
+      "14,5": 7,
+      "14,6": 9,
+      "14,7": 9,
+      "14,8": 9,
+      "14,9": 9,
+      "14,10": 9,
+      "14,11": 9,
+      "14,12": 9,
+      "14,13": 9,
+      "14,14": 9,
+      "14,15": 9,
+      "14,16": 9,
+      "14,17": 9,
+      "14,18": 0,
+      "15,0": 0,
+      "15,18": 0,
+      "16,0": 0,
+      "16,1": 0,
+      "16,2": 0,
+      "16,3": 0,
+      "16,4": 0,
+      "16,5": 0,
+      "16,6": 0,
+      "16,7": 0,
+      "16,8": 0,
+      "16,9": 0,
+      "16,10": 0,
+      "16,11": 0,
+      "16,12": 0,
+      "16,13": 0,
+      "16,14": 0,
+      "16,15": 0,
+      "16,16": 0,
+      "16,17": 0,
+      "16,18": 0,
+      "17,0": 0,
+      "17,1": 10,
+      "17,2": 0,
+      "17,3": 0,
+      "17,4": 0,
+      "17,5": 0,
+      "17,6": 0,
+      "17,7": 0,
+      "17,8": 0,
+      "17,9": 0,
+      "17,10": 0,
+      "17,11": 0,
+      "17,12": 0,
+      "17,13": 0,
+      "17,14": 0,
+      "17,15": 0,
+      "17,16": 0,
+      "17,17": 0,
+      "17,18": 0,
+      "18,0": 0,
+      "18,1": 0,
+      "18,2": 0,
+      "18,3": 0,
+      "18,4": 0,
+      "18,5": 0,
+      "18,6": 0,
+      "18,7": 0,
+      "18,8": 0,
+      "18,9": 0,
+      "18,10": 0,
+      "18,11": 0,
+      "18,12": 0,
+      "18,13": 0,
+      "18,14": 0,
+      "18,15": 0,
+      "18,16": 0,
+      "18,17": 0,
+      "18,18": 0,
+      "19,0": 8,
+      "19,1": 11,
+      "19,2": 9,
+      "19,3": 9,
+      "19,4": 9,
+      "19,5": 9,
+      "19,6": 12,
+      "19,7": 8,
+      "19,8": 8,
+      "19,9": 8,
+      "19,10": 8,
+      "19,11": 8,
+      "19,12": 8,
+      "19,13": 8,
+      "19,14": 8,
+      "19,15": 8,
+      "19,16": 8,
+      "19,17": 8,
+      "19,18": 8,
+      "20,0": 8,
+      "20,1": 13,
+      "20,2": 13,
+      "20,3": 13,
+      "20,4": 13,
+      "20,5": 13,
+      "20,6": 9,
+      "20,7": 9,
+      "20,8": 9,
+      "20,9": 9,
+      "20,10": 9,
+      "20,11": 9,
+      "20,12": 9,
+      "20,13": 9,
+      "20,14": 9,
+      "20,15": 9,
+      "20,16": 9,
+      "20,17": 9,
+      "20,18": 8,
+      "21,0": 8,
+      "21,1": 11,
+      "21,2": 9,
+      "21,3": 9,
+      "21,4": 9,
+      "21,5": 9,
+      "21,6": 4,
+      "21,7": 8,
+      "21,8": 8,
+      "21,9": 8,
+      "21,10": 8,
+      "21,11": 8,
+      "21,12": 8,
+      "21,13": 8,
+      "21,14": 8,
+      "21,15": 8,
+      "21,16": 8,
+      "21,17": 8,
+      "21,18": 8,
+      "22,0": 8,
+      "22,1": 13,
+      "22,2": 13,
+      "22,3": 13,
+      "22,4": 13,
+      "22,5": 13,
+      "22,6": 9,
+      "22,7": 9,
+      "22,8": 9,
+      "22,9": 9,
+      "22,10": 9,
+      "22,11": 9,
+      "22,12": 9,
+      "22,13": 9,
+      "22,14": 9,
+      "22,15": 9,
+      "22,16": 9,
+      "22,17": 9,
+      "22,18": 8,
+      "23,0": 8,
+      "23,1": 11,
+      "23,2": 9,
+      "23,3": 9,
+      "23,4": 9,
+      "23,5": 9,
+      "23,6": 4,
+      "23,7": 8,
+      "23,8": 8,
+      "23,9": 8,
+      "23,10": 8,
+      "23,11": 8,
+      "23,12": 8,
+      "23,13": 8,
+      "23,14": 8,
+      "23,15": 8,
+      "23,16": 8,
+      "23,17": 8,
+      "23,18": 8,
+      "24,0": 8,
+      "24,1": 13,
+      "24,2": 13,
+      "24,3": 13,
+      "24,4": 13,
+      "24,5": 13,
+      "24,6": 9,
+      "24,7": 9,
+      "24,8": 9,
+      "24,9": 9,
+      "24,10": 9,
+      "24,11": 9,
+      "24,12": 9,
+      "24,13": 9,
+      "24,14": 9,
+      "24,15": 9,
+      "24,16": 9,
+      "24,17": 9,
+      "24,18": 8,
+      "25,0": 8,
+      "25,1": 11,
+      "25,2": 9,
+      "25,3": 9,
+      "25,4": 9,
+      "25,5": 9,
+      "25,6": 4,
+      "25,7": 8,
+      "25,8": 8,
+      "25,9": 8,
+      "25,10": 8,
+      "25,11": 8,
+      "25,12": 8,
+      "25,13": 8,
+      "25,14": 8,
+      "25,15": 8,
+      "25,16": 8,
+      "25,17": 8,
+      "25,18": 8,
+      "26,0": 8,
+      "26,1": 13,
+      "26,2": 13,
+      "26,3": 13,
+      "26,4": 13,
+      "26,5": 13,
+      "26,6": 9,
+      "26,7": 9,
+      "26,8": 9,
+      "26,9": 9,
+      "26,10": 9,
+      "26,11": 9,
+      "26,12": 9,
+      "26,13": 9,
+      "26,14": 9,
+      "26,15": 9,
+      "26,16": 9,
+      "26,17": 9,
+      "26,18": 8,
+      "27,0": 8,
+      "27,1": 11,
+      "27,2": 9,
+      "27,3": 9,
+      "27,4": 9,
+      "27,5": 9,
+      "27,6": 4,
+      "27,7": 8,
+      "27,8": 8,
+      "27,9": 8,
+      "27,10": 8,
+      "27,11": 8,
+      "27,12": 8,
+      "27,13": 8,
+      "27,14": 8,
+      "27,15": 8,
+      "27,16": 8,
+      "27,17": 8,
+      "27,18": 8,
+      "28,0": 8,
+      "28,1": 13,
+      "28,2": 13,
+      "28,3": 13,
+      "28,4": 13,
+      "28,5": 13,
+      "28,6": 9,
+      "28,7": 9,
+      "28,8": 9,
+      "28,9": 9,
+      "28,10": 9,
+      "28,11": 9,
+      "28,12": 9,
+      "28,13": 9,
+      "28,14": 9,
+      "28,15": 9,
+      "28,16": 9,
+      "28,17": 9,
+      "28,18": 8,
+      "29,0": 8,
+      "29,1": 11,
+      "29,2": 9,
+      "29,3": 9,
+      "29,4": 9,
+      "29,5": 9,
+      "29,6": 4,
+      "29,7": 8,
+      "29,8": 8,
+      "29,9": 8,
+      "29,10": 8,
+      "29,11": 8,
+      "29,12": 8,
+      "29,13": 8,
+      "29,14": 8,
+      "29,15": 8,
+      "29,16": 8,
+      "29,17": 8,
+      "29,18": 8,
+      "30,0": 8,
+      "30,1": 13,
+      "30,2": 13,
+      "30,3": 13,
+      "30,4": 13,
+      "30,5": 13,
+      "30,6": 9,
+      "30,7": 9,
+      "30,8": 9,
+      "30,9": 9,
+      "30,10": 9,
+      "30,11": 9,
+      "30,12": 9,
+      "30,13": 9,
+      "30,14": 9,
+      "30,15": 9,
+      "30,16": 9,
+      "30,17": 9,
+      "30,18": 8,
+      "31,0": 0,
+      "31,1": 0,
+      "31,2": 0,
+      "31,3": 0,
+      "31,4": 0,
+      "31,5": 0,
+      "31,6": 0,
+      "31,7": 0,
+      "31,8": 0,
+      "31,9": 0,
+      "31,10": 0,
+      "31,11": 0,
+      "31,12": 0,
+      "31,13": 0,
+      "31,14": 0,
+      "31,15": 0,
+      "31,16": 0,
+      "31,17": 0,
+      "31,18": 0,
+      "32,0": 0,
+      "32,1": 0,
+      "32,2": 0,
+      "32,3": 0,
+      "32,4": 0,
+      "32,5": 0,
+      "32,6": 0,
+      "32,7": 0,
+      "32,8": 0,
+      "32,9": 0,
+      "32,10": 0,
+      "32,11": 0,
+      "32,12": 0,
+      "32,13": 0,
+      "32,14": 0,
+      "32,15": 0,
+      "32,16": 0,
+      "32,17": 0,
+      "32,18": 0,
+      "33,0": 0,
+      "33,1": 10,
+      "33,2": 0,
+      "33,3": 0,
+      "33,4": 0,
+      "33,5": 0,
+      "33,6": 0,
+      "33,7": 0,
+      "33,8": 0,
+      "33,9": 0,
+      "33,10": 0,
+      "33,11": 0,
+      "33,12": 0,
+      "33,13": 0,
+      "33,14": 0,
+      "33,15": 0,
+      "33,16": 0,
+      "33,17": 0,
+      "33,18": 0,
+      "34,0": 0,
+      "34,1": 0,
+      "34,2": 0,
+      "34,3": 0,
+      "34,4": 0,
+      "34,5": 0,
+      "34,6": 0,
+      "34,7": 0,
+      "34,8": 0,
+      "34,9": 0,
+      "34,10": 0,
+      "34,11": 0,
+      "34,12": 0,
+      "34,13": 0,
+      "34,14": 0,
+      "34,15": 0,
+      "34,16": 0,
+      "34,17": 0,
+      "34,18": 0,
+      "35,0": 8,
+      "35,1": 4,
+      "35,2": 8,
+      "35,3": 8,
+      "35,4": 8,
+      "35,5": 8,
+      "35,6": 8,
+      "35,7": 8,
+      "35,8": 8,
+      "35,9": 8,
+      "35,10": 8,
+      "35,11": 8,
+      "35,12": 8,
+      "35,13": 0,
+      "35,18": 8,
+      "36,0": 8,
+      "36,1": 9,
+      "36,2": 9,
+      "36,3": 9,
+      "36,4": 9,
+      "36,5": 9,
+      "36,6": 9,
+      "36,7": 9,
+      "36,8": 9,
+      "36,9": 9,
+      "36,10": 9,
+      "36,11": 9,
+      "36,12": 9,
+      "36,13": 3,
+      "36,14": 3,
+      "36,15": 3,
+      "36,16": 3,
+      "36,17": 3,
+      "36,18": 8,
+      "37,0": 8,
+      "37,1": 4,
+      "37,2": 8,
+      "37,3": 8,
+      "37,4": 8,
+      "37,5": 8,
+      "37,6": 8,
+      "37,7": 8,
+      "37,8": 8,
+      "37,9": 8,
+      "37,10": 8,
+      "37,11": 8,
+      "37,12": 8,
+      "37,13": 8,
+      "37,18": 8,
+      "38,0": 8,
+      "38,1": 9,
+      "38,2": 9,
+      "38,3": 9,
+      "38,4": 9,
+      "38,5": 9,
+      "38,6": 9,
+      "38,7": 9,
+      "38,8": 9,
+      "38,9": 9,
+      "38,10": 9,
+      "38,11": 9,
+      "38,12": 9,
+      "38,13": 3,
+      "38,14": 3,
+      "38,15": 3,
+      "38,16": 3,
+      "38,17": 3,
+      "38,18": 8,
+      "39,0": 8,
+      "39,1": 4,
+      "39,2": 8,
+      "39,3": 8,
+      "39,4": 8,
+      "39,5": 8,
+      "39,6": 8,
+      "39,7": 8,
+      "39,8": 8,
+      "39,9": 8,
+      "39,10": 8,
+      "39,11": 8,
+      "39,12": 8,
+      "39,13": 8,
+      "39,14": 0,
+      "39,15": 0,
+      "39,16": 0,
+      "39,17": 0,
+      "39,18": 8,
+      "40,0": 8,
+      "40,1": 9,
+      "40,2": 9,
+      "40,3": 9,
+      "40,4": 9,
+      "40,5": 9,
+      "40,6": 9,
+      "40,7": 9,
+      "40,8": 9,
+      "40,9": 9,
+      "40,10": 9,
+      "40,11": 9,
+      "40,12": 9,
+      "40,13": 14,
+      "40,14": 14,
+      "40,15": 14,
+      "40,16": 14,
+      "40,17": 14,
+      "40,18": 8,
+      "41,0": 8,
+      "41,1": 4,
+      "41,2": 8,
+      "41,3": 8,
+      "41,4": 8,
+      "41,5": 8,
+      "41,6": 8,
+      "41,7": 8,
+      "41,8": 8,
+      "41,9": 8,
+      "41,10": 8,
+      "41,11": 8,
+      "41,12": 8,
+      "41,13": 0,
+      "41,14": 0,
+      "41,15": 0,
+      "41,16": 0,
+      "41,17": 0,
+      "41,18": 8,
+      "42,0": 8,
+      "42,1": 9,
+      "42,2": 9,
+      "42,3": 9,
+      "42,4": 9,
+      "42,5": 9,
+      "42,6": 9,
+      "42,7": 9,
+      "42,8": 9,
+      "42,9": 9,
+      "42,10": 9,
+      "42,11": 9,
+      "42,12": 9,
+      "42,13": 14,
+      "42,14": 14,
+      "42,15": 14,
+      "42,16": 14,
+      "42,17": 14,
+      "42,18": 8,
+      "43,0": 8,
+      "43,1": 4,
+      "43,2": 8,
+      "43,3": 8,
+      "43,4": 8,
+      "43,5": 8,
+      "43,6": 8,
+      "43,7": 8,
+      "43,8": 8,
+      "43,9": 8,
+      "43,10": 8,
+      "43,11": 8,
+      "43,12": 8,
+      "43,13": 0,
+      "43,14": 0,
+      "43,15": 0,
+      "43,16": 0,
+      "43,17": 0,
+      "43,18": 8,
+      "44,0": 8,
+      "44,1": 9,
+      "44,2": 9,
+      "44,3": 9,
+      "44,4": 9,
+      "44,5": 9,
+      "44,6": 9,
+      "44,7": 9,
+      "44,8": 9,
+      "44,9": 9,
+      "44,10": 9,
+      "44,11": 9,
+      "44,12": 9,
+      "44,13": 14,
+      "44,14": 14,
+      "44,15": 14,
+      "44,16": 14,
+      "44,17": 14,
+      "44,18": 8,
+      "45,0": 8,
+      "45,1": 4,
+      "45,2": 8,
+      "45,3": 8,
+      "45,4": 8,
+      "45,5": 8,
+      "45,6": 8,
+      "45,7": 8,
+      "45,8": 8,
+      "45,9": 8,
+      "45,10": 8,
+      "45,11": 8,
+      "45,12": 8,
+      "45,13": 15,
+      "45,14": 0,
+      "45,15": 0,
+      "45,16": 0,
+      "45,17": 0,
+      "45,18": 8,
+      "46,0": 8,
+      "46,1": 9,
+      "46,2": 9,
+      "46,3": 9,
+      "46,4": 9,
+      "46,5": 9,
+      "46,6": 9,
+      "46,7": 9,
+      "46,8": 9,
+      "46,9": 9,
+      "46,10": 9,
+      "46,11": 9,
+      "46,12": 9,
+      "46,13": 14,
+      "46,14": 14,
+      "46,15": 14,
+      "46,16": 14,
+      "46,17": 14,
+      "46,18": 8,
+      "47,0": 8,
+      "47,1": 16,
+      "47,2": 8,
+      "47,3": 8,
+      "47,4": 8,
+      "47,5": 8,
+      "47,6": 8,
+      "47,7": 8,
+      "47,8": 8,
+      "47,9": 8,
+      "47,10": 8,
+      "47,11": 8,
+      "47,12": 8,
+      "47,13": 15,
+      "47,14": 0,
+      "47,15": 0,
+      "47,16": 0,
+      "47,17": 0,
+      "47,18": 8,
+      "48,0": 8,
+      "48,1": 9,
+      "48,2": 9,
+      "48,3": 9,
+      "48,4": 9,
+      "48,5": 9,
+      "48,6": 9,
+      "48,7": 9,
+      "48,8": 9,
+      "48,9": 9,
+      "48,10": 9,
+      "48,11": 9,
+      "48,12": 9,
+      "48,13": 14,
+      "48,14": 14,
+      "48,15": 14,
+      "48,16": 14,
+      "48,17": 14,
+      "48,18": 8,
+      "49,0": 0,
+      "49,1": 0,
+      "49,2": 0,
+      "49,3": 0,
+      "49,4": 0,
+      "49,5": 0,
+      "49,6": 0,
+      "49,7": 0,
+      "49,8": 0,
+      "49,9": 0,
+      "49,10": 0,
+      "49,11": 0,
+      "49,12": 0,
+      "49,13": 0,
+      "49,14": 0,
+      "49,15": 0,
+      "49,16": 0,
+      "49,17": 0,
+      "49,18": 0,
+      "50,0": 0,
+      "50,1": 0,
+      "50,2": 0,
+      "50,3": 0,
+      "50,4": 0,
+      "50,5": 0,
+      "50,6": 0,
+      "50,7": 0,
+      "50,8": 0,
+      "50,9": 0,
+      "50,10": 0,
+      "50,11": 0,
+      "50,12": 0,
+      "50,13": 0,
+      "50,14": 0,
+      "50,15": 0,
+      "50,16": 0,
+      "50,17": 0,
+      "50,18": 0,
+      "51,0": 0,
+      "51,1": 10,
+      "51,2": 0,
+      "51,3": 0,
+      "51,4": 0,
+      "51,5": 0,
+      "51,6": 0,
+      "51,7": 0,
+      "51,8": 0,
+      "51,9": 0,
+      "51,10": 0,
+      "51,11": 0,
+      "51,12": 0,
+      "51,13": 0,
+      "51,14": 0,
+      "51,15": 0,
+      "51,16": 0,
+      "51,17": 0,
+      "51,18": 0,
+      "52,0": 0,
+      "52,1": 0,
+      "52,2": 0,
+      "52,3": 0,
+      "52,4": 0,
+      "52,5": 0,
+      "52,6": 0,
+      "52,7": 0,
+      "52,8": 0,
+      "52,9": 0,
+      "52,10": 0,
+      "52,11": 0,
+      "52,12": 0,
+      "52,13": 0,
+      "52,14": 0,
+      "52,15": 0,
+      "52,16": 0,
+      "52,17": 0,
+      "52,18": 0,
+      "53,0": 8,
+      "53,1": 17,
+      "53,2": 9,
+      "53,3": 9,
+      "53,4": 9,
+      "53,5": 9,
+      "53,6": 4,
+      "53,7": 8,
+      "53,8": 8,
+      "53,9": 8,
+      "53,10": 8,
+      "53,11": 8,
+      "53,12": 8,
+      "53,13": 8,
+      "53,14": 8,
+      "53,15": 8,
+      "53,16": 8,
+      "53,17": 8,
+      "53,18": 8,
+      "54,0": 8,
+      "54,1": 13,
+      "54,2": 13,
+      "54,3": 13,
+      "54,4": 13,
+      "54,5": 13,
+      "54,6": 9,
+      "54,7": 9,
+      "54,8": 9,
+      "54,9": 9,
+      "54,10": 9,
+      "54,11": 9,
+      "54,12": 9,
+      "54,13": 9,
+      "54,14": 9,
+      "54,15": 9,
+      "54,16": 9,
+      "54,17": 9,
+      "54,18": 8
+    },
+    "RowStyles": {
+      "3": 18,
+      "4": 18,
+      "5": 18,
+      "6": 18,
+      "7": 18,
+      "8": 18,
+      "9": 18,
+      "10": 18,
+      "11": 18,
+      "12": 18,
+      "13": 18,
+      "14": 18,
+      "21": 18,
+      "22": 18,
+      "23": 18,
+      "24": 18,
+      "25": 18,
+      "26": 18,
+      "27": 18,
+      "28": 18,
+      "29": 18,
+      "30": 18
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "1,1,1,7",
+    "7,1,2,5",
+    "9,1,2,5",
+    "11,1,2,5",
+    "13,1,2,5",
+    "3,1,2,5",
+    "5,1,2,5",
+    "35,13,2,5",
+    "37,13,2,5",
+    "39,13,2,5",
+    "41,13,2,5",
+    "51,1,1,7",
+    "53,1,2,5",
+    "33,1,1,7",
+    "17,1,1,7",
+    "21,1,2,5",
+    "23,1,2,5",
+    "25,1,2,5",
+    "19,1,2,5",
+    "19,6,2,12",
+    "43,13,2,5",
+    "45,13,2,5",
+    "3,6,2,12",
+    "5,6,2,12",
+    "7,6,2,12",
+    "9,6,2,12",
+    "11,6,2,12",
+    "13,6,2,12",
+    "21,6,2,12",
+    "23,6,2,12",
+    "25,6,2,12",
+    "27,1,2,5",
+    "27,6,2,12",
+    "29,1,2,5",
+    "35,1,2,12",
+    "37,1,2,12",
+    "39,1,2,12",
+    "41,1,2,12",
+    "43,1,2,12",
+    "45,1,2,12",
+    "53,6,2,12",
+    "29,6,2,12",
+    "47,13,2,5",
+    "47,1,2,12"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "母版页",
+    "AuthorizeInfo": {
+      "VisitMode": 3
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//NxL3d9phEUvowcHW3jpcVdbh+l13mI1BVcPh09yJTuE4UhMJqaigSpM4/Tr+bL5jatSc4cQerXMbdRfrO3WwI9uggBrlVguh52UFIhUGLc3dtTlvzn49+ivGsw76dlTuvfZDCGqfStdcgkujjCfWBnZK01eRr54GlyvLdP8epl8PV6l5fmRczxlD+0GaPhnsDegyfLzaSnslX7Ueh9yk3z41W9Prq85gL7bdhCKaZTFb7ytJkqwHungFqwwO0V8aF7icyYxNxwFeCApDg9UTOkQPgLJFEJjt6ZeR42MQiduMY8bdRTo1TJZOohagHXeLPQyXlfsPdquJOXzm5EIPqd1v3WXJSqiDOwpVKzwOc4U9hS2DXa+32/9rv09cFqfqJl20mPnDFLus+RMxr5Kc7oJ/N9exZABETqx7qqg7OtivGGS7EPDkHkjpSa9RuQqmFdz+fldRELYKH6IDoIEZ6ehF6qH8RE/YPcdQviQuiVo2+eydjbDnZgj7o0q05gdOUbQgZgetxRePw3l67CMEo6Yvyoio+TYW0tHvzvfZ+TotNcWyWftMIUfYtFPBIJfMZzylvwgs5mZGhNFRr4R08lS3s8VyBw4gzM7oZiHv3oMj3bZ0c3LuXPnuramXuarzyMKV52V3ViYoQxh+jAlpe2bHOmvdfqh5/nhiG36yJu0xrUUdrbNsq9g3Eu3R/tCFRfK7/LMIdEyinCcpJiU8so6GEh/MMBhejU0WbCxJCCBiMjFk4tUAu/26oVDjyoXR9fRTsII3CRFbvanSmtHkWVLt+tiEMC+o5gD5XF45C8L+y44L49QR9dG9mMrjD2rvPQaK88E5Cg7gcVyDi7KLf2GxAlnvbjahTIITthraYsKYkCYn+CfYNkQ42Y4Uy/r+ZfVUYCKT74pDFnT2cfHOdw==|920

@@ -1,0 +1,855 @@
+{
+  "Rows": {
+    "Count": 58
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 17
+  },
+  "Values": {
+    "1,1": "基础用法",
+    "7,1": "下一步",
+    "11,1": "自定义样式",
+    "13,1": 2,
+    "17,1": 2,
+    "22,1": "绑定数据源",
+    "28,1": "下一步",
+    "32,1": "垂直布局",
+    "34,1": 2,
+    "42,1": "可用操作",
+    "44,1": 2,
+    "48,1": "更改当前步骤图标",
+    "51,1": 2,
+    "55,1": "更改当前步骤及已完成步骤颜色"
+  },
+  "AttachInfos": {
+    "3,1": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Steps, Vant",
+        "CommandList": [],
+        "options": [
+          {
+            "value": "1",
+            "title": "步骤1"
+          },
+          {
+            "value": "2",
+            "title": "步骤2"
+          },
+          {
+            "value": "3",
+            "title": "步骤3"
+          }
+        ],
+        "direction": "horizontal",
+        "activeColor": "#07c160",
+        "inactiveColor": "#969799"
+      }
+    },
+    "7,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='Steps 步骤条'!B4"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=IF(ISBLANK('Steps 步骤条'!B4),1,'Steps 步骤条'!B4+1)"
+                }
+              }
+            ]
+          }
+        ],
+        "Text": "下一步",
+        "TemplateKey": "操作"
+      }
+    },
+    "13,1": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Steps, Vant",
+        "CommandList": [],
+        "DefaultValue": 2,
+        "options": [
+          {
+            "value": "1",
+            "title": "步骤1"
+          },
+          {
+            "value": "2",
+            "title": "步骤2"
+          },
+          {
+            "value": "3",
+            "title": "步骤3"
+          }
+        ],
+        "direction": "horizontal",
+        "activeColor": "Text 2 40",
+        "inactiveColor": "Accent 2 40"
+      }
+    },
+    "17,1": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Steps, Vant",
+        "CommandList": [],
+        "DefaultValue": 2,
+        "options": [
+          {
+            "value": "1",
+            "title": "步骤1"
+          },
+          {
+            "value": "2",
+            "title": "步骤2"
+          },
+          {
+            "value": "3",
+            "title": "步骤3"
+          }
+        ],
+        "direction": "horizontal",
+        "activeIcon": {
+          "Name": "Navigation/249_favorite_3.svg",
+          "BuiltIn": true,
+          "Color": "#FF00B050"
+        },
+        "finishIcon": {
+          "Name": "Navigation/245_settings_10.svg",
+          "BuiltIn": true,
+          "Color": "#FF00B050"
+        },
+        "activeColor": "#07c160",
+        "inactiveIcon": {
+          "Name": "Navigation/257_message_3.svg",
+          "BuiltIn": true,
+          "Color": "#c0c4cc"
+        },
+        "inactiveColor": "#969799"
+      }
+    },
+    "24,1": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Steps, Vant",
+        "CommandList": [],
+        "useBinding": true,
+        "options": [
+          {
+            "value": "1",
+            "title": "步骤1"
+          },
+          {
+            "value": "2",
+            "title": "步骤2"
+          },
+          {
+            "value": "3",
+            "title": "步骤3"
+          }
+        ],
+        "bindingOptions": {
+          "$type": "ServerDesignerCommon.Model.BindingDataSourceModel, ServerDesignerCommon",
+          "TableName": "步骤表",
+          "BindingInfos": [
+            {
+              "BindingInfo": {
+                "TableName": "步骤表",
+                "ColumnName": "ID"
+              },
+              "ColumnName": "value"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "步骤表",
+                "ColumnName": "步骤"
+              },
+              "ColumnName": "title"
+            }
+          ]
+        },
+        "direction": "horizontal",
+        "activeColor": "#07c160",
+        "inactiveColor": "#969799"
+      }
+    },
+    "28,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='Steps 步骤条'!B25"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=IF(ISBLANK('Steps 步骤条'!B25),1,'Steps 步骤条'!B25+1)"
+                }
+              }
+            ]
+          }
+        ],
+        "Text": "下一步",
+        "TemplateKey": "操作"
+      }
+    },
+    "34,1": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Steps, Vant",
+        "CommandList": [],
+        "DefaultValue": 2,
+        "options": [
+          {
+            "value": "1",
+            "title": "步骤1"
+          },
+          {
+            "value": "2",
+            "title": "步骤2"
+          },
+          {
+            "value": "3",
+            "title": "步骤3"
+          }
+        ],
+        "direction": "vertical",
+        "activeColor": "#07c160",
+        "inactiveColor": "#969799"
+      }
+    },
+    "44,1": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Steps, Vant",
+        "CommandList": [],
+        "DefaultValue": 2,
+        "options": [
+          {
+            "value": "1",
+            "title": "步骤1"
+          },
+          {
+            "value": "2",
+            "title": "步骤2"
+          },
+          {
+            "value": "3",
+            "title": "步骤3"
+          }
+        ],
+        "direction": "horizontal",
+        "activeColor": "#07c160",
+        "inactiveColor": "#969799"
+      }
+    },
+    "48,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+            "TargetPageElement": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "='Steps 步骤条'!B45"
+            },
+            "TargetType": "Vant.CellTypes.Steps, Vant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5a36ee28e75bb3ab",
+            "MethodName": "UpdateActiveIcon",
+            "ParameterValues": {
+              "activeIcon": {
+                "$type": "GrapeCity.Forguncy.Plugin.ImageValue, GrapeCity.Forguncy.Plugin",
+                "Name": "Navigation/249_favorite_3.svg",
+                "BuiltIn": true,
+                "Color": "#FF00B050"
+              }
+            },
+            "RetrunParamNames": {}
+          }
+        ],
+        "Text": "更改当前步骤图标",
+        "TemplateKey": "操作"
+      }
+    },
+    "51,1": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Steps, Vant",
+        "CommandList": [],
+        "DefaultValue": 2,
+        "options": [
+          {
+            "value": "1",
+            "title": "步骤1"
+          },
+          {
+            "value": "2",
+            "title": "步骤2"
+          },
+          {
+            "value": "3",
+            "title": "步骤3"
+          }
+        ],
+        "direction": "horizontal",
+        "activeColor": "#07c160",
+        "inactiveColor": "#969799"
+      }
+    },
+    "55,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+            "TargetPageElement": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "='Steps 步骤条'!B52"
+            },
+            "TargetType": "Vant.CellTypes.Steps, Vant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5a36ee28e75bb3ab",
+            "MethodName": "UpdateActiveColor",
+            "ParameterValues": {
+              "activeColor": "#FF00B0F0"
+            },
+            "RetrunParamNames": {}
+          }
+        ],
+        "Text": "更改当前步骤及已完成步骤颜色",
+        "TemplateKey": "操作"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "Foreground": 1
+      },
+      {
+        "FontFamily": 0
+      },
+      {
+        "FontFamily": 0,
+        "Foreground": 1,
+        "Formatter": 2
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Text 1 50",
+        "[AUTO]General"
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "1,2": 1,
+      "1,3": 1,
+      "1,4": 1,
+      "1,5": 1,
+      "1,6": 1,
+      "1,7": 1,
+      "6,0": 1,
+      "6,1": 1,
+      "6,2": 1,
+      "6,3": 1,
+      "6,4": 1,
+      "6,5": 1,
+      "6,6": 1,
+      "6,7": 1,
+      "6,8": 1,
+      "6,9": 1,
+      "6,10": 1,
+      "6,11": 1,
+      "6,12": 1,
+      "6,13": 1,
+      "6,14": 1,
+      "6,15": 1,
+      "6,16": 1,
+      "7,0": 1,
+      "7,1": 1,
+      "7,2": 1,
+      "7,3": 1,
+      "7,4": 1,
+      "7,5": 1,
+      "7,6": 1,
+      "7,7": 1,
+      "7,8": 1,
+      "7,9": 1,
+      "7,10": 1,
+      "7,11": 1,
+      "7,12": 1,
+      "7,13": 1,
+      "7,14": 1,
+      "7,15": 1,
+      "7,16": 1,
+      "8,0": 1,
+      "8,1": 1,
+      "8,2": 1,
+      "8,3": 1,
+      "8,4": 1,
+      "8,5": 1,
+      "8,6": 1,
+      "8,7": 1,
+      "8,8": 1,
+      "8,9": 1,
+      "8,10": 1,
+      "8,11": 1,
+      "8,12": 1,
+      "8,13": 1,
+      "8,14": 1,
+      "8,15": 1,
+      "8,16": 1,
+      "9,0": 1,
+      "9,1": 1,
+      "9,2": 1,
+      "9,3": 1,
+      "9,4": 1,
+      "9,5": 1,
+      "9,6": 1,
+      "9,7": 1,
+      "9,8": 1,
+      "9,9": 1,
+      "9,10": 1,
+      "9,11": 1,
+      "9,12": 1,
+      "9,13": 1,
+      "9,14": 1,
+      "9,15": 1,
+      "9,16": 1,
+      "11,1": 0,
+      "11,2": 1,
+      "11,3": 1,
+      "11,4": 1,
+      "11,5": 1,
+      "11,6": 1,
+      "11,7": 1,
+      "22,0": 1,
+      "22,1": 0,
+      "22,2": 1,
+      "22,3": 1,
+      "22,4": 1,
+      "22,5": 1,
+      "22,6": 1,
+      "22,7": 1,
+      "22,8": 1,
+      "22,9": 1,
+      "22,10": 1,
+      "22,11": 1,
+      "22,12": 1,
+      "22,13": 1,
+      "22,14": 1,
+      "22,15": 1,
+      "22,16": 1,
+      "23,0": 1,
+      "23,1": 1,
+      "23,2": 1,
+      "23,3": 1,
+      "23,4": 1,
+      "23,5": 1,
+      "23,6": 1,
+      "23,7": 1,
+      "23,8": 1,
+      "23,9": 1,
+      "23,10": 1,
+      "23,11": 1,
+      "23,12": 1,
+      "23,13": 1,
+      "23,14": 1,
+      "23,15": 1,
+      "23,16": 1,
+      "24,0": 1,
+      "24,1": 1,
+      "24,16": 1,
+      "25,0": 1,
+      "25,16": 1,
+      "26,0": 1,
+      "26,16": 1,
+      "27,0": 1,
+      "27,1": 1,
+      "27,2": 1,
+      "27,3": 1,
+      "27,4": 1,
+      "27,5": 1,
+      "27,6": 1,
+      "27,7": 1,
+      "27,8": 1,
+      "27,9": 1,
+      "27,10": 1,
+      "27,11": 1,
+      "27,12": 1,
+      "27,13": 1,
+      "27,14": 1,
+      "27,15": 1,
+      "27,16": 1,
+      "28,0": 1,
+      "28,1": 1,
+      "28,5": 1,
+      "28,6": 1,
+      "28,7": 1,
+      "28,8": 1,
+      "28,9": 1,
+      "28,10": 1,
+      "28,11": 1,
+      "28,12": 1,
+      "28,13": 1,
+      "28,14": 1,
+      "28,15": 1,
+      "28,16": 1,
+      "29,0": 1,
+      "29,5": 1,
+      "29,6": 1,
+      "29,7": 1,
+      "29,8": 1,
+      "29,9": 1,
+      "29,10": 1,
+      "29,11": 1,
+      "29,12": 1,
+      "29,13": 1,
+      "29,14": 1,
+      "29,15": 1,
+      "29,16": 1,
+      "32,1": 2,
+      "32,2": 1,
+      "32,3": 1,
+      "32,4": 1,
+      "32,5": 1,
+      "32,6": 1,
+      "32,7": 1,
+      "32,8": 1,
+      "32,9": 1,
+      "32,10": 1,
+      "32,11": 1,
+      "32,12": 1,
+      "33,1": 1,
+      "33,2": 1,
+      "33,3": 1,
+      "33,4": 1,
+      "33,5": 1,
+      "33,6": 1,
+      "33,7": 1,
+      "33,8": 1,
+      "33,9": 1,
+      "33,10": 1,
+      "33,11": 1,
+      "33,12": 1,
+      "34,1": 1,
+      "40,1": 1,
+      "40,2": 1,
+      "40,3": 1,
+      "40,4": 1,
+      "40,5": 1,
+      "40,6": 1,
+      "40,7": 1,
+      "40,8": 1,
+      "40,9": 1,
+      "40,10": 1,
+      "40,11": 1,
+      "40,12": 1,
+      "40,13": 1,
+      "40,14": 1,
+      "40,15": 1,
+      "42,1": 2,
+      "42,2": 1,
+      "42,3": 1,
+      "42,4": 1,
+      "42,5": 1,
+      "42,6": 1,
+      "42,7": 1,
+      "42,8": 1,
+      "42,9": 1,
+      "42,10": 1,
+      "42,11": 1,
+      "42,12": 1,
+      "42,13": 1,
+      "42,14": 1,
+      "42,15": 1,
+      "43,1": 1,
+      "43,2": 1,
+      "43,3": 1,
+      "43,4": 1,
+      "43,5": 1,
+      "43,6": 1,
+      "43,7": 1,
+      "43,8": 1,
+      "43,9": 1,
+      "43,10": 1,
+      "43,11": 1,
+      "43,12": 1,
+      "43,13": 1,
+      "43,14": 1,
+      "43,15": 1,
+      "44,1": 1,
+      "44,2": 1,
+      "44,3": 1,
+      "44,4": 1,
+      "44,5": 1,
+      "44,6": 1,
+      "44,7": 1,
+      "44,8": 1,
+      "44,9": 1,
+      "44,10": 1,
+      "44,11": 1,
+      "44,12": 1,
+      "44,13": 1,
+      "44,14": 1,
+      "44,15": 1,
+      "45,1": 1,
+      "45,2": 1,
+      "45,3": 1,
+      "45,4": 1,
+      "45,5": 1,
+      "45,6": 1,
+      "45,7": 1,
+      "45,8": 1,
+      "45,9": 1,
+      "45,10": 1,
+      "45,11": 1,
+      "45,12": 1,
+      "45,13": 1,
+      "45,14": 1,
+      "45,15": 1,
+      "46,1": 1,
+      "46,2": 1,
+      "46,3": 1,
+      "46,4": 1,
+      "46,5": 1,
+      "46,6": 1,
+      "46,7": 1,
+      "46,8": 1,
+      "46,9": 1,
+      "46,10": 1,
+      "46,11": 1,
+      "46,12": 1,
+      "46,13": 1,
+      "46,14": 1,
+      "46,15": 1,
+      "47,1": 1,
+      "47,2": 1,
+      "47,3": 1,
+      "47,4": 1,
+      "47,5": 1,
+      "47,6": 1,
+      "47,7": 1,
+      "47,8": 1,
+      "47,9": 1,
+      "47,10": 1,
+      "47,11": 1,
+      "47,12": 1,
+      "47,13": 1,
+      "47,14": 1,
+      "47,15": 1,
+      "48,1": 1,
+      "48,2": 1,
+      "48,3": 1,
+      "48,4": 1,
+      "48,5": 1,
+      "48,6": 1,
+      "48,7": 1,
+      "48,8": 1,
+      "48,9": 1,
+      "48,10": 1,
+      "48,11": 1,
+      "48,12": 1,
+      "48,13": 1,
+      "48,14": 1,
+      "48,15": 1,
+      "49,1": 1,
+      "49,2": 1,
+      "49,3": 1,
+      "49,4": 1,
+      "49,5": 1,
+      "49,6": 1,
+      "49,7": 1,
+      "49,8": 1,
+      "49,9": 1,
+      "49,10": 1,
+      "49,11": 1,
+      "49,12": 1,
+      "49,13": 1,
+      "49,14": 1,
+      "49,15": 1,
+      "50,1": 1,
+      "50,2": 1,
+      "50,3": 1,
+      "50,4": 1,
+      "50,5": 1,
+      "50,6": 1,
+      "50,7": 1,
+      "50,8": 1,
+      "50,9": 1,
+      "50,10": 1,
+      "50,11": 1,
+      "50,12": 1,
+      "50,13": 1,
+      "50,14": 1,
+      "50,15": 1,
+      "51,1": 1,
+      "51,2": 1,
+      "51,3": 1,
+      "51,4": 1,
+      "51,5": 1,
+      "51,6": 1,
+      "51,7": 1,
+      "51,8": 1,
+      "51,9": 1,
+      "51,10": 1,
+      "51,11": 1,
+      "51,12": 1,
+      "51,13": 1,
+      "51,14": 1,
+      "51,15": 1,
+      "52,1": 1,
+      "52,2": 1,
+      "52,3": 1,
+      "52,4": 1,
+      "52,5": 1,
+      "52,6": 1,
+      "52,7": 1,
+      "52,8": 1,
+      "52,9": 1,
+      "52,10": 1,
+      "52,11": 1,
+      "52,12": 1,
+      "52,13": 1,
+      "52,14": 1,
+      "52,15": 1,
+      "53,1": 1,
+      "53,2": 1,
+      "53,3": 1,
+      "53,4": 1,
+      "53,5": 1,
+      "53,6": 1,
+      "53,7": 1,
+      "53,8": 1,
+      "53,9": 1,
+      "53,10": 1,
+      "53,11": 1,
+      "53,12": 1,
+      "53,13": 1,
+      "53,14": 1,
+      "53,15": 1,
+      "54,1": 1,
+      "54,2": 1,
+      "54,3": 1,
+      "54,4": 1,
+      "54,5": 1,
+      "54,6": 1,
+      "54,7": 1,
+      "54,8": 1,
+      "54,9": 1,
+      "54,10": 1,
+      "54,11": 1,
+      "54,12": 1,
+      "54,13": 1,
+      "54,14": 1,
+      "54,15": 1,
+      "55,1": 1,
+      "55,2": 1,
+      "55,3": 1,
+      "55,4": 1,
+      "55,5": 1,
+      "55,6": 1,
+      "55,7": 1,
+      "55,8": 1,
+      "55,9": 1,
+      "55,10": 1,
+      "55,11": 1,
+      "55,12": 1,
+      "55,13": 1,
+      "55,14": 1,
+      "55,15": 1,
+      "56,1": 1,
+      "56,2": 1,
+      "56,3": 1,
+      "56,4": 1,
+      "56,5": 1,
+      "56,6": 1,
+      "56,7": 1,
+      "56,8": 1,
+      "56,9": 1,
+      "56,10": 1,
+      "56,11": 1,
+      "56,12": 1,
+      "56,13": 1,
+      "56,14": 1,
+      "56,15": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "1,1,1,7",
+    "3,1,3,15",
+    "11,1,1,7",
+    "13,1,3,15",
+    "17,1,3,15",
+    "32,1,1,7",
+    "42,1,1,7",
+    "44,1,3,15",
+    "48,1,2,7",
+    "51,1,3,15",
+    "55,1,2,12",
+    "34,1,6,15",
+    "22,1,1,7",
+    "24,1,3,15",
+    "28,1,2,4",
+    "7,1,2,4"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "母版页",
+    "AuthorizeInfo": {
+      "VisitMode": 3
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//ziLgNh2qn8g+PSw36VsBlNx6EnK2EHcbkjL8+s+wYf0P4JmiEkdjY55q5pYMxRepyD66MoHuOBqE+tYF1iaaNo1VyNEtyeLqRav9ANqjZLtGHMQHZB8WuaEtIGEw0I6OhjdCzPBZEnmBjWN7KcN+CgruKSM2DRyHkDHylK2mtO2wGttC3s/snm6IZD9e3U0r+QhrcxPLVj1f53j9774MXK6cmrPMuZfZCC9LsncYorXQTLz+BzRM1PwWZYRPpVCMRqmTITUCeuNeoILtYHTd95w7XP8Lm6Wn5gEuiYY2OO8Un7mdFCvjORuyihluESVGP6QEIZXjlhUaduA50HtNqHSNsgMcLRR7nwXOB9WWpT/3dMTf6Cfbw7YlzG+HRGCeIS+tXW6d0vQ9lvB0cFd8ACgSKbx2lJrv33s2w++OWNX1KXRbNDNtUabQc6HE4Ug2Bd0KmJjD+SI4Xcnbn1UkYX5EG1ggGx8ZH1j6QGDgU5mSW4RUISj5pgkp/XLz+Y3Fg+rMHdAxYmxBr+vHL72wEVyr8t+rh01+EZvSaVLAHEzyxw27HD0t/UhZxM/qqIP3nZlBjV8n+PRY2nHxPdC/3A1MkEWG3olH+l1X3duewSP3f2cPBFQh/vYtVyFmdcE5ao6Ba6DfXzY+3Fyqy983U+QFoa0BTzXojY8PDFYRoQhca07Y80hOv3TAvhG2SSPe0NQuM7TpS11IWRAKT9BSJDr+vCeJSfDa+avwgKsZnc5lRFe1kRkWUGPT75YsxHMfNIvyyMuXxoqaaHDExFcUhsYclxNal8koDZwNp3Zbhslr4Oc1WePRG+TlRIEaHHBVMXyMcHSxUt1J6Z9CajF61wkLAdMloz0E5pEkCwUVpRKNGWY7zPRCSanC0UiPAVVJCJ/t9qxDFAAEoaYJEAie8g==|920

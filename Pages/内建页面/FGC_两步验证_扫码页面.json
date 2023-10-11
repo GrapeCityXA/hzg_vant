@@ -1,0 +1,160 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "28": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 15.0
+        }
+      }
+    },
+    "Count": 35
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "21": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "22": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "33": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "34": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "35": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      }
+    },
+    "Count": 57
+  },
+  "Values": {
+    "12,22": "两步验证",
+    "14,21": "请使用您手机上的身份验证器APP添加账户并扫描二维码。",
+    "27,21": "下一步"
+  },
+  "AttachInfos": {
+    "5,21": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "ImagePath": "fgc_logo_light.png"
+      }
+    },
+    "17,24": {
+      "CellType": {
+        "$type": "Forguncy.BarcodeCellType, ServerDesignerCommon",
+        "CodeType": "QRCode",
+        "ForguncyAttribute": "MFA_Secret_Barcode"
+      }
+    },
+    "27,21": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "下一步",
+        "TemplateKey": "_RS_RoundCorner_Style2",
+        "ForguncyAttribute": "MFA_Secret_Next_Button"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 18.666666666666664,
+        "FontWeight": 1,
+        "Foreground": 2,
+        "HorizontalAlignment": 3
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Foreground": 4,
+        "HorizontalAlignment": 5,
+        "VerticalAlignment": 6,
+        "WordWrap": true
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Bold",
+        "Text 1 15",
+        "Center",
+        "Text 1 35",
+        "Left",
+        "Top"
+      ]
+    },
+    "CellStyles": {
+      "12,22": 0,
+      "14,21": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "5,21,4,15",
+    "27,21,2,15",
+    "17,24,9,9",
+    "12,22,2,13",
+    "14,21,2,15"
+  ],
+  "BackgroundPictures": [
+    {
+      "FitToBrowserWidth": true,
+      "FitToBrowserHeight": true,
+      "ForguncyPictureName": "PCLoginBackground",
+      "Stretch": 3,
+      "ForguncyPictureSourceType": 2,
+      "Name": "BackgroundPicture0",
+      "Size": "1120,685"
+    },
+    {
+      "StyleInfo": {
+        "CornerRadius": 8.4375,
+        "Fill": "#FFFFFFFF"
+      },
+      "IsAutomaticFill": false,
+      "Name": "BackgroundPicture1",
+      "Location": "380,220",
+      "Size": "360,385"
+    }
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MobilePageName": "FGC_两步验证_扫码页面_手机版",
+    "Title": "两步验证",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//0o/zi285dvCTlL4EIp0usAuyGq/gBRVQzG19Gm2BqbQfyHp5mn9EMkUVJvJf1IXpDMt/wQ2k4Qtmyti7PpKZVxgxMjHVAM1rwWS8AGd7Th7/0Ck22GJj0iF6e5jH/yE07Xb2L+K3k9I7yIvIn1Cii/vNk+RBRA+DvikGdTzVEppnB8VWLeN1wuScO2m+PNIsk3dXEOZ5nwyXGvAkJ4LOf/Du11+LkSsIelEXcXeZlbn0qLAMdj6feMtmOxQnQKD7HMookFoPnfk8xEbchNx8QOLV74JNR8JQI2WbVADZ1d4iSXHxFGPxegpnZpsdLgs+c/qPJmKp8x4HULNJn4WjRTzcYAJLUISMBTDdFyHPXnbBIqgdvupi6HUwQyNFsmdoIWlRi9zGZf0XXOdFUrJfEALWBtrz+Xii1YNnjLFjG/qHW2EUzCfWLbp9VFp5i9Odhdvtz8CFLdWuo7kUG9Q1vi0bAeKXe3QZW0Lx0zsIaLIis9wCTy8FendlMdTTCdVZEmAx8IydaoRFL5RCwi6qtNynQ7JjUuxpdBJJFz2ArVPlbiW4CPUOdAEn3iDLDY6bPMgBVeO53bCs/QJrueFNOrlY04A6VyELbNfO51NMH184A/ZS0iQayPvlW9XGKlExMiuJVEHjbMKl6EpBWh5jfnIkLI0XXQ3QaIiUXCJoYdWKM3fQRsjamVbxr0qlxEpFFjHb+jlltttKr/bQw39PT6XwVVcmYF3obcQqxmU2el89rwErzbLMCeXI5fgW0evG5GyDnauBsqjRmNaFNVDgxUbeOgIYAY+BwSlGSMlfwg7yZ34niTVEN4+1N4Tpxh0PbcV/ZiLTV9jyD8aFrALoqevrrPd5BHH6BZlf15NEbUdmAF+XssVk3GMgNxIN9EQt2Bvrru3SFWwDbOXyVzIEhg==|920

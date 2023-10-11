@@ -1,0 +1,223 @@
+{
+  "Rows": {
+    "Count": 27
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      }
+    },
+    "Count": 19
+  },
+  "Values": {
+    "7,0": "活字格应用程序",
+    "18,3": "登录",
+    "21,3": "忘记密码",
+    "23,1": "默认账户：Administrator\n默认密码：123456",
+    "25,1": "你可以使用管理员给你分配的账号登录"
+  },
+  "AttachInfos": {
+    "2,4": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_Normal1",
+        "ImagePath": "fgc_logo_dark.png"
+      }
+    },
+    "10,3": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "Icon": {
+          "Name": "Navigation/169_user_2.svg",
+          "BuiltIn": true,
+          "Color": "#FF7F7F7F"
+        },
+        "IconSize": 18.0,
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "WaterMark": "账号",
+        "ForguncyAttribute": "LogIn_Username"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "13,3": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "ShowPassword": true,
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "Icon": {
+          "Name": "Application/078_lock_1.svg",
+          "BuiltIn": true,
+          "Color": "#FF7F7F7F"
+        },
+        "IconSize": 18.0,
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "WaterMark": "密码",
+        "ForguncyAttribute": "LogIn_Password"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "16,3": {
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "Caption": "保持登录状态",
+        "Style": 1,
+        "ForguncyAttribute": "LogIn_RememberMe"
+      }
+    },
+    "18,3": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "登录",
+        "AutoExecute": true,
+        "TemplateKey": "_RS_Normal_Style2",
+        "ForguncyAttribute": "LogIn_Button"
+      }
+    },
+    "21,3": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "FGC_忘记密码_手机版",
+            "PassValues": []
+          }
+        ],
+        "Text": "忘记密码"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 13.333333015441895,
+        "Foreground": 0
+      },
+      {
+        "FontSize": 21.333333969116211,
+        "Foreground": 1,
+        "Formatter": 2,
+        "HorizontalAlignment": 3,
+        "VerticalAlignment": 4
+      },
+      {
+        "FontSize": 13.333333015441895,
+        "Formatter": 5,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "FontSize": 13.333333015441895,
+        "Foreground": 6
+      },
+      {
+        "FontSize": 16.0,
+        "FontWeight": 7,
+        "Formatter": 2,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "FontSize": 13.333333015441895,
+        "Foreground": 8,
+        "Formatter": 2,
+        "HorizontalAlignment": 3,
+        "Underline": true,
+        "Strikethrough": false
+      },
+      {
+        "FontSize": 13.333333015441895,
+        "Foreground": 6,
+        "Formatter": 2,
+        "HorizontalAlignment": 3,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "FontSize": 12.0,
+        "Foreground": 6,
+        "Formatter": 2,
+        "HorizontalAlignment": 3,
+        "WordWrap": true
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "#FF000000",
+        "Accent 1 -50",
+        "[AUTO]General",
+        "Center",
+        "Top",
+        "@",
+        "#FF7F7F7F",
+        "Bold",
+        "#FF538BD5",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "2,4": 0,
+      "7,0": 1,
+      "10,3": 2,
+      "13,3": 2,
+      "16,3": 3,
+      "18,3": 4,
+      "21,3": 5,
+      "22,3": 5,
+      "23,1": 6,
+      "25,1": 7
+    },
+    "SheetStyle": {
+      "FontFamily": 9,
+      "Underline": false,
+      "Strikethrough": false
+    }
+  },
+  "Spans": [
+    "7,0,2,19",
+    "16,3,1,13",
+    "25,1,2,17",
+    "10,3,2,13",
+    "13,3,2,13",
+    "2,4,4,11",
+    "18,3,2,13",
+    "23,1,2,17",
+    "21,3,1,13"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "Title": "登录",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true,
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//5hZ7IU5oBsjcrkapD84CALBRwppbS/qotikmbcEE55brOM4NpMkXheW3RqXNOkHbJuHIGAbdfs4eck4T7O8xNiABiZgGYUGT3y7H1JLMUeEGT4LqS9PEPfKxm4DjOb+fDUXq0fBg3qCwSibqOqYQxcT5f5rixdEofILHpEncbfB7rJV5YwWPgujdHv5TX5jQdw0LqudNTRMykW+aOQ4rN4tdJrol3xj549g84aQdzt3/otoIJHZ4u4+mojIBtiSsEXBdA6tRKesVXcV8YJtaSRoaLRTumnFs2SBgUvHe3NS5VKd1lYZINFHRl/bF0C4srqD7p+RfEAJCTSi9sfvwUzD+eNkgAqXwM6NaOp+a3i+/cATEXj6kZmedeO+m+MELvWvmiY9k+isKXgFw939XL0R1ggOG1an5IxbWhgtu+A0s6ye0zkwVOz2E0syk1gVFXXBeEWzKTatB7gU7D0SFLHrHYMTGlhSd/6+ii6JLtj+Tw4HK83VmcPN4HofDKFxR8P6Fkdnw0TV8uodStxZ3Hexf4YScp5X/Qv/J1eCgD/PJWik43RU0WhFL+gJliKiSRGgtLSNnBTZMAhhXZkagGXfyOF8AfA/vYdF/GKTj5w4AdUZs5ZoJufiIt3abVLnI/9L+4Glx16NkKwjQtQWHp3zcpsbhvzQlL6aDuuPHOEvt3pfivvXoaik62A8B8iopRcPWxU+RU/24g3IeaGrdKI1RIbT8PeQhEg1lxPyPnyrQ9SLLrBJCzhvHWoNoJ30RWLN78VTpuKemztRmlY9NNfckGBj49d4Uxrx03YqY7bV98Ix5T9n9AGii7SQ8d8fPRygwod/TsWtjMCstsJQnzdMZ5Sgw0QfknGI5vU7vVHlhM4GCmPx/yXegADtV7+ZM4p9T7nxzuW6lM9Ah3JoO5A==|920

@@ -1,0 +1,139 @@
+{
+  "Rows": {
+    "Count": 25
+  },
+  "Cols": {
+    "Count": 18
+  },
+  "Values": {
+    "2,1": "页面未授权",
+    "5,1": "你没有权限访问目标页面",
+    "7,1": "可能的原因：",
+    "9,1": "目标页面只有属于特定用户组的用户才能访问",
+    "12,1": "解决方法：",
+    "14,1": 1,
+    "14,2": "登出，并使用其他账号重新登录",
+    "16,1": 2,
+    "16,2": "单击浏览器的后退按钮跳转到前一个页面，再选择其他链接浏览",
+    "19,1": 3,
+    "19,2": "联系网站管理员申请权限"
+  },
+  "AttachInfos": {
+    "14,2": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "Text": "登出，并使用其他账号重新登录",
+        "ForguncyAttribute": "401Login"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 21.333333969116211,
+        "Foreground": 0,
+        "Formatter": 1,
+        "HorizontalAlignment": 2,
+        "VerticalAlignment": 3
+      },
+      {
+        "Foreground": 4,
+        "Formatter": 1,
+        "HorizontalAlignment": 2
+      },
+      {
+        "FontSize": 14.666666984558105,
+        "FontWeight": 5,
+        "Foreground": 6,
+        "Formatter": 1
+      },
+      {
+        "Foreground": 4,
+        "Formatter": 1,
+        "WordWrap": true
+      },
+      {
+        "FontSize": 14.666666984558105,
+        "Foreground": 4,
+        "Formatter": 1,
+        "HorizontalAlignment": 7
+      },
+      {
+        "Foreground": 8,
+        "Formatter": 1,
+        "Underline": true
+      },
+      {
+        "FontSize": 14.666666984558105,
+        "Foreground": 4,
+        "Formatter": 1,
+        "HorizontalAlignment": 7,
+        "VerticalAlignment": 9
+      },
+      {
+        "Foreground": 4,
+        "Formatter": 1,
+        "VerticalAlignment": 9,
+        "WordWrap": true
+      },
+      {
+        "Foreground": 4,
+        "Formatter": 1
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Accent 1 -50",
+        "[AUTO]General",
+        "Center",
+        "Bottom",
+        "#FF3F3F3F",
+        "Bold",
+        "#FF7F7F7F",
+        "Left",
+        "#FF0070C0",
+        "Top",
+        "Body",
+        "#FF000000"
+      ]
+    },
+    "CellStyles": {
+      "2,1": 0,
+      "5,1": 1,
+      "7,1": 2,
+      "9,1": 3,
+      "12,1": 2,
+      "14,1": 4,
+      "14,2": 5,
+      "16,1": 6,
+      "16,2": 7,
+      "19,1": 4,
+      "19,2": 8
+    },
+    "SheetStyle": {
+      "FontFamily": 10,
+      "FontSize": 13.333333015441895,
+      "Foreground": 11
+    }
+  },
+  "Spans": [
+    "5,1,1,16",
+    "7,1,2,16",
+    "9,1,2,17",
+    "12,1,2,16",
+    "16,2,2,15",
+    "2,1,2,16"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "Title": "401页面",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true,
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//8MobUlZngUE1b6zhX4AwmGF2wad9dCPC79eB2EMkYohbvNBm4wwLjIlafvcCrhP5sq+x+v2gTjszKGZFije5m7yeKfbOcVNpMmbPLL/wpYrVLbuaigrqwR9YR6c34UwcsT3f4XZyyfTks+brbGJ/P1wTv7wvaI0vfhn8JQzNkuhU/orCFk8jh9P5pj9y/NrZxPtmdcQP1T4bjsQNPziQufTONb/eeevdIfezIqojIF1qO/7LXmJKSJzJBSFDj3LsHq2UNYZqza69OuPDLWzOmPp9WpnZvExFo3rkgTe0Ifcu/AytnsnxhxQZS24llnDjUiLkvtThpF2I34CbsxiVOTmwNd/BT4DVWi5OUSlGXmPfj5Xzigpey2NZtSRjiT+tANW+jKDy13SFVzeN+0nfLbZnl18hEaiFeUqa6muAIY6f7n/2MpYq3cv1rHeRKVW0qHpayenUSZX7ox2O0hFwSS5BUHLkuwP+FmZIvF4omUAmVzmGiWFh3nihGFOUb/kmUiUpv4r1jL1INUV5BWpfZseTHVUq8ZtuJBCtB3HpoL3wNkO64oNufK4MZqppzUzDf/I3iPT9i1aANXnaTEjYL291QcJkOvDFJ7X58yGbTITZgUyaOmyBt8lkdwA/O65WJZzhwylat/+sbXRv3eS/2YJqYp4UM3QvbM5hGjNlILvOaeks+nsPqmeNAkka+UrxRlucJsnalCulHTYprVbQyV66CxYgRqZbF75NQqPh7Hkk6zA1QUAirXN8yEBDmLJ87Kf3b7D5C0ufm2RFex7Krh0fBnECUssi9+5axdjkaHH+HvTlXdOkM1JhjyKk0ES0oYalg4NA7hq525acUl96KUpczP5Ysll5cf9OZQVtE92kx3gq9JqayxBVGVuAl4XTM9aWgqq3D0JpVN2DqTWv7A==|920

@@ -1,0 +1,1337 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 1
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 1
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 1
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 1
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 1
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 1
+        }
+      },
+      "21": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 1
+        }
+      },
+      "22": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 1
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 1
+        }
+      },
+      "29": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 1
+        }
+      },
+      "30": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 1
+        }
+      },
+      "37": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 1
+        }
+      },
+      "38": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 1
+        }
+      },
+      "39": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 1
+        }
+      },
+      "46": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 1
+        }
+      },
+      "47": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 1
+        }
+      },
+      "48": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 1
+        }
+      }
+    },
+    "Count": 63
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 17
+  },
+  "Values": {
+    "1,1": "基础用法",
+    "10,1": "标签栏滚动",
+    "19,1": "自定义样式(颜色,横线长度）",
+    "27,1": "卡片样式",
+    "35,1": "左侧收缩",
+    "44,1": "徽标提示",
+    "53,1": "绑定数据",
+    "59,1": "设置徽标"
+  },
+  "AttachInfos": {
+    "3,0": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Tabs, Vant",
+        "ClickCommand": {
+          "$type": "GrapeCity.Forguncy.Commands.CustomCommandObject, Forguncy.Commands",
+          "Commands": [
+            {
+              "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+              "TargetPageElement": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "='Tabs 标签页'!A7"
+              },
+              "TargetType": "Forguncy.TabControlCellType, ServerDesignerCommon, Version=8.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+              "MethodName": "SetActiveTabIndex",
+              "ParameterValues": {
+                "index": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='Tabs 标签页'!页签编号"
+                }
+              },
+              "RetrunParamNames": {}
+            }
+          ],
+          "ParamProperties": {
+            "itemIndex": "页签编号",
+            "itemValue": "页签值",
+            "itemText": "页签文本"
+          }
+        },
+        "tabs": [
+          {
+            "$type": "Vant.CellTypes.Tab, Vant",
+            "value": "1",
+            "title": "标签1"
+          },
+          {
+            "$type": "Vant.CellTypes.Tab, Vant",
+            "value": "2",
+            "title": "标签2"
+          },
+          {
+            "$type": "Vant.CellTypes.Tab, Vant",
+            "value": "3",
+            "title": "标签3"
+          }
+        ],
+        "type": "line",
+        "background": "#ffffff",
+        "color": "#ee0a24"
+      }
+    },
+    "6,0": {
+      "CellType": {
+        "$type": "Forguncy.TabControlCellType, ServerDesignerCommon",
+        "Tabs": [
+          "页面1",
+          "页面2",
+          "页面3"
+        ],
+        "HideHeader": true
+      }
+    },
+    "12,0": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Tabs, Vant",
+        "ClickCommand": {
+          "$type": "GrapeCity.Forguncy.Commands.CustomCommandObject, Forguncy.Commands",
+          "Commands": [
+            {
+              "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+              "TargetPageElement": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "='Tabs 标签页'!A16"
+              },
+              "TargetType": "Forguncy.TabControlCellType, ServerDesignerCommon, Version=8.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+              "MethodName": "SetActiveTabIndex",
+              "ParameterValues": {
+                "index": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=MOD('Tabs 标签页'!页签编号,3)+1"
+                }
+              },
+              "RetrunParamNames": {}
+            }
+          ],
+          "ParamProperties": {
+            "itemIndex": "页签编号",
+            "itemValue": "页签值",
+            "itemText": "页签文本"
+          }
+        },
+        "tabs": [
+          {
+            "$type": "Vant.CellTypes.Tab, Vant",
+            "value": "1",
+            "title": "标签1"
+          },
+          {
+            "$type": "Vant.CellTypes.Tab, Vant",
+            "value": "2",
+            "title": "标签2"
+          },
+          {
+            "$type": "Vant.CellTypes.Tab, Vant",
+            "value": "3",
+            "title": "标签3"
+          },
+          {
+            "$type": "Vant.CellTypes.Tab, Vant",
+            "value": "4",
+            "title": "标签4"
+          },
+          {
+            "$type": "Vant.CellTypes.Tab, Vant",
+            "value": "5",
+            "title": "标签5"
+          },
+          {
+            "$type": "Vant.CellTypes.Tab, Vant",
+            "value": "6",
+            "title": "标签6"
+          },
+          {
+            "$type": "Vant.CellTypes.Tab, Vant",
+            "value": "7",
+            "title": "标签7"
+          },
+          {
+            "$type": "Vant.CellTypes.Tab, Vant",
+            "value": "8",
+            "title": "标签8"
+          },
+          {
+            "$type": "Vant.CellTypes.Tab, Vant",
+            "value": "9",
+            "title": "标签9"
+          },
+          {
+            "$type": "Vant.CellTypes.Tab, Vant",
+            "value": "10",
+            "title": "标签10"
+          },
+          {
+            "$type": "Vant.CellTypes.Tab, Vant",
+            "value": "11",
+            "title": "标签11"
+          },
+          {
+            "$type": "Vant.CellTypes.Tab, Vant",
+            "value": "12",
+            "title": "标签12"
+          },
+          {
+            "$type": "Vant.CellTypes.Tab, Vant",
+            "value": "13",
+            "title": "标签13"
+          },
+          {
+            "$type": "Vant.CellTypes.Tab, Vant",
+            "value": "14",
+            "title": "标签14"
+          },
+          {
+            "$type": "Vant.CellTypes.Tab, Vant",
+            "value": "15",
+            "title": "标签15"
+          },
+          {
+            "$type": "Vant.CellTypes.Tab, Vant",
+            "value": "16",
+            "title": "标签16"
+          },
+          {
+            "$type": "Vant.CellTypes.Tab, Vant",
+            "value": "17",
+            "title": "标签17"
+          }
+        ],
+        "type": "line",
+        "background": "#ffffff",
+        "color": "#ee0a24"
+      }
+    },
+    "15,0": {
+      "CellType": {
+        "$type": "Forguncy.TabControlCellType, ServerDesignerCommon",
+        "Tabs": [
+          "页面1",
+          "页面2",
+          "页面3"
+        ],
+        "HideHeader": true
+      }
+    },
+    "21,0": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Tabs, Vant",
+        "ClickCommand": {
+          "$type": "GrapeCity.Forguncy.Commands.CustomCommandObject, Forguncy.Commands",
+          "Commands": [
+            {
+              "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+              "TargetPageElement": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "='Tabs 标签页'!A25"
+              },
+              "TargetType": "Forguncy.TabControlCellType, ServerDesignerCommon, Version=8.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+              "MethodName": "SetActiveTabIndex",
+              "ParameterValues": {
+                "index": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='Tabs 标签页'!页签编号"
+                }
+              },
+              "RetrunParamNames": {}
+            }
+          ],
+          "ParamProperties": {
+            "itemIndex": "页签编号",
+            "itemValue": "页签值",
+            "itemText": "页签文本"
+          }
+        },
+        "tabs": [
+          {
+            "$type": "Vant.CellTypes.Tab, Vant",
+            "value": "1",
+            "title": "标签1"
+          },
+          {
+            "$type": "Vant.CellTypes.Tab, Vant",
+            "value": "2",
+            "title": "标签2"
+          },
+          {
+            "$type": "Vant.CellTypes.Tab, Vant",
+            "value": "3",
+            "title": "标签3"
+          }
+        ],
+        "type": "line",
+        "background": "#ffffff",
+        "color": "Accent 2 -25",
+        "titleActiveColor": "Background 2 -50",
+        "titleInactiveColor": "Text 1 5",
+        "lineWidth": 10
+      }
+    },
+    "24,0": {
+      "CellType": {
+        "$type": "Forguncy.TabControlCellType, ServerDesignerCommon",
+        "Tabs": [
+          "页面1",
+          "页面2",
+          "页面3"
+        ],
+        "HideHeader": true
+      }
+    },
+    "29,0": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Tabs, Vant",
+        "ClickCommand": {
+          "$type": "GrapeCity.Forguncy.Commands.CustomCommandObject, Forguncy.Commands",
+          "Commands": [
+            {
+              "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+              "TargetPageElement": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "='Tabs 标签页'!A32"
+              },
+              "TargetType": "Forguncy.TabControlCellType, ServerDesignerCommon, Version=8.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+              "MethodName": "SetActiveTabIndex",
+              "ParameterValues": {
+                "index": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='Tabs 标签页'!页签编号"
+                }
+              },
+              "RetrunParamNames": {}
+            }
+          ],
+          "ParamProperties": {
+            "itemIndex": "页签编号",
+            "itemValue": "页签值",
+            "itemText": "页签文本"
+          }
+        },
+        "tabs": [
+          {
+            "$type": "Vant.CellTypes.Tab, Vant",
+            "value": "1",
+            "title": "标签1"
+          },
+          {
+            "$type": "Vant.CellTypes.Tab, Vant",
+            "value": "2",
+            "title": "标签2"
+          },
+          {
+            "$type": "Vant.CellTypes.Tab, Vant",
+            "value": "3",
+            "title": "标签3"
+          }
+        ],
+        "type": "card",
+        "background": "#ffffff",
+        "color": "Text 2 40",
+        "titleActiveColor": "Accent 1 80",
+        "titleInactiveColor": "Background 2 -50"
+      }
+    },
+    "31,0": {
+      "CellType": {
+        "$type": "Forguncy.TabControlCellType, ServerDesignerCommon",
+        "Tabs": [
+          "页面1",
+          "页面2",
+          "页面3"
+        ],
+        "HideHeader": true
+      }
+    },
+    "37,0": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Tabs, Vant",
+        "ClickCommand": {
+          "$type": "GrapeCity.Forguncy.Commands.CustomCommandObject, Forguncy.Commands",
+          "Commands": [
+            {
+              "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+              "TargetPageElement": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "='Tabs 标签页'!A41"
+              },
+              "TargetType": "Forguncy.TabControlCellType, ServerDesignerCommon, Version=8.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+              "MethodName": "SetActiveTabIndex",
+              "ParameterValues": {
+                "index": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='Tabs 标签页'!页签编号"
+                }
+              },
+              "RetrunParamNames": {}
+            }
+          ],
+          "ParamProperties": {
+            "itemIndex": "页签编号",
+            "itemValue": "页签值",
+            "itemText": "页签文本"
+          }
+        },
+        "tabs": [
+          {
+            "$type": "Vant.CellTypes.Tab, Vant",
+            "value": "1",
+            "title": "标签1"
+          },
+          {
+            "$type": "Vant.CellTypes.Tab, Vant",
+            "value": "2",
+            "title": "标签2"
+          },
+          {
+            "$type": "Vant.CellTypes.Tab, Vant",
+            "value": "3",
+            "title": "标签3"
+          }
+        ],
+        "type": "line",
+        "background": "#ffffff",
+        "color": "#ee0a24",
+        "shrink": true
+      }
+    },
+    "40,0": {
+      "CellType": {
+        "$type": "Forguncy.TabControlCellType, ServerDesignerCommon",
+        "Tabs": [
+          "页面1",
+          "页面2",
+          "页面3"
+        ],
+        "HideHeader": true
+      }
+    },
+    "46,0": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Tabs, Vant",
+        "ClickCommand": {
+          "$type": "GrapeCity.Forguncy.Commands.CustomCommandObject, Forguncy.Commands",
+          "Commands": [
+            {
+              "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+              "TargetPageElement": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "='Tabs 标签页'!A50"
+              },
+              "TargetType": "Forguncy.TabControlCellType, ServerDesignerCommon, Version=8.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+              "MethodName": "SetActiveTabIndex",
+              "ParameterValues": {
+                "index": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='Tabs 标签页'!页签编号"
+                }
+              },
+              "RetrunParamNames": {}
+            }
+          ],
+          "ParamProperties": {
+            "itemIndex": "页签编号",
+            "itemValue": "页签值",
+            "itemText": "页签文本"
+          }
+        },
+        "tabs": [
+          {
+            "$type": "Vant.CellTypes.Tab, Vant",
+            "value": "1",
+            "title": "小红点",
+            "dot": true,
+            "badge": "99+"
+          },
+          {
+            "$type": "Vant.CellTypes.Tab, Vant",
+            "value": "2",
+            "title": "徽标",
+            "badge": "99+"
+          },
+          {
+            "$type": "Vant.CellTypes.Tab, Vant",
+            "value": "3",
+            "title": "无提示"
+          }
+        ],
+        "type": "line",
+        "background": "#ffffff",
+        "color": "Accent 1"
+      }
+    },
+    "49,0": {
+      "CellType": {
+        "$type": "Forguncy.TabControlCellType, ServerDesignerCommon",
+        "Tabs": [
+          "页面1",
+          "页面2",
+          "页面3"
+        ],
+        "HideHeader": true
+      }
+    },
+    "55,0": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Tabs, Vant",
+        "ClickCommand": {
+          "$type": "GrapeCity.Forguncy.Commands.CustomCommandObject, Forguncy.Commands",
+          "Commands": [],
+          "ParamProperties": {
+            "itemIndex": "页签编号",
+            "itemValue": "页签值",
+            "itemText": "页签文本"
+          }
+        },
+        "useBinding": true,
+        "tabs": [
+          {
+            "$type": "Vant.CellTypes.Tab, Vant",
+            "value": "1",
+            "title": "标签1"
+          },
+          {
+            "$type": "Vant.CellTypes.Tab, Vant",
+            "value": "2",
+            "title": "标签2"
+          },
+          {
+            "$type": "Vant.CellTypes.Tab, Vant",
+            "value": "3",
+            "title": "标签3"
+          }
+        ],
+        "bindingOptions": {
+          "$type": "ServerDesignerCommon.Model.BindingDataSourceModel, ServerDesignerCommon",
+          "TableName": "步骤表",
+          "BindingInfos": [
+            {
+              "BindingInfo": {
+                "TableName": "步骤表",
+                "ColumnName": "步骤"
+              },
+              "ColumnName": "value"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "步骤表",
+                "ColumnName": "步骤"
+              },
+              "ColumnName": "title"
+            }
+          ]
+        },
+        "type": "line",
+        "background": "#ffffff",
+        "color": "#ee0a24"
+      }
+    },
+    "59,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+            "TargetPageElement": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "='Tabs 标签页'!A56"
+            },
+            "TargetType": "Vant.CellTypes.Tabs, Vant, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5a36ee28e75bb3ab",
+            "MethodName": "SetBadge",
+            "ParameterValues": {
+              "itemValue": "发货",
+              "badgeValue": "22"
+            },
+            "RetrunParamNames": {}
+          }
+        ],
+        "Text": "设置徽标",
+        "TemplateKey": "操作"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "Foreground": 1
+      },
+      {
+        "FontFamily": 0
+      },
+      {
+        "FontFamily": 0,
+        "Foreground": 2
+      },
+      {
+        "Background": 3,
+        "FontFamily": 0,
+        "Foreground": 2
+      },
+      {
+        "Background": 3,
+        "FontFamily": 0
+      },
+      {
+        "FontFamily": 0,
+        "Foreground": 1,
+        "Formatter": 4
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 12.0,
+        "Formatter": 4
+      },
+      {
+        "Background": 3
+      },
+      {
+        "Background": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Text 1 50",
+        "#337AB7",
+        "Background 1 0",
+        "[AUTO]General"
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "1,2": 1,
+      "1,3": 1,
+      "1,4": 1,
+      "1,5": 1,
+      "1,6": 1,
+      "1,7": 1,
+      "3,0": 1,
+      "6,0": 2,
+      "10,1": 0,
+      "10,2": 1,
+      "10,3": 1,
+      "10,4": 1,
+      "10,5": 1,
+      "10,6": 1,
+      "10,7": 1,
+      "12,0": 1,
+      "12,1": 1,
+      "12,2": 1,
+      "12,3": 1,
+      "12,4": 1,
+      "12,5": 1,
+      "12,6": 1,
+      "12,7": 1,
+      "12,8": 1,
+      "12,9": 1,
+      "12,10": 1,
+      "12,11": 1,
+      "12,12": 1,
+      "12,13": 1,
+      "12,14": 1,
+      "12,15": 1,
+      "12,16": 1,
+      "13,0": 1,
+      "13,1": 1,
+      "13,2": 1,
+      "13,3": 1,
+      "13,4": 1,
+      "13,5": 1,
+      "13,6": 1,
+      "13,7": 1,
+      "13,8": 1,
+      "13,9": 1,
+      "13,10": 1,
+      "13,11": 1,
+      "13,12": 1,
+      "13,13": 1,
+      "13,14": 1,
+      "13,15": 1,
+      "13,16": 1,
+      "14,0": 1,
+      "14,1": 1,
+      "14,2": 1,
+      "14,3": 1,
+      "14,4": 1,
+      "14,5": 1,
+      "14,6": 1,
+      "14,7": 1,
+      "14,8": 1,
+      "14,9": 1,
+      "14,10": 1,
+      "14,11": 1,
+      "14,12": 1,
+      "14,13": 1,
+      "14,14": 1,
+      "14,15": 1,
+      "14,16": 1,
+      "15,0": 3,
+      "15,1": 4,
+      "15,2": 4,
+      "15,3": 4,
+      "15,4": 4,
+      "15,5": 4,
+      "15,6": 4,
+      "15,7": 4,
+      "15,8": 4,
+      "15,9": 4,
+      "15,10": 4,
+      "15,11": 4,
+      "15,12": 4,
+      "15,13": 4,
+      "15,14": 4,
+      "15,15": 4,
+      "15,16": 4,
+      "16,0": 4,
+      "16,1": 4,
+      "16,2": 4,
+      "16,3": 4,
+      "16,4": 4,
+      "16,5": 4,
+      "16,6": 4,
+      "16,7": 4,
+      "16,8": 4,
+      "16,9": 4,
+      "16,10": 4,
+      "16,11": 4,
+      "16,12": 4,
+      "16,13": 4,
+      "16,14": 4,
+      "16,15": 4,
+      "16,16": 4,
+      "17,0": 3,
+      "17,1": 3,
+      "17,2": 3,
+      "17,3": 3,
+      "17,4": 3,
+      "17,5": 3,
+      "17,6": 3,
+      "17,7": 3,
+      "17,8": 3,
+      "17,9": 3,
+      "17,10": 3,
+      "17,11": 3,
+      "17,12": 3,
+      "17,13": 3,
+      "17,14": 3,
+      "17,15": 3,
+      "17,16": 3,
+      "19,1": 5,
+      "21,0": 1,
+      "24,0": 2,
+      "24,1": 1,
+      "24,2": 1,
+      "24,3": 1,
+      "24,4": 1,
+      "24,5": 1,
+      "24,6": 1,
+      "24,7": 1,
+      "24,8": 1,
+      "24,9": 1,
+      "24,10": 1,
+      "24,11": 1,
+      "24,12": 1,
+      "24,13": 1,
+      "24,14": 1,
+      "24,15": 1,
+      "24,16": 1,
+      "25,0": 1,
+      "25,1": 1,
+      "25,2": 1,
+      "25,3": 1,
+      "25,4": 1,
+      "25,5": 1,
+      "25,6": 1,
+      "25,7": 1,
+      "25,8": 1,
+      "25,9": 1,
+      "25,10": 1,
+      "25,11": 1,
+      "25,12": 1,
+      "25,13": 1,
+      "25,14": 1,
+      "25,15": 1,
+      "25,16": 1,
+      "27,1": 5,
+      "27,2": 1,
+      "27,3": 1,
+      "27,4": 1,
+      "27,5": 1,
+      "27,6": 1,
+      "27,7": 1,
+      "29,0": 1,
+      "31,0": 2,
+      "31,1": 1,
+      "31,2": 1,
+      "31,3": 1,
+      "31,4": 1,
+      "31,5": 1,
+      "31,6": 1,
+      "31,7": 1,
+      "31,8": 1,
+      "31,9": 1,
+      "31,10": 1,
+      "31,11": 1,
+      "31,12": 1,
+      "31,13": 1,
+      "31,14": 1,
+      "31,15": 1,
+      "31,16": 1,
+      "32,0": 1,
+      "32,1": 1,
+      "32,2": 1,
+      "32,3": 1,
+      "32,4": 1,
+      "32,5": 1,
+      "32,6": 1,
+      "32,7": 1,
+      "32,8": 1,
+      "32,9": 1,
+      "32,10": 1,
+      "32,11": 1,
+      "32,12": 1,
+      "32,13": 1,
+      "32,14": 1,
+      "32,15": 1,
+      "32,16": 1,
+      "33,0": 1,
+      "33,1": 1,
+      "33,2": 1,
+      "33,3": 1,
+      "33,4": 1,
+      "33,5": 1,
+      "33,6": 1,
+      "33,7": 1,
+      "33,8": 1,
+      "33,9": 1,
+      "33,10": 1,
+      "33,11": 1,
+      "33,12": 1,
+      "33,13": 1,
+      "33,14": 1,
+      "33,15": 1,
+      "33,16": 1,
+      "35,1": 5,
+      "35,2": 1,
+      "35,3": 1,
+      "35,4": 1,
+      "35,5": 1,
+      "35,6": 1,
+      "35,7": 1,
+      "37,0": 1,
+      "40,0": 2,
+      "40,1": 1,
+      "40,2": 1,
+      "40,3": 1,
+      "40,4": 1,
+      "40,5": 1,
+      "40,6": 1,
+      "40,7": 1,
+      "40,8": 1,
+      "40,9": 1,
+      "40,10": 1,
+      "40,11": 1,
+      "40,12": 1,
+      "40,13": 1,
+      "40,14": 1,
+      "40,15": 1,
+      "40,16": 1,
+      "41,0": 1,
+      "41,1": 1,
+      "41,2": 1,
+      "41,3": 1,
+      "41,4": 1,
+      "41,5": 1,
+      "41,6": 1,
+      "41,7": 1,
+      "41,8": 1,
+      "41,9": 1,
+      "41,10": 1,
+      "41,11": 1,
+      "41,12": 1,
+      "41,13": 1,
+      "41,14": 1,
+      "41,15": 1,
+      "41,16": 1,
+      "44,0": 1,
+      "44,1": 5,
+      "44,2": 1,
+      "44,3": 1,
+      "44,4": 1,
+      "44,5": 1,
+      "44,6": 1,
+      "44,7": 1,
+      "44,8": 1,
+      "44,9": 1,
+      "44,10": 1,
+      "44,11": 1,
+      "44,12": 1,
+      "44,13": 1,
+      "44,14": 1,
+      "44,15": 1,
+      "44,16": 1,
+      "45,0": 1,
+      "45,1": 1,
+      "45,2": 1,
+      "45,3": 1,
+      "45,4": 1,
+      "45,5": 1,
+      "45,6": 1,
+      "45,7": 1,
+      "45,8": 1,
+      "45,9": 1,
+      "45,10": 1,
+      "45,11": 1,
+      "45,12": 1,
+      "45,13": 1,
+      "45,14": 1,
+      "45,15": 1,
+      "45,16": 1,
+      "46,0": 1,
+      "49,0": 3,
+      "49,1": 4,
+      "49,2": 4,
+      "49,3": 4,
+      "49,4": 4,
+      "49,5": 4,
+      "49,6": 4,
+      "49,7": 4,
+      "49,8": 4,
+      "49,9": 4,
+      "49,10": 4,
+      "49,11": 4,
+      "49,12": 4,
+      "49,13": 4,
+      "49,14": 4,
+      "49,15": 4,
+      "49,16": 4,
+      "50,0": 4,
+      "50,1": 4,
+      "50,2": 4,
+      "50,3": 4,
+      "50,4": 4,
+      "50,5": 4,
+      "50,6": 4,
+      "50,7": 4,
+      "50,8": 4,
+      "50,9": 4,
+      "50,10": 4,
+      "50,11": 4,
+      "50,12": 4,
+      "50,13": 4,
+      "50,14": 4,
+      "50,15": 4,
+      "50,16": 4,
+      "51,0": 2,
+      "51,1": 2,
+      "51,2": 2,
+      "51,3": 2,
+      "51,4": 2,
+      "51,5": 2,
+      "51,6": 2,
+      "51,7": 2,
+      "51,8": 2,
+      "51,9": 2,
+      "51,10": 2,
+      "51,11": 2,
+      "51,12": 2,
+      "51,13": 2,
+      "51,14": 2,
+      "51,15": 2,
+      "51,16": 2,
+      "52,0": 2,
+      "52,1": 2,
+      "52,2": 2,
+      "52,3": 2,
+      "52,4": 2,
+      "52,5": 2,
+      "52,6": 2,
+      "52,7": 2,
+      "52,8": 2,
+      "52,9": 2,
+      "52,10": 2,
+      "52,11": 2,
+      "52,12": 2,
+      "52,13": 2,
+      "52,14": 2,
+      "52,15": 2,
+      "52,16": 2,
+      "53,0": 2,
+      "53,1": 5,
+      "53,2": 1,
+      "53,3": 1,
+      "53,4": 1,
+      "53,5": 1,
+      "53,6": 1,
+      "53,7": 1,
+      "53,8": 2,
+      "53,9": 2,
+      "53,10": 2,
+      "53,11": 2,
+      "53,12": 2,
+      "53,13": 2,
+      "53,14": 2,
+      "53,15": 2,
+      "53,16": 2,
+      "54,0": 2,
+      "54,1": 2,
+      "54,2": 2,
+      "54,3": 2,
+      "54,4": 2,
+      "54,5": 2,
+      "54,6": 2,
+      "54,7": 2,
+      "54,8": 2,
+      "54,9": 2,
+      "54,10": 2,
+      "54,11": 2,
+      "54,12": 2,
+      "54,13": 2,
+      "54,14": 2,
+      "54,15": 2,
+      "54,16": 2,
+      "55,0": 1,
+      "55,1": 1,
+      "55,2": 1,
+      "55,3": 1,
+      "55,4": 1,
+      "55,5": 1,
+      "55,6": 1,
+      "55,7": 1,
+      "55,8": 1,
+      "55,9": 1,
+      "55,10": 1,
+      "55,11": 1,
+      "55,12": 1,
+      "55,13": 1,
+      "55,14": 1,
+      "55,15": 1,
+      "55,16": 1,
+      "56,0": 1,
+      "56,1": 1,
+      "56,2": 1,
+      "56,3": 1,
+      "56,4": 1,
+      "56,5": 1,
+      "56,6": 1,
+      "56,7": 1,
+      "56,8": 1,
+      "56,9": 1,
+      "56,10": 1,
+      "56,11": 1,
+      "56,12": 1,
+      "56,13": 1,
+      "56,14": 1,
+      "56,15": 1,
+      "56,16": 1,
+      "57,0": 1,
+      "57,1": 1,
+      "57,2": 1,
+      "57,3": 1,
+      "57,4": 1,
+      "57,5": 1,
+      "57,6": 1,
+      "57,7": 1,
+      "57,8": 1,
+      "57,9": 1,
+      "57,10": 1,
+      "57,11": 1,
+      "57,12": 1,
+      "57,13": 1,
+      "57,14": 1,
+      "57,15": 1,
+      "57,16": 1,
+      "58,0": 2,
+      "58,1": 2,
+      "58,2": 2,
+      "58,3": 2,
+      "58,4": 2,
+      "58,5": 2,
+      "58,6": 2,
+      "58,7": 2,
+      "58,8": 2,
+      "58,9": 2,
+      "58,10": 2,
+      "58,11": 2,
+      "58,12": 2,
+      "58,13": 2,
+      "58,14": 2,
+      "58,15": 2,
+      "58,16": 2,
+      "59,0": 2,
+      "59,1": 6,
+      "59,2": 1,
+      "59,3": 1,
+      "59,4": 1,
+      "59,5": 2,
+      "59,6": 2,
+      "59,7": 2,
+      "59,8": 2,
+      "59,9": 2,
+      "59,10": 2,
+      "59,11": 2,
+      "59,12": 2,
+      "59,13": 2,
+      "59,14": 2,
+      "59,15": 2,
+      "59,16": 2,
+      "60,0": 2,
+      "60,1": 1,
+      "60,2": 1,
+      "60,3": 1,
+      "60,4": 1,
+      "60,5": 2,
+      "60,6": 2,
+      "60,7": 2,
+      "60,8": 2,
+      "60,9": 2,
+      "60,10": 2,
+      "60,11": 2,
+      "60,12": 2,
+      "60,13": 2,
+      "60,14": 2,
+      "60,15": 2,
+      "60,16": 2,
+      "61,0": 2,
+      "61,1": 2,
+      "61,2": 2,
+      "61,3": 2,
+      "61,4": 2,
+      "61,5": 2,
+      "61,6": 2,
+      "61,7": 2,
+      "61,8": 2,
+      "61,9": 2,
+      "61,10": 2,
+      "61,11": 2,
+      "61,12": 2,
+      "61,13": 2,
+      "61,14": 2,
+      "61,15": 2,
+      "61,16": 2,
+      "62,0": 2,
+      "62,1": 2,
+      "62,2": 2,
+      "62,3": 2,
+      "62,4": 2,
+      "62,5": 2,
+      "62,6": 2,
+      "62,7": 2,
+      "62,8": 2,
+      "62,9": 2,
+      "62,10": 2,
+      "62,11": 2,
+      "62,12": 2,
+      "62,13": 2,
+      "62,14": 2,
+      "62,15": 2,
+      "62,16": 2
+    },
+    "RowStyles": {
+      "6": 7,
+      "7": 7,
+      "21": 8,
+      "22": 8,
+      "23": 8,
+      "24": 7,
+      "25": 7,
+      "31": 7,
+      "32": 7,
+      "40": 7,
+      "41": 7,
+      "49": 7,
+      "50": 7,
+      "51": 8,
+      "52": 8,
+      "53": 8,
+      "54": 8,
+      "55": 8,
+      "56": 8,
+      "57": 8,
+      "58": 8,
+      "59": 8,
+      "60": 8,
+      "61": 8,
+      "62": 8
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "35,1,1,7",
+    "3,0,3,17",
+    "29,0,2,17",
+    "37,0,3,17",
+    "6,0,2,17",
+    "24,0,2,17",
+    "31,0,2,17",
+    "40,0,2,17",
+    "27,1,1,7",
+    "12,0,3,17",
+    "15,0,2,17",
+    "10,1,1,7",
+    "19,1,1,15",
+    "44,1,1,7",
+    "49,0,2,17",
+    "46,0,3,17",
+    "21,0,3,17",
+    "1,1,1,7",
+    "55,0,3,17",
+    "53,1,1,7",
+    "59,1,2,4"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "母版页",
+    "AuthorizeInfo": {
+      "VisitMode": 3
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//+ZoENghpdXZvLLnwloRlWGJsBTcZPr5CBb8QgGb3uAG1ub303/w2x7Ogqg1sAG0Y13ZHUj8uIYHd8XQRugNc7U0tEEl4dEInmQJzUuFMC8hZfwhCotxNQEL52zgp8pTfKDBRqUmPsHgi+1D8ElJwMpJGEB4ca/4XEC0bkpXe1fFE9+9YgYuwhPtrNCgn2CFexx6+tI1yZyDCdZuPw/Teony+Yu6OwxLcd9iuPtdSRQ3c5PkQAOxV7PZBXhJf41tF4eXr5YTK9xiP1uafU89Si5KyWfVjixdAdUCoNIGXlMQKmeQWJ/p8BwGiWFP9iEjF77X8wYtef5N/vCA/7vOU8FVtmHMrGSDgJbwz+o+kWomkzpnT0DMeZh0Q1pRgLIxutz6wFVWaza458Whwb7BjdOdaKzeVOxyDM9Xm5p8/+jHbsl70OBgTh/18YfdlIYSk3mS1wcSyzQLBNQcrYaHZZo1volN5zkR/TIpUmO88rOW6YRwMLN+cxU+PvN5TPGzgXGi/4y7F3HDlQPcAVV9GDoSKpb1M589Rg2yPCiSMhw1+85XQ/8lERRJj2tHsFi2/qW1JET5bAxSflWZDj2SD9Ui1SfWZdYP5yK9RecIqR/JIg9c8TCjlrJOEGjA76P6UkspmA3i2MbmjyZqaVViE6jop2EwXpvkyPINi4DM8tIOfUIV/zl8dr+DYYlL+iI0tizqYwNoXScuavOJUnX2JC7HufQq0lHzxKzqg4Xa9H1ZnGRpWXhk3vyGSIax3MW0e4D/0z5b1hs6GEsrcM7qFLWryms1ERhqra/2Vnuj1ZkOP3bx3pK12QpPlG1b8mKtb+7n1pCtYc8IoSrG4AaYN2zIineLtmMUb7Rnp8v9jXbd2h/VnOfrM+8sD4T69HpQm9vxnS+lozXz0YQNw57Rzog==|920

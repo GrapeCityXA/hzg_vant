@@ -1,0 +1,82 @@
+{
+  "Rows": {
+    "Count": 2
+  },
+  "Cols": {
+    "Count": 10
+  },
+  "Values": {
+    "0,1": "内容3"
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0
+      },
+      {
+        "FontFamily": 0,
+        "Formatter": 1
+      },
+      {
+        "VerticalAlignment": 2
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "[AUTO]General",
+        "Top"
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "0,1": 1,
+      "0,2": 0,
+      "0,3": 0,
+      "0,4": 0,
+      "0,5": 0,
+      "0,6": 0,
+      "0,7": 0,
+      "0,8": 0,
+      "0,9": 0,
+      "1,0": 0,
+      "1,1": 0,
+      "1,2": 0,
+      "1,3": 0,
+      "1,4": 0,
+      "1,5": 0,
+      "1,6": 0,
+      "1,7": 0,
+      "1,8": 0,
+      "1,9": 0
+    },
+    "ColStyles": {
+      "1": 2,
+      "2": 2,
+      "3": 2,
+      "4": 2,
+      "5": 2,
+      "6": 2,
+      "7": 2
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "0,1,2,7"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "AuthorizeInfo": {
+      "VisitMode": 3
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//BjlHqcuNmzH419mVyc2hHDYD9TBCF4RyvSWfJNBr0t5YTievnOfH1j3cG3vMjDlvJKr/of3jqYeP1PDsiFw5AzYdAQuygywNeQ/wgK38etLbIFG+eMhHqLsFWegvTIszH0uZpmgVbXlbB4Dr/uXNX1ixXJYfF2ReGkpGlhp5KF2UNAM7bSXVTKxYwcDw5WrK1EGRd6wYbm55cYhXlMsBsB741Cet/SWge3818M/Zk/dwsWUmXLsl5BBn2DNUIfTzMvl6Ty3xtjb15OHONFEiYe4UiBBdQWgzlTcuCQYM3IkZ/GL6uk8eKimF4qG9kuk4MCTDYxZMyNVnDxdLX37AvITi3SMiH9h1X2IkTUVXasFnX0NtFOrzBMNBbsGH5eqfGcUxPmaqu6kPSj4M7srNjT2F75hGW7V40tMVX0j/13oZijvITuCumwAYgpyO2DksewINgnoAO9e007sQBmdyaN92EXKecwKA6xuE7rmQZUa5QLLDjiL3ogfjSD9nzfSwrCVjwBVzCwBg+3tE7h7Sn7KJ1bouz4dTyMDjfAyj7Ah+pzvR51ExEeGZPu6Xj+XURHWdq4WIhzanZp4UgeWUVz3BpXoGb0lFb8YAtQsOtenazqy1NNV4lqZ8VZaIEJMF6GAjY1SEVEmf1fL3PEslA6hv0Zy7gVtWcdU8yK+gSdzjdxkGyQQFGOTE8kE/YOZIzwe7xLLo/o7W4Y+awnYDtUtg0GryA5/LX2zwxRwB/J8GYRresQR4Vu3wSoiU4GCxKrktOYekP7uLarram8gEi8rEg7zXJL5zvGX02jKZ2MtS2Swv2Md3KhLW/6cFCa4vDnDlpiM/8V6IuELoUw28sUc6ThbuwQzBUmQmAzb02uJJM8IrH18bqU/TSXumbkjOqW/Eq7q8+Hpxgo2hOvSveQ==|920

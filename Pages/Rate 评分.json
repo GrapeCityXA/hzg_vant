@@ -1,0 +1,512 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 54.0
+        }
+      }
+    },
+    "Count": 37
+  },
+  "Cols": {
+    "Count": 18
+  },
+  "Values": {
+    "1,1": "基础用法",
+    "3,1": "3",
+    "6,1": "自定义样式（个数，大小，颜色，间距）",
+    "8,1": "3",
+    "11,1": "禁用",
+    "13,11": 1,
+    "16,1": "只读",
+    "18,1": "3",
+    "18,11": 1,
+    "21,1": "允许半选",
+    "23,1": "3.5",
+    "26,1": "禁止通过滑动手势修改评分",
+    "28,1": "3.5",
+    "31,1": "值变更命令",
+    "33,1": "3.5"
+  },
+  "AttachInfos": {
+    "3,1": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Rate, Vant",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "DefaultValue": "3",
+        "color": "#ee0a24",
+        "voidColor": "#c8c9cc",
+        "disabledColor": "#c8c9cc"
+      }
+    },
+    "8,1": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Rate, Vant",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "DefaultValue": "3",
+        "iconCount": 12,
+        "iconSize": 30,
+        "color": "#FF00B0F0",
+        "voidColor": "Accent 5 80",
+        "disabledColor": "#c8c9cc"
+      }
+    },
+    "13,1": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Rate, Vant",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "DefaultValue": 0,
+        "color": "#ee0a24",
+        "voidColor": "#c8c9cc",
+        "IsDisabled": true,
+        "disabledColor": "#c8c9cc"
+      }
+    },
+    "13,11": {
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "Caption": "禁用",
+        "Style": 2,
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='Rate 评分'!B14"
+                },
+                "PropertyType": 0,
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=NOT('Rate 评分'!L14)"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "18,1": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Rate, Vant",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "DefaultValue": "3",
+        "color": "#ee0a24",
+        "voidColor": "#c8c9cc",
+        "disabledColor": "#c8c9cc",
+        "ReadOnly": true
+      }
+    },
+    "18,11": {
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "Caption": "只读",
+        "Style": 2,
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='Rate 评分'!B19"
+                },
+                "PropertyType": 5,
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='Rate 评分'!L19"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "23,1": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Rate, Vant",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "DefaultValue": "3.5",
+        "color": "#ee0a24",
+        "voidColor": "#c8c9cc",
+        "disabledColor": "#c8c9cc",
+        "allowHalf": true
+      }
+    },
+    "28,1": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Rate, Vant",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "DefaultValue": "3.5",
+        "color": "#ee0a24",
+        "voidColor": "#c8c9cc",
+        "disabledColor": "#c8c9cc",
+        "touchable": false
+      }
+    },
+    "33,1": {
+      "CellType": {
+        "$type": "Vant.CellTypes.Rate, Vant",
+        "CommandList": [
+          {
+            "$type": "Vant.Commands.Toast, Vant",
+            "message": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=\"当前值:\"&'Rate 评分'!B34"
+            },
+            "type": "text",
+            "loadingType": "circular",
+            "position": "middle",
+            "duration": 2000,
+            "iconSize": 20
+          }
+        ],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "DefaultValue": "3.5",
+        "color": "#ee0a24",
+        "voidColor": "#c8c9cc",
+        "disabledColor": "#c8c9cc"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "Foreground": 1
+      },
+      {
+        "FontFamily": 0
+      },
+      {
+        "FontFamily": 0,
+        "Foreground": 1,
+        "Formatter": 2
+      },
+      {
+        "FontFamily": 0,
+        "VerticalAlignment": 3
+      },
+      {
+        "FontFamily": 0,
+        "BorderBottom": null
+      },
+      {
+        "VerticalAlignment": 3
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Text 1 50",
+        "[AUTO]General",
+        "Top"
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "1,2": 1,
+      "1,3": 1,
+      "1,4": 1,
+      "1,5": 1,
+      "1,6": 1,
+      "1,7": 1,
+      "6,1": 2,
+      "7,1": 1,
+      "7,2": 1,
+      "7,3": 1,
+      "7,4": 1,
+      "7,5": 1,
+      "7,6": 1,
+      "7,7": 1,
+      "7,8": 1,
+      "7,9": 1,
+      "8,1": 1,
+      "11,1": 2,
+      "11,2": 1,
+      "11,3": 1,
+      "11,4": 1,
+      "11,5": 1,
+      "11,6": 1,
+      "11,7": 1,
+      "13,11": 3,
+      "13,12": 1,
+      "13,13": 1,
+      "13,14": 1,
+      "13,15": 1,
+      "14,11": 4,
+      "14,12": 4,
+      "14,13": 4,
+      "14,14": 4,
+      "14,15": 4,
+      "15,11": 5,
+      "15,12": 5,
+      "15,13": 5,
+      "15,14": 5,
+      "15,15": 5,
+      "16,1": 2,
+      "16,2": 1,
+      "16,3": 1,
+      "16,4": 1,
+      "16,5": 1,
+      "16,6": 1,
+      "16,7": 1,
+      "16,11": 5,
+      "16,12": 5,
+      "16,13": 5,
+      "16,14": 5,
+      "16,15": 5,
+      "17,11": 5,
+      "17,12": 5,
+      "17,13": 5,
+      "17,14": 5,
+      "17,15": 5,
+      "18,11": 3,
+      "18,12": 1,
+      "18,13": 1,
+      "18,14": 1,
+      "18,15": 1,
+      "19,11": 4,
+      "19,12": 4,
+      "19,13": 4,
+      "19,14": 4,
+      "19,15": 4,
+      "21,1": 2,
+      "21,2": 1,
+      "21,3": 1,
+      "21,4": 1,
+      "21,5": 1,
+      "21,6": 1,
+      "21,7": 1,
+      "26,1": 2,
+      "27,1": 1,
+      "27,2": 1,
+      "27,3": 1,
+      "27,4": 1,
+      "27,5": 1,
+      "27,6": 1,
+      "27,7": 1,
+      "27,8": 1,
+      "27,9": 1,
+      "28,1": 1,
+      "28,2": 1,
+      "28,3": 1,
+      "28,4": 1,
+      "28,5": 1,
+      "28,6": 1,
+      "28,7": 1,
+      "28,8": 1,
+      "28,9": 1,
+      "29,1": 1,
+      "29,2": 1,
+      "29,3": 1,
+      "29,4": 1,
+      "29,5": 1,
+      "29,6": 1,
+      "29,7": 1,
+      "29,8": 1,
+      "29,9": 1,
+      "31,1": 2,
+      "31,2": 1,
+      "31,3": 1,
+      "31,4": 1,
+      "31,5": 1,
+      "31,6": 1,
+      "31,7": 1,
+      "33,1": 1,
+      "33,2": 1,
+      "33,3": 1,
+      "33,4": 1,
+      "33,5": 1,
+      "33,6": 1,
+      "33,7": 1,
+      "33,8": 1,
+      "33,9": 1,
+      "34,1": 1,
+      "34,2": 1,
+      "34,3": 1,
+      "34,4": 1,
+      "34,5": 1,
+      "34,6": 1,
+      "34,7": 1,
+      "34,8": 1,
+      "34,9": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "1,1,1,7",
+    "11,1,1,7",
+    "16,1,1,7",
+    "21,1,1,7",
+    "23,1,2,9",
+    "18,1,2,9",
+    "13,1,2,9",
+    "8,1,2,12",
+    "3,1,2,9",
+    "13,11,2,5",
+    "18,11,2,5",
+    "31,1,1,7",
+    "33,1,2,9",
+    "28,1,2,9",
+    "26,1,1,12",
+    "6,1,1,15"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "母版页",
+    "AuthorizeInfo": {
+      "VisitMode": 3
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//TLegZjvldZTvCVYpICie6I1ciZbpVHwZzkIm8LlveE8vFpVDEYq6ykkkykyOfTXmRsxFgMONhFAGznYCki8txLpC8744T6gIdvQvVzQkBJoapT2RnEjY+bnA+eO/h2lthRY2mju28dg9yp0Z2Zf0cqIA8trNXO84Z+VxSMRddqz0qjSejqXRY1hnfjZJWf3HiZoKzvQGt8ddLTBSNuC1yWq2r/czMiHq8AAPKHxCTkknTlP98SyTaqfDnRA9yXaHEKweEKknPraCpvrX3bMr/VhSXEtI6xIjy7TF7n6uBzUJQmFNdpeq3gtYHCtoPJtthGv82SIpP1DjmeRk7z46NRTwZ5zOsx/GBP7wOspJ3xlxblkLvmJW66ef/I2fYCQdwkoclqocnjnCugLxwyOWtaL8+3OZDT5BD6M9Ae9RyXjY6S88W8FKu3BCRzOOWXyiWDDsS4sIktpBBei/8BL1em42YV32JeXkUFA/r6NH7ZPJYSUNckkAtVNN57Fso7MHLMofno8cLEQjxQhMT8ZSwhiCK7ILjVkgPoXB7awvrJu81J+pjD7V622X+ko8eLRwnvb2NZ02AW6qYNIAMdxDIvh3i+HTflLXKboGjkDxk6H7jFjUy0dysObMAGio0ZVAqQxK5pf35lLB0iIWuA0wH+U2/VrosZrGCe2Q37+s3CPOZDKCBON5Sf1S1xamhBqskjh8XSUPapH+C+Pm4wNZknVlkGsGC9X67qI4A9ayDf4pl3T01MHF75lvxoPMzJEm01XYE9Ns3hdkIC2yNqj/J1PDRuyCyqL1XIkn56E4MJcorOo8Ib2To3uDVA+I7flsxMMhttJKXExAJAIXkqzNaT7gaXsaNjjHfnf18Kxhh4/Kn7Sy01lVyMAurBEZGuH4EiXP8TNQ/HWeyhfSnlibwA==|920

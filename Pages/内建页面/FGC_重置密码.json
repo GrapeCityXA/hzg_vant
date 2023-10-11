@@ -1,0 +1,209 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 7.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 7.0
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 7.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 7.0
+        }
+      }
+    },
+    "Count": 29
+  },
+  "Cols": {
+    "Count": 47
+  },
+  "Values": {
+    "5,12": "重置密码",
+    "8,14": "请谨慎保存您的新密码",
+    "11,19": "*",
+    "12,18": "新密码",
+    "16,19": "*",
+    "17,18": "再次输入新密码",
+    "21,25": "重置",
+    "21,30": "取消重置"
+  },
+  "AttachInfos": {
+    "11,22": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "ShowPassword": true,
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "ForguncyAttribute": "ResetPassword_NewPassword"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "16,22": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "ShowPassword": true,
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "ForguncyAttribute": "ResetPassword_ConfirmPassword"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "21,25": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "重置",
+        "AutoExecute": true,
+        "TemplateKey": "_RS_Normal_Style2",
+        "ForguncyAttribute": "ResetPassword_Button"
+      }
+    },
+    "21,30": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "NavigateType": "back",
+            "PassValues": []
+          }
+        ],
+        "Text": "取消重置"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 37.333332061767578,
+        "Foreground": 0
+      },
+      {
+        "Foreground": 0
+      },
+      {
+        "Foreground": 1,
+        "VerticalAlignment": 2,
+        "Underline": null,
+        "Strikethrough": null
+      },
+      {
+        "Formatter": 3
+      },
+      {
+        "FontSize": 14.0,
+        "Foreground": 4,
+        "HorizontalAlignment": 5
+      },
+      {
+        "FontSize": 14.0,
+        "FontWeight": 6
+      },
+      {
+        "FontSize": 14.0,
+        "FontWeight": 6,
+        "Foreground": 7,
+        "HorizontalAlignment": 8
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Text 1 25",
+        "#FFFF0000",
+        "Top",
+        "@",
+        "Text 1 35",
+        "Right",
+        "Bold",
+        "Accent 1 0",
+        "Center",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "5,12": 0,
+      "8,14": 1,
+      "11,19": 2,
+      "11,22": 3,
+      "12,18": 4,
+      "16,19": 2,
+      "16,22": 3,
+      "17,18": 4,
+      "21,25": 5,
+      "21,30": 6
+    },
+    "SheetStyle": {
+      "FontFamily": 9,
+      "Underline": false,
+      "Strikethrough": false
+    }
+  },
+  "Spans": [
+    "5,12,3,23",
+    "11,22,3,12",
+    "16,22,3,12",
+    "21,25,2,5",
+    "21,30,2,5",
+    "8,14,2,20",
+    "11,19,2,1",
+    "16,19,2,1"
+  ],
+  "BackgroundPictures": [
+    {
+      "StyleInfo": {
+        "Fill": "Background 1 -5",
+        "Stroke": "Background 1 -25",
+        "StrokeThickness": 1.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Name": "3f3472c7-d700-4840-869e-07837142e4f7.png",
+      "Location": "200,80",
+      "Size": "540,360"
+    }
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "FGC_母版页",
+    "MobilePageName": "FGC_重置密码_手机版",
+    "Title": "重置密码",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//I+4zru7MOJ3bFIoQXai1ua0q/o/gYanOTS+40YqtGFl6h7DP5JlCoJt6JlPNn5k6hIN+U8ZfJjjMlYUEJ0O0FWb/vWZhJZvr5oKepS4L+7RF/bmL72+IoH6tWjzN3Vs4oZg0NIHEdOxTo5LkjdnzV4vXKG8hlvdh9nf+V3eHnyiXuzVN0+0orvAOIVYHr7MFmWB8SedECVsFumsUOLdaVClbIHXUENh226Ju4tNBJ9PiBCcKhLdkQIZZfbSU2IIvv02QffzYy1GjlWIfcYFRyUUkNHEUZPVGnJHK/kQfP0TOeAYCSMt8ZKs409TCwL+QskJFEfY+yYQzDeksxteyvhOM0bcdAE51OhwJCMHfcGapQBrVDUmdKtuMmIG8Ur8EZk0le0IQO62AZqQ73ztq5gJfSu5jbAuurpcmjhpijJ7em6Bt86/R//5qQ+QsHV2VyweAyfKhY5NbbRw6Zk2YExhQDQYsKZ1jAIO35uhWAlw6Pf+8p1ldwZ3zGkcz2k/GZ9sd0VfuMXL3Pp1GVPUxtlbd06d9l0ZF0VZW7FOyIyi7bXxnfBd4Nzo4LveYFwhPCOtkqZYOrIHQv6/pDKvfHRLP1qnZ7+dlTkB3oEOW8nt6LclKv/3xBIZyi4UV0E6Hwb99PcK7/1ZioYHciRGnm38VHO42lqoG/E6zFtFQEq/vSiPNwVg+oT0h928oaf6EXmFcssrYAmQSn0SAe8eESIHWL36nxsBexKGGKSwmta82mpQ/IuMGxwm5h+IS8JomKonnHogooTB553qX1gn236cp6uK/8pCWmJWV//HO3BaeqcfpV0U74DcpYRpcArXM0i4ifcSGDmpggII/jtD+vtzBTbdijjXSBBuwlPZv3nRp6A8fxtiqHmOFk7gYs4xpeGz4dwpz2SIN5xGk3J1dWQ==|920

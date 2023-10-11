@@ -1,0 +1,190 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "24": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 15.0
+        }
+      }
+    },
+    "Count": 35
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "21": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "22": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "35": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "36": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      }
+    },
+    "Count": 58
+  },
+  "Values": {
+    "12,22": "两步验证",
+    "14,21": "请输入您在身份验证器APP中看到的6位数验证码。",
+    "17,21": "验证码",
+    "23,21": "验证"
+  },
+  "AttachInfos": {
+    "5,21": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "ImagePath": "fgc_logo_light.png"
+      }
+    },
+    "18,21": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LargeRoundCorner_LightTheme_Normal3",
+        "WaterMark": "",
+        "ForguncyAttribute": "MFA_VerifyCode_Inputbox"
+      },
+      "DataValidationInfo": {
+        "NumberType": 6,
+        "CompareParamType": 2,
+        "IgnoreBlank": false,
+        "FirstParamValue": "6",
+        "ErrorMessage": "请输入6位数验证码。"
+      }
+    },
+    "21,21": {
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "Caption": "在此设备上不再询问",
+        "Style": 1,
+        "ForguncyAttribute": "MFA_VerifyCode_TrustDevice"
+      }
+    },
+    "23,21": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "验证",
+        "AutoExecute": true,
+        "TemplateKey": "_RS_RoundCorner_Style2",
+        "ForguncyAttribute": "MFA_VerifyCode_SubmitButton"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 18.666666666666664,
+        "FontWeight": 1,
+        "Foreground": 2,
+        "HorizontalAlignment": 3
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Foreground": 4,
+        "HorizontalAlignment": 5,
+        "VerticalAlignment": 6,
+        "WordWrap": true
+      },
+      {
+        "Foreground": 4
+      },
+      {
+        "Formatter": 7,
+        "HorizontalAlignment": 5
+      },
+      {
+        "FontSize": 13.333333333333332,
+        "Foreground": 4,
+        "WordWrap": true
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Bold",
+        "Text 1 15",
+        "Center",
+        "Text 1 35",
+        "Left",
+        "Top",
+        "@"
+      ]
+    },
+    "CellStyles": {
+      "12,22": 0,
+      "14,21": 1,
+      "17,21": 2,
+      "18,21": 3,
+      "21,21": 4
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "5,21,4,16",
+    "23,21,2,16",
+    "12,22,2,14",
+    "18,21,2,16",
+    "14,21,2,16",
+    "21,21,1,16"
+  ],
+  "BackgroundPictures": [
+    {
+      "FitToBrowserWidth": true,
+      "FitToBrowserHeight": true,
+      "ForguncyPictureName": "PCLoginBackground",
+      "Stretch": 3,
+      "ForguncyPictureSourceType": 2,
+      "Name": "BackgroundPicture0",
+      "Size": "1120,605"
+    },
+    {
+      "StyleInfo": {
+        "CornerRadius": 8.4375,
+        "Fill": "#FFFFFFFF"
+      },
+      "IsAutomaticFill": false,
+      "Name": "BackgroundPicture1",
+      "Location": "380,220",
+      "Size": "360,305"
+    }
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MobilePageName": "FGC_两步验证_验证页面_手机版",
+    "Title": "两步验证",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//sf30cHXARwrpCkI83ll0KOU0Ws4JMfow6SkQnckPXOr9oP++9zqJMcnSqw4V3WR2klXXUOv9cnE6dJCrkNtaW9IvrC6ylRqVnjCOaM7DK3svBsiTCqzUfa6ltRlkP8jelaeVg/TxfTd4N+dzdSygCi52obxasNbkuEuLBia7aD3Zrg3xCBJnWYXJiRYX5jwxteAjdSXs34Gzg2neAZZqWM0twJirwPJdJsWh/gpDswJ+i+2i1yUgzvXJLxLnsVB5pVYyH7KmqmZXPjWnVC+kMTEZqXLPmhT8s1ImOlgO2O57tc39thO/JfSmK6m2J3Bhv9sPMc7KBQ3fgykaegHnxcfdsgFoH81pxtPtQW2SOQuqMPXH2pzRT8YQaSXxuQqKF/6uztEzqoaGMHzOJvmtSpeC8pI6ZiwzrNGk+uCrGrWsNhTeWk2C95hfFUv1PWcPu0yvTKjwmIykR46fwHfUE8DTclNgN89cjqAukDT/3tMZsBTdUaNkjMh3m0LhyL0WujLEaX3tGW4n7j3AJSHjnPooptiPRkjafeEin39IP4TUgMBmHU53MRG/TaDZoDSwwnPWdsKb8QIbXxnMc1erMZpEO5cq0EtzIwktF9TaZHeuSbMk5wbpdq1Lun59ATvNPbdWUaE0aA41paKPHoeHWA8NTULBlLGB+5SDuzwdgPLRuQ0l6iq/taW0sdDodN3iKhtbkle9JIK6sl/M2/L1wAofb3i2ZTYDUy/EFXtMG+RCjkVj2vtIPCL4nTEgyMbwAfoaNRTisIgc1y5fNZe1CZ+pbIyyl0tzzKwdZlQQYJg9Pg17Xyg7eEmfgyPJEgulTMjOMg1YzxNHvf38uYgwfi949azGvlzy18prXZvZ5TUxXWMBSMLo5qn3VjmnuFAs06IMlKL3wmKzELURkc9/QQ==|920

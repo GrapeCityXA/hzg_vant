@@ -1,0 +1,135 @@
+{
+  "Rows": {
+    "Count": 25
+  },
+  "Cols": {
+    "Count": 18
+  },
+  "Values": {
+    "2,3": "忘记密码",
+    "5,2": "请输入你的用户名或邮箱地址。点击发送按钮后，系统会发送一封电子邮件到你的电子邮箱中。电子邮件会包含一个重置密码网页的链接。你可以打开链接，在网页中指定新密码。",
+    "11,2": "用户名或邮箱地址",
+    "16,2": "发送",
+    "19,2": "取消发送"
+  },
+  "AttachInfos": {
+    "12,2": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "ForguncyAttribute": "ForgotPassword_UserOrEmail"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "16,2": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "发送",
+        "AutoExecute": true,
+        "TemplateKey": "_RS_Normal_Style2",
+        "ForguncyAttribute": "ForgotPassword_Send"
+      }
+    },
+    "19,2": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "NavigateType": "back",
+            "PassValues": []
+          }
+        ],
+        "Text": "取消发送",
+        "TemplateKey": "_RS_Outline_Style2"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 21.333333969116211,
+        "Foreground": 0,
+        "Formatter": 1,
+        "HorizontalAlignment": 2,
+        "VerticalAlignment": 3
+      },
+      {
+        "Foreground": 4,
+        "Formatter": 1,
+        "VerticalAlignment": 5,
+        "WordWrap": true
+      },
+      {
+        "FontSize": 14.666666984558105,
+        "Foreground": 6,
+        "Formatter": 1
+      },
+      {
+        "FontSize": 16.0,
+        "Foreground": null,
+        "Formatter": 7
+      },
+      {
+        "FontSize": 16.0,
+        "FontWeight": 8,
+        "Foreground": null,
+        "Formatter": 1
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Accent 1 -50",
+        "[AUTO]General",
+        "Center",
+        "Bottom",
+        "#FF3F3F3F",
+        "Top",
+        "#FF7F7F7F",
+        "@",
+        "Bold",
+        "Body",
+        "#FF000000"
+      ]
+    },
+    "CellStyles": {
+      "2,3": 0,
+      "5,2": 1,
+      "11,2": 2,
+      "12,2": 3,
+      "16,2": 4,
+      "19,2": 4
+    },
+    "SheetStyle": {
+      "FontFamily": 9,
+      "FontSize": 13.333333015441895,
+      "Foreground": 10
+    }
+  },
+  "Spans": [
+    "2,3,2,12",
+    "5,2,6,14",
+    "12,2,2,14",
+    "16,2,2,14",
+    "19,2,2,14"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "Title": "忘记密码",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true,
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//UmcgEIhUKepfm2232+HW31TSyI1WfLrtimEaBQn8t2cxuAsLZ5dpojQdEgnl36mBFnvfEDPwuknMeGiHElLkZ2WK52TN7Kh6OW8XC0ZrXBeFd4MYMEalhPEkUzfo94kRmS0fEx4P58Wxb5pgpS1/Z74UXrzmjzP1+iHDGPwUz3wCPdz7G5cwYj3JTVc9YfL85fpdcd2iCArcBW8n9on5lStzjvqY+t1dFcNC1YNlcfin0R4+Npn0clLKJOIFQUDLsJ8e5Gwythh1rvm6mh7zWewaJW+myHwcxbxaFTejmpZC+DXbyOqna7b70U23t+xGZLVb7Y6EgaYjwHVH6OOsEVM1BG/ngGmk05BNofK3Zs9MyZgXapiNSdA8YE9z0V/YyUoxJDyU9jeTS+Htw3n1CCc6AjeALreKJeYDgElrJTKHNgFtdmQWr8S1NSLFds4QLazWBKTKJKApesENpzPxAcTRRkVjHbBz3yi2i8v4LXror3RczsVTlMpAxTyH4Pxz2HL/WmEZ83qlKD3JW+1mhWY8kvpaCom46rA1fiSNuMbFE3MUEkjHR644VnCWHa/mAHyUgs28PQh2mSvPeOcxsuHiSxmOseWnw19DSZO2NdlseRGevHm9cOTvaQq8+zKyxdkTThpqYT0bAq/Qt4BQEaQivxdC37W6KKHrK+Zofz3yGj5FB9fIql+uP+G84ApsAVCh/iXYeqhFfZZ+PjF/OnXupWEWrTzzf7uNaburUz6+iPcRt1H6WyZHd3saWlHonkZAW/94VZ8mZBDWllaxdaufFwrLSgII+TeG3Kitf/80jIcN2LdnM+LSejkO2ey8EiFhXkew4QgXFcRrtZ4yzzILrLgvkgPS7Vesw4acArK0CUwhg/b5/0dBkScdufKxCLbtU4JMwdu4KWFC74ey/Q==|920

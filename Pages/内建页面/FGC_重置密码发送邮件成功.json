@@ -1,0 +1,92 @@
+{
+  "Rows": {
+    "Count": 26
+  },
+  "Cols": {
+    "Count": 47
+  },
+  "Values": {
+    "6,12": "重置密码邮件发送成功",
+    "10,12": "重置密码的邮件已经发送到你的电子邮箱中。收到邮件后，请点击邮件中的链接。之后在弹出的网页中输入新密码。如果邮件没有送达，请与管理员联系。",
+    "17,29": "登录"
+  },
+  "AttachInfos": {
+    "17,29": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "FGC_登录",
+            "PassValues": []
+          }
+        ],
+        "Text": "登录",
+        "AutoExecute": true,
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 37.333332061767578,
+        "Foreground": 0
+      },
+      {
+        "FontFamily": 1,
+        "Foreground": 0,
+        "WordWrap": true,
+        "Underline": false,
+        "Strikethrough": false
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Text 1 25",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "6,12": 0,
+      "10,12": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 1,
+      "Underline": false,
+      "Strikethrough": false
+    }
+  },
+  "Spans": [
+    "6,12,3,23",
+    "17,29,2,6",
+    "10,12,5,23"
+  ],
+  "BackgroundPictures": [
+    {
+      "StyleInfo": {
+        "Fill": "Background 1 -5",
+        "Stroke": "Background 1 -25",
+        "StrokeThickness": 1.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Name": "0dc0080d-7217-442c-8fa6-481c8c5d690a.png",
+      "Location": "200,80",
+      "Size": "540,360"
+    }
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "FGC_母版页",
+    "MobilePageName": "FGC_重置密码发送邮件成功_手机版",
+    "Title": "重置密码邮件发送成功",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//Ozcjp/m7WVsfRLSKxMCX53llyNF+jte1uEqHtBYsGqJ/pJntn57TGXFMHvQaFN12UuwFg0y/kk7KHos2tOTje1b94VOqHXjM21rwH9NpbyO/ED7Npc+ffqaREmcXy1YG9/XSsK/LUwCqNI7tn69E1FWFlK+yK+/HnvOSPXaz8G0fvtYgZSBZTwOlNrP0rMJ2r1tC10soM3q1xsDh0l/XXFV6mEpEC310eE8GdA3FJsk55a8N+hV5tF3FFN02iNS1KRUnhF6omBd+UwUgZRF/4Sor1aRSn2J9hTRVR5ZnVXoziYHKsNpsWK010zYTAOzFj3uPhZ6jW9SYD5uHwzl+Bd0rVyXI8wY13SU4XLx3LHx7BIHqILF9kfh4whkjC3aAwLcYVDNFagXZhdFTXWEUSU5f5U6PzXs7b0Yl1ubA7c+wJsJn65uzxb5AoujaBQhqAKz3bQpUsPXh8EdCxS3k8hlipjFde4uzIaISxpdcEBxZuRrsc4vx1OOXtuXStot3oV9vU9ygROUP5JSHOZjvYxz5J8yBduVQi3na8uvATol8rq7ZTl8+PkWH0XyCKVPvwwTmn1anxvL7AMddwhSOuE1MUHDym5UbP8j0UX37TkkYLpBpKowVWNxD16dgwok8Y3oXWgs0yNbJAuDknwEHSzGdBgk2gr5mGEY/FAosy1scUvgMX4ZR0PQJ5HX0spi34sC/yCbOuOWnNac77FR6gYKSjL2HsT/zMCZldJIffP9F6iaNXDrYEFewJHej2ndAMmjyY6vLrZA+lwzZJDZA9v8Og/YikkuNEHxDwiqGrkDwAq6Z8qu9JMh2EG5EQ+3gJI6JzS7yk65ew900UR7yK8VmjlPJi1o4vIc8U7JF6Vg33ymRoJ+wCS2BJXOH76U8eHV9+LYB0L5/9Yeupv9GMA==|920

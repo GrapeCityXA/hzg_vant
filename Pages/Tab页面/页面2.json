@@ -1,0 +1,82 @@
+{
+  "Rows": {
+    "Count": 2
+  },
+  "Cols": {
+    "Count": 10
+  },
+  "Values": {
+    "0,1": "内容2"
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0
+      },
+      {
+        "FontFamily": 0,
+        "Formatter": 1
+      },
+      {
+        "VerticalAlignment": 2
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "[AUTO]General",
+        "Top"
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "0,1": 1,
+      "0,2": 0,
+      "0,3": 0,
+      "0,4": 0,
+      "0,5": 0,
+      "0,6": 0,
+      "0,7": 0,
+      "0,8": 0,
+      "0,9": 0,
+      "1,0": 0,
+      "1,1": 0,
+      "1,2": 0,
+      "1,3": 0,
+      "1,4": 0,
+      "1,5": 0,
+      "1,6": 0,
+      "1,7": 0,
+      "1,8": 0,
+      "1,9": 0
+    },
+    "ColStyles": {
+      "1": 2,
+      "2": 2,
+      "3": 2,
+      "4": 2,
+      "5": 2,
+      "6": 2,
+      "7": 2
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "0,1,2,7"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "AuthorizeInfo": {
+      "VisitMode": 3
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//g69Un+GjJJTyU8O74U9UF28iovZBRnyMYsZ4KZM9hlrK6he/HWXwTwo2li91fRUW1h361wkswo5E3UWXRPACjnUKqaI37BX3udPbxT9PbOWHvAn3PmfvJ5/1bDWJl8WoVFnRJ2e3m2OFGDxD7O98O/JbHjtNKSsRtsq3jOIkGKg558ZlhV25oT9zo1E1dRBRKSDKDETx6kThZWrwBwzSaONYk4XAcnhg/XA6fVKlDXZUcq4zcPi2TLw066wgZ6i/vYo0u/t0bEZ0Z0UlLE1I5HeEkG981w26juKiHChuybqLA9DxkGwRI+Lh0CHm6UPHAbS7uSebaWc2XVnDt2KQBF3OPqq7KZbYOZC4Ik31Fqk86NJOzC6AnjCp5G966Zr0XWtiQXm8XHC9nb6ZANgp1HL+5bGGpDQfG0JEupuEhdOKdsMD+qf1HahkaAY7np3O2KozWvbEmGVa3jlDcUSG/BqwQApkGMOqprhatqEkOwf+glOlCDCdyZz6mbnGf3M6o9DAMt2jMXlP1HzPm1jXMp5ICmePWRTXNH4WBBqVCVIapFwz9TOfpEkMyfJ72Nmys2AAcu6gtQqa1zM/FREwTTixGO9AW5ywjiEFzzxtD/kyE3QuhXEDUL5wlDYaeBnsRal7BLHDkOFWwDjEozQlXoyNmxxfE/snE8df1ctMwAoCpAn9yDO2bU1z2TBg2PS1M/W4h/jidke5fahg67h8GsghYxfm9o7xdeWCO46xrtASyLG63OGFY8FXYyTnuEer0NJ1kCX+aityGS5i44obmAGiq0KTkaMU2jTBCB1nLy31hSsdVJLgiKFVLhbeFAGxwe8UJJBTlwaSP4Dq0bZ3rQ0GMxHKk5KaebnhYiz5BYjo5se2PcvACJS0A1Nh9tgP1w6RlvlR06RYhLrsR6FPhg==|920
